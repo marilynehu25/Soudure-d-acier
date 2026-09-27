@@ -17,6 +17,39 @@
 └── 3. Résultats/           # Sauvegarde de tous les résultats
 ```
 
+## 🛠️ Installation de l'environnement
+
+Depuis la racine du projet, créer un environnement virtuel :
+
+```bash
+python3 -m venv .venv
+```
+
+L'activer sous macOS ou Linux :
+
+```bash
+source .venv/bin/activate
+```
+
+Sous Windows (PowerShell) :
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+Installer ensuite les packages nécessaires :
+
+```bash
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+Pour quitter l'environnement virtuel :
+
+```bash
+deactivate
+```
+
 ## 🤝 Travail collaboratif
 
 ### Règles
