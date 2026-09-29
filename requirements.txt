@@ -7,3 +7,4 @@ seaborn
 plotly
 chart-studio
 nbformat
+ipykernel
