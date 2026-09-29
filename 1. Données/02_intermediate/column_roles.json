@@ -1,0 +1,67 @@
+{
+    "targets": [
+        "Yield strength",
+        "Ultimate tensile strength",
+        "Elongation",
+        "Reduction of Area",
+        "Charpy impact toughness"
+    ],
+    "test_condition": [
+        "Charpy temperature"
+    ],
+    "features_numeric": [
+        "Carbon concentration",
+        "Silicon concentration",
+        "Manganese concentration",
+        "Sulphur concentration",
+        "Phosphorus concentration",
+        "Nickel concentration",
+        "Chromium concentration",
+        "Molybdenum concentration",
+        "Vanadium concentration",
+        "Copper concentration",
+        "Oxygen concentration",
+        "Titanium concentration",
+        "Nitrogen concentration",
+        "Aluminium concentration",
+        "Boron concentration",
+        "Niobium concentration",
+        "Current",
+        "Voltage",
+        "Heat input",
+        "Interpass temperature",
+        "Post weld heat treatment temperature",
+        "Post weld heat treatment time"
+    ],
+    "features_binary": [
+        "is_DC",
+        "electrode_positive",
+        "Vanadium_below_LOD",
+        "Titanium_below_LOD",
+        "Aluminium_below_LOD",
+        "Boron_below_LOD",
+        "Niobium_below_LOD"
+    ],
+    "features_categorical": [
+        "Type of weld"
+    ],
+    "id": "Weld ID",
+    "group": "source",
+    "dropped_unusable": [
+        "Hardness",
+        "50 % FATT",
+        "Primary ferrite in microstructure",
+        "Ferrite with second phase",
+        "Acicular ferrite",
+        "Martensite",
+        "Ferrite with carbide aggreagate"
+    ],
+    "dropped_sparse": [
+        "Cobalt concentration",
+        "Tungsten concentration",
+        "Tin concentration",
+        "Arsenic concentration",
+        "Antimony concentration"
+    ],
+    "nan_threshold": 0.8
+}
