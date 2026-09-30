@@ -1,0 +1,45 @@
+Feature;Unit;Role;Types de variables
+Carbon concentration;(weight%);Molecular concentration;float64
+Silicon concentration;(weight%);Molecular concentration;float64
+Manganese concentration;(weight%);Molecular concentration;float64
+Sulphur concentration;(weight%);Molecular concentration;float64
+Phosphorus concentration;(weight%);Molecular concentration;float64
+Nickel concentration;(weight%);Molecular concentration;float64
+Chromium concentration;(weight%);Molecular concentration;float64
+Molybdenum concentration;(weight%);Molecular concentration;float64
+Vanadium concentration;(weight%);Molecular concentration;float64
+Copper concentration;(weight%);Molecular concentration;float64
+Cobalt concentration;(weight%);Molecular concentration;float64
+Tungsten concentration;(weight%);Molecular concentration;float64
+Oxygen concentration;parts per million by weight;Molecular concentration;float64
+Titanium concentration;parts per million by weight;Molecular concentration;float64
+Nitrogen concentration;parts per million by weight;Molecular concentration;float64
+Aluminium concentration;parts per million by weight;Molecular concentration;float64
+Boron concentration;parts per million by weight;Molecular concentration;float64
+Niobium concentration;parts per million by weight;Molecular concentration;float64
+Tin concentration;parts per million by weight;Molecular concentration;float64
+Arsenic concentration;parts per million by weight;Molecular concentration;float64
+Antimony concentration;parts per million by weight;Molecular concentration;float64
+Current;A;Physical process;float64
+Voltage;V;Physical process;float64
+AC or DC;;Physical process;str
+Electrode positive or negative;;Physical process;str
+Heat input;kJ/mm;Physical process;float64
+Interpass temperature;deg C;Physical process;float64
+Type of weld;;Physical process;str
+Post weld heat treatment temperature;deg C;Heat treatment;float64
+Post weld heat treatment time;hours;Heat treatment;float64
+Yield strength;MPa;Quality indicator;float64
+Ultimate tensile strength;MPa;Quality indicator;float64
+Elongation;%;Quality indicator;float64
+Reduction of Area;%;Quality indicator;float64
+Charpy temperature;deg C;Test condition;float64
+Charpy impact toughness;J;Quality indicator;float64
+Hardness;kg/mm2;Quality indicator;float64
+50 % FATT;;Quality indicator;float64
+Primary ferrite in microstructure;%;Microstructure;float64
+Ferrite with second phase;%;Microstructure;float64
+Acicular ferrite;%;Microstructure;float64
+Martensite;%;Microstructure;float64
+Ferrite with carbide aggreagate;%;Microstructure;float64
+Weld ID;;Id;str
