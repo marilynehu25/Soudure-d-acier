@@ -11,15 +11,15 @@ Vanadium concentration;(weight%);Molecular concentration;float64
 Copper concentration;(weight%);Molecular concentration;float64
 Cobalt concentration;(weight%);Molecular concentration;float64
 Tungsten concentration;(weight%);Molecular concentration;float64
-Oxygen concentration;parts per million by weight;Molecular concentration;float64
-Titanium concentration;parts per million by weight;Molecular concentration;float64
-Nitrogen concentration;parts per million by weight;Molecular concentration;float64
-Aluminium concentration;parts per million by weight;Molecular concentration;float64
-Boron concentration;parts per million by weight;Molecular concentration;float64
-Niobium concentration;parts per million by weight;Molecular concentration;float64
-Tin concentration;parts per million by weight;Molecular concentration;float64
-Arsenic concentration;parts per million by weight;Molecular concentration;float64
-Antimony concentration;parts per million by weight;Molecular concentration;float64
+Oxygen concentration;weight %;Molecular concentration;float64
+Titanium concentration;weight %;Molecular concentration;float64
+Nitrogen concentration;weight %;Molecular concentration;float64
+Aluminium concentration;weight %;Molecular concentration;float64
+Boron concentration;weight %;Molecular concentration;float64
+Niobium concentration;weight %;Molecular concentration;float64
+Tin concentration;weight %;Molecular concentration;float64
+Arsenic concentration;weight %;Molecular concentration;float64
+Antimony concentration;weight %;Molecular concentration;float64
 Current;A;Physical process;float64
 Voltage;V;Physical process;float64
 AC or DC;;Physical process;str
