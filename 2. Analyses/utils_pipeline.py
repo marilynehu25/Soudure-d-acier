@@ -19,7 +19,62 @@ from xgboost import XGBRegressor
 from sklearn.base import clone
 from sklearn.pipeline import make_pipeline
 from sklearn.inspection import permutation_importance
+from sklearn.base import BaseEstimator, TransformerMixin
 
+
+
+#-----------------------------------------------------------------------------------------------------
+#                           Fonction pour l'imputation
+#-----------------------------------------------------------------------------------------------------
+
+
+class WeldImputer(BaseEstimator, TransformerMixin):
+    """Imputation métier : toutes les statistiques sont apprises sur le train (fit)."""
+    
+    zero_cols = ["Nickel concentration", "Chromium concentration", "Molybdenum concentration",
+                 "Copper concentration", "Vanadium concentration", "Niobium concentration",
+                 "Titanium concentration", "Aluminium concentration", "Boron concentration"]
+    median_cols = ["Sulphur concentration", "Phosphorus concentration"]
+    by_process_cols = ["Oxygen concentration", "Nitrogen concentration"]
+
+    def fit(self, X, y=None):
+        X = self._prepare(X)
+        self.medians_ = X[self.median_cols].median()
+        self.global_proc_ = X[self.by_process_cols].median()
+        self.proc_med_ = X.groupby("Type of weld")[self.by_process_cols].median()
+        # courant : rapport I / énergie de soudage, par procédé
+        self.I_ = X.groupby("Type of weld")["Current"].median()
+        self.I_glob_ = X["Current"].median()
+        self.U_ = X.groupby("Type of weld")["Voltage"].median()
+        self.U_glob_ = X["Voltage"].median()
+        self.mode_courant_ = X["courant"].mode()[0]
+        return self
+
+    def _prepare(self, X):
+        X = X.copy()
+        X["Type of weld"] = X["Type of weld"].replace({"ShMA": "MMA"})
+        # une polarité + ou - implique du continu
+        dc = X["AC or DC"].isna() & X["Electrode positive or negative"].isin(["+", "-"])
+        X.loc[dc, "AC or DC"] = "DC"
+        X["courant"] = np.select(
+            [X["AC or DC"].eq("AC"),
+             X["AC or DC"].eq("DC") & X["Electrode positive or negative"].eq("-"),
+             X["AC or DC"].eq("DC")],
+            ["AC", "DC-", "DC+"], default=None)
+        return X.drop(columns=["AC or DC", "Electrode positive or negative"])
+
+    def transform(self, X):
+        X = self._prepare(X)
+        X[self.zero_cols] = X[self.zero_cols].fillna(0)
+        X[self.median_cols] = X[self.median_cols].fillna(self.medians_)
+        for c in self.by_process_cols:
+            fill = X["Type of weld"].map(self.proc_med_[c]).fillna(self.global_proc_[c])
+            X[c] = X[c].fillna(fill)
+        X["Current"] = X["Current"].fillna(X["Type of weld"].map(self.I_).fillna(self.I_glob_))
+        X["Voltage"] = X["Voltage"].fillna(X["Type of weld"].map(self.U_).fillna(self.U_glob_))
+        X["courant"] = X["courant"].fillna(self.mode_courant_)
+        return X
+    
 # ==================================================================
 # 2) Fonction d'évaluation unique
 # ==================================================================
@@ -83,3 +138,5 @@ def xgboost(trial):
         colsample_bytree=trial.suggest_float("colsample_bytree", 0.6, 1.0),
         min_child_weight=trial.suggest_int("min_child_weight", 1, 10),
         n_jobs=-1, random_state=RANDOM_STATE)
+
+
