@@ -1,0 +1,83 @@
+{
+  "methode": "A_sans_selection",
+  "score_de_selection": "F1",
+  "modele_retenu": "Arbre",
+  "hyperparametres_retenu": {
+    "max_depth": 2,
+    "min_samples_leaf": 20
+  },
+  "hyperparametres_tous_modeles": {
+    "Logistique": {
+      "C": 991.230443181406
+    },
+    "Arbre": {
+      "max_depth": 2,
+      "min_samples_leaf": 20
+    },
+    "Random Forest": {
+      "max_depth": 3,
+      "min_samples_leaf": 10,
+      "max_features": 0.8962949340906348
+    },
+    "XGBoost": {
+      "n_estimators": 105,
+      "learning_rate": 0.016373439802363825,
+      "max_depth": 5,
+      "subsample": 0.8781405109227687,
+      "colsample_bytree": 0.7895973531319986,
+      "min_child_weight": 8
+    },
+    "XGBoost (défaut)": {}
+  },
+  "variables_utilisees": [
+    "Carbon concentration",
+    "Silicon concentration",
+    "Manganese concentration",
+    "Sulphur concentration",
+    "Phosphorus concentration",
+    "Nickel concentration",
+    "Chromium concentration",
+    "Molybdenum concentration",
+    "Vanadium concentration",
+    "Copper concentration",
+    "Oxygen concentration",
+    "Titanium concentration",
+    "Nitrogen concentration",
+    "Aluminium concentration",
+    "Boron concentration",
+    "Niobium concentration",
+    "Current",
+    "Voltage",
+    "Heat input",
+    "Interpass temperature",
+    "Type of weld",
+    "Post weld heat treatment temperature",
+    "Post weld heat treatment time",
+    "courant",
+    "CE_IIW"
+  ],
+  "score_test": {
+    "Accuracy": 0.8267716535433071,
+    "Accuracy_ponderee": 0.8461117196056955,
+    "F1": 0.7843137254901961,
+    "Precision": 0.6896551724137931,
+    "Recall": 0.9090909090909091,
+    "ROC_AUC": 0.9071741511500547,
+    "LogLoss": 0.38258138313394585
+  },
+  "ic95_test_bootstrap": [
+    0.4358695652173913,
+    0.9380585600349612
+  ],
+  "score_cv_finaliste": [
+    0.7969532852224509,
+    0.7957871482141905,
+    0.7981194222307113
+  ],
+  "RANDOM_STATE": 42,
+  "SEED_REEVAL": 2026,
+  "N_REPETITIONS": 100,
+  "N_FOLDS": 5,
+  "n_TRIALS": 100,
+  "TEST_SIZE": 0.2
+}

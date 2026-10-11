@@ -1,0 +1,26 @@
+﻿variable;retenue
+Carbon concentration;True
+Silicon concentration;True
+Manganese concentration;True
+Sulphur concentration;True
+Phosphorus concentration;True
+Nickel concentration;True
+Chromium concentration;True
+Molybdenum concentration;True
+Vanadium concentration;True
+Copper concentration;True
+Oxygen concentration;True
+Titanium concentration;True
+Nitrogen concentration;True
+Aluminium concentration;True
+Boron concentration;True
+Niobium concentration;True
+Current;True
+Voltage;True
+Heat input;True
+Interpass temperature;True
+Type of weld;True
+Post weld heat treatment temperature;True
+Post weld heat treatment time;True
+courant;True
+CE_IIW;True

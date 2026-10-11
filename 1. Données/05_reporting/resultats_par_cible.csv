@@ -1,0 +1,3 @@
+﻿cible;methode;type;modèle retenu;score;CV;test;IC95 test bas;IC95 test haut;baseline test
+Charpy conforme;A_sans_selection;classification;XGBoost (défaut);F1;0.9366664879216317;0.9680851063829788;0.9634146341463414;1.0;0.914572864321608
+Charpy conforme;B_avec_selection;classification;XGBoost;F1;0.9595010008951199;0.8958333333333334;0.06451612903225806;0.9633802816901409;0.914572864321608

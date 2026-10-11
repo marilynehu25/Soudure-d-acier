@@ -1,0 +1,26 @@
+﻿variable;retenue
+Carbon concentration;True
+Silicon concentration;True
+Manganese concentration;False
+Sulphur concentration;False
+Phosphorus concentration;False
+Nickel concentration;False
+Chromium concentration;True
+Molybdenum concentration;False
+Vanadium concentration;False
+Copper concentration;False
+Oxygen concentration;True
+Titanium concentration;True
+Nitrogen concentration;False
+Aluminium concentration;False
+Boron concentration;False
+Niobium concentration;False
+Current;False
+Voltage;True
+Heat input;False
+Interpass temperature;False
+Type of weld;False
+Post weld heat treatment temperature;False
+Post weld heat treatment time;False
+courant;False
+CE_IIW;False

@@ -1,0 +1,75 @@
+{
+  "methode": "B_avec_selection",
+  "score_de_selection": "F1",
+  "modele_retenu": "Arbre",
+  "hyperparametres_retenu": {
+    "max_depth": 2,
+    "min_samples_leaf": 20
+  },
+  "hyperparametres_tous_modeles": {
+    "Logistique": {
+      "C": 946.4533014403645
+    },
+    "Arbre": {
+      "max_depth": 2,
+      "min_samples_leaf": 20
+    },
+    "Random Forest": {
+      "max_depth": 4,
+      "min_samples_leaf": 9,
+      "max_features": 0.7207805082202461
+    },
+    "XGBoost": {
+      "n_estimators": 124,
+      "learning_rate": 0.22038218939289875,
+      "max_depth": 3,
+      "subsample": 0.8650089137415928,
+      "colsample_bytree": 0.7246844304357644,
+      "min_child_weight": 6
+    },
+    "XGBoost (défaut)": {}
+  },
+  "variables_utilisees": [
+    "Carbon concentration",
+    "Silicon concentration",
+    "Manganese concentration",
+    "Sulphur concentration",
+    "Phosphorus concentration",
+    "Chromium concentration",
+    "Molybdenum concentration",
+    "Vanadium concentration",
+    "Oxygen concentration",
+    "Titanium concentration",
+    "Nitrogen concentration",
+    "Aluminium concentration",
+    "Niobium concentration",
+    "Current",
+    "Voltage",
+    "Heat input",
+    "CE_IIW"
+  ],
+  "score_test": {
+    "Accuracy": 0.8267716535433071,
+    "Accuracy_ponderee": 0.8461117196056955,
+    "F1": 0.7843137254901961,
+    "Precision": 0.6896551724137931,
+    "Recall": 0.9090909090909091,
+    "ROC_AUC": 0.9071741511500547,
+    "LogLoss": 0.382581383133946
+  },
+  "ic95_test_bootstrap": [
+    0.4358695652173913,
+    0.9380585600349612
+  ],
+  "score_cv_finaliste": [
+    0.7970868960396086,
+    0.7948106460378545,
+    0.7993631460413627
+  ],
+  "RANDOM_STATE": 42,
+  "SEED_REEVAL": 2026,
+  "N_REPETITIONS": 30,
+  "N_FOLDS": 5,
+  "n_TRIALS": 100,
+  "TEST_SIZE": 0.2
+}

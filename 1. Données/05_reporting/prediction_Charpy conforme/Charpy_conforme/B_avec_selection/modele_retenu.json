@@ -1,0 +1,70 @@
+{
+  "cible": "Charpy conforme",
+  "type": "classification",
+  "methode": "B_avec_selection",
+  "score_de_selection": "F1",
+  "modele_retenu": "XGBoost",
+  "hyperparametres_retenu": {
+    "n_estimators": 103,
+    "learning_rate": 0.18016580639035568,
+    "max_depth": 6,
+    "subsample": 0.6794106491195451,
+    "colsample_bytree": 0.8728475997797337,
+    "min_child_weight": 3
+  },
+  "hyperparametres_tous_modeles": {
+    "Logistique": {
+      "C": 993.8138249113608
+    },
+    "Arbre": {
+      "max_depth": 3,
+      "min_samples_leaf": 6
+    },
+    "Random Forest": {
+      "max_depth": 3,
+      "min_samples_leaf": 10,
+      "max_features": 0.5564489298729955
+    },
+    "XGBoost": {
+      "n_estimators": 103,
+      "learning_rate": 0.18016580639035568,
+      "max_depth": 6,
+      "subsample": 0.6794106491195451,
+      "colsample_bytree": 0.8728475997797337,
+      "min_child_weight": 3
+    },
+    "XGBoost (défaut)": {}
+  },
+  "variables_utilisees": [
+    "Carbon concentration",
+    "Silicon concentration",
+    "Chromium concentration",
+    "Oxygen concentration",
+    "Titanium concentration",
+    "Voltage"
+  ],
+  "score_test": {
+    "Accuracy": 0.8148148148148148,
+    "Accuracy_ponderee": 0.5313510019392372,
+    "F1": 0.8958333333333334,
+    "Precision": 0.8514851485148515,
+    "Recall": 0.945054945054945,
+    "ROC_AUC": 0.9166127989657401,
+    "LogLoss": 0.43932223320007324
+  },
+  "ic95_test_bootstrap": [
+    0.06451612903225806,
+    0.9633802816901409
+  ],
+  "score_cv_finaliste": [
+    0.95950100089512,
+    0.9594135859872074,
+    0.9595884158030327
+  ],
+  "RANDOM_STATE": 42,
+  "SEED_REEVAL": 2026,
+  "N_REPETITIONS": 30,
+  "N_FOLDS": 5,
+  "n_TRIALS": 100,
+  "TEST_SIZE": 0.2
+}
