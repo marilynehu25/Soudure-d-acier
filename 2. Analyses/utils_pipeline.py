@@ -74,7 +74,23 @@ class WeldImputer(BaseEstimator, TransformerMixin):
         X["Voltage"] = X["Voltage"].fillna(X["Type of weld"].map(self.U_).fillna(self.U_glob_))
         X["courant"] = X["courant"].fillna(self.mode_courant_)
         return X
-    
+
+
+#-----------------------------------------------------------------------------------------------------
+#                           Fonction pour le feature engineering (CE_IIW)
+#-----------------------------------------------------------------------------------------------------
+
+def feature_engineering(X):
+    X = X.copy()
+    X["CE_IIW"] = (X["Carbon concentration"]
+                   + X["Manganese concentration"] / 6
+                   + (X["Chromium concentration"] + X["Molybdenum concentration"]
+                      + X["Vanadium concentration"]) / 5
+                   + (X["Nickel concentration"] + X["Copper concentration"]) / 15)
+    return X
+
+
+
 # ==================================================================
 # 2) Fonction d'évaluation unique
 # ==================================================================
