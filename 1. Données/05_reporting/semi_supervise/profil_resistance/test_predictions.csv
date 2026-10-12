@@ -1,0 +1,636 @@
+﻿methode;position_dans_d;groupe;y;y_pred;proba
+Self-training classique;40;Es-Souni&-Cu/CMn-1990;0;0;0.033474856241945114
+Self-training classique;41;Es-Souni&-Cu/CMn-1990;0;0;0.033474856241945114
+Self-training classique;42;Es-Souni&-Cu/CMn-1990;0;0;0.033474856241945114
+Self-training classique;43;Es-Souni&-Cu/CMn-1990;0;0;0.033474856241945114
+Self-training classique;44;Es-Souni&-Cu/CMn-1990;0;0;0.033474856241945114
+Self-training classique;45;Es-Souni&-Cu/CMn-1990;0;0;0.033474856241945114
+Self-training classique;46;Es-Souni&-Cu/CMn-1990;0;0;0.033474856241945114
+Self-training classique;47;Es-Souni&-Cu/CMn-1990;0;0;0.033474856241945114
+Self-training classique;48;Es-Souni&-Cu/CMn-1990;0;0;0.033474856241945114
+Self-training classique;49;Es-Souni&-Cu/CMn-1990;0;0;0.033474856241945114
+Self-training classique;50;Es-Souni&-Cu/CMn-1990;1;1;0.8652004562181249
+Self-training classique;51;Es-Souni&-Cu/CMn-1990;1;1;0.8652004562181249
+Self-training classique;239;Evans-StressRelief-1991;0;0;0.033474856241945114
+Self-training classique;240;Evans-StressRelief-1991;0;0;0.033474856241945114
+Self-training classique;241;Evans-StressRelief-1991;0;0;0.033474856241945114
+Self-training classique;242;Evans-StressRelief-1991;0;0;0.033474856241945114
+Self-training classique;243;Evans-StressRelief-1991;0;0;0.033474856241945114
+Self-training classique;244;Evans-StressRelief-1991;0;0;0.033474856241945114
+Self-training classique;245;Evans-StressRelief-1991;0;0;0.033474856241945114
+Self-training classique;246;Evans-StressRelief-1991;0;1;0.8652004562181249
+Self-training classique;247;Evans-StressRelief-1991;0;0;0.033474856241945114
+Self-training classique;248;Evans-StressRelief-1991;0;0;0.033474856241945114
+Self-training classique;249;Evans-StressRelief-1991;0;0;0.033474856241945114
+Self-training classique;250;Evans-StressRelief-1991;0;1;0.8652004562181249
+Self-training classique;251;Evans-StressRelief-1991;0;0;0.033474856241945114
+Self-training classique;252;Evans-StressRelief-1991;0;0;0.033474856241945114
+Self-training classique;253;Evans-StressRelief-1991;0;1;0.8652004562181249
+Self-training classique;254;Evans-StressRelief-1991;1;1;0.8652004562181249
+Self-training classique;265;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;266;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;267;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;268;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;269;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;270;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;271;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;272;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;273;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;274;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;275;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;276;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;277;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;278;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;279;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;280;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;281;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;282;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;283;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;284;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;285;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;286;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;287;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;288;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;289;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;290;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;291;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;292;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;293;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;294;Evans-Ti/Mn-1992;0;0;0.033474856241945114
+Self-training classique;295;Evans-Ti/Mn-1992;0;1;0.8652004562181249
+Self-training classique;296;Evans-Ti/Mn-1992;0;1;0.8652004562181249
+Self-training classique;297;Evans-Ti/Mn-1992;0;1;0.8652004562181249
+Self-training classique;298;Evans-Ti/Mn-1992;0;1;0.8652004562181249
+Self-training classique;299;Evans-Ti/Mn-1992;0;1;0.8652004562181249
+Self-training classique;300;Evans-Ti/Mn-1992;0;1;0.8652004562181249
+Self-training classique;301;Evans-Ti/Mn-1992;0;1;0.8652004562181249
+Self-training classique;302;Evans-Ti/Mn-1992;0;1;0.8652004562181249
+Self-training classique;303;Evans-Ti/Mn-1992;0;1;0.8652004562181249
+Self-training classique;304;Evans-Ti/Mn-1992;0;1;0.8652004562181249
+Self-training classique;341;Evans-AlEl9Cr1Mo-1994;1;1;0.9901599314839673
+Self-training classique;342;Evans-AlEl9Cr1Mo-1994;1;1;0.9901599314839673
+Self-training classique;343;Evans-AlEl9Cr1Mo-1994;1;1;0.9901599314839673
+Self-training classique;344;Evans-AlEl9Cr1Mo-1994;1;1;0.9901599314839673
+Self-training classique;345;Evans-AlEl9Cr1Mo-1994;1;1;0.9901599314839673
+Self-training classique;346;Evans-AlEl9Cr1Mo-1994;1;1;0.9901599314839673
+Self-training classique;347;Evans-AlEl9Cr1Mo-1994;1;1;0.9901599314839673
+Self-training classique;348;Evans-AlEl9Cr1Mo-1994;1;1;0.9901599314839673
+Self-training classique;349;Evans-AlEl9Cr1Mo-1994;1;1;0.9901599314839673
+Self-training classique;350;Evans-AlEl9Cr1Mo-1994;1;1;0.9901599314839673
+Self-training classique;351;Evans-AlEl9Cr1Mo-1994;1;1;0.9901599314839673
+Self-training classique;352;Evans-AlEl9Cr1Mo-1994;1;1;0.9901599314839673
+Self-training classique;353;Evans-AlEl9Cr1Mo-1994;1;1;0.9901599314839673
+Self-training classique;354;Kluket-CuMnB-1994;0;1;0.8652004562181249
+Self-training classique;355;Kluket-CuMnB-1994;1;1;0.8652004562181249
+Self-training classique;356;Kluket-CuMnB-1994;1;1;0.9901599314839673
+Self-training classique;357;Kluket-CuMnB-1994;1;1;0.8652004562181249
+Self-training classique;358;Kluket-CuMnB-1994;1;1;0.9901599314839673
+Self-training classique;359;Kluket-CuMnB-1994;1;1;0.9901599314839673
+Self-training classique;360;Kluket-CuMnB-1994;1;1;0.9901599314839673
+Self-training classique;361;Kluket-CuMnB-1994;1;1;0.9901599314839673
+Self-training classique;362;Kluket-CuMnB-1994;1;1;0.9901599314839673
+Self-training classique;363;Kluket-CuMnB-1994;1;1;0.8652004562181249
+Self-training classique;364;Kluket-CuMnB-1994;1;1;0.9901599314839673
+Self-training classique;365;Kluket-CuMnB-1994;1;1;0.9901599314839673
+Self-training classique;482;Ga&K-1975;1;1;0.8652004562181249
+Self-training classique;483;Ga&K-1975;1;1;0.8652004562181249
+Self-training classique;484;Ga&K-1975;1;1;0.8652004562181249
+Self-training classique;485;Ga&K-1975;1;1;0.8652004562181249
+Self-training classique;486;Ga&K-1975;0;1;0.8652004562181249
+Self-training classique;487;Ga&K-1975;1;1;0.8652004562181249
+Self-training classique;488;Ga&K-1975;1;1;0.8652004562181249
+Self-training classique;489;Ga&K-1975;1;1;0.9901599314839673
+Self-training classique;490;Ga&K-1975;1;1;0.9901599314839673
+Self-training classique;567;p22-RR8201;0;0;0.033474856241945114
+Self-training classique;568;p22-RR8201;0;0;0.033474856241945114
+Self-training classique;569;p23-RR8201;0;0;0.033474856241945114
+Self-training classique;570;p23-RR8201;0;0;0.033474856241945114
+Self-training classique;571;p24-RR8201;0;0;0.033474856241945114
+Self-training classique;572;p24-RR8201;0;0;0.033474856241945114
+Self-training classique;573;p25-RR8201;0;0;0.033474856241945114
+Self-training classique;574;p25-RR8201;0;0;0.033474856241945114
+Self-training classique;583;p29-RR8201;0;0;0.033474856241945114
+Self-training classique;584;p29-RR8201;0;0;0.033474856241945114
+Self-training classique;587;p31-RR8201;1;0;0.033474856241945114
+Self-training classique;588;p31-RR8201;1;0;0.033474856241945114
+Self-training classique;591;p33-RR8201;0;0;0.033474856241945114
+Self-training classique;592;p33-RR8201;0;0;0.033474856241945114
+Self-training classique;593;p34-RR8201;1;0;0.033474856241945114
+Self-training classique;594;p34-RR8201;1;0;0.033474856241945114
+Self-training classique;627;EvansLetterCo+3Ni;1;1;0.9901599314839673
+Self-training classique;628;EvansLetterCo+.25Mo;0;1;0.8652004562181249
+Self-training classique;630;EvansLetterCo+1Mo;1;1;0.9901599314839673
+Self-training classique;633;EvansLetterCo+2Cr;1;1;0.9901599314839673
+Self-training classique;637;EvansLetterC+;0;0;0.033474856241945114
+Self-training classique;638;EvansLetterC+1Ni;0;1;0.8652004562181249
+Self-training classique;639;EvansLetterC+2Ni;0;1;0.9901599314839673
+Self-training classique;642;EvansLetterC+.5Mo;1;1;0.8652004562181249
+Self-training classique;646;EvansLetterC+2Cr;1;1;0.9901599314839673
+Arbre (supervisé, retenu par l'équipe);40;Es-Souni&-Cu/CMn-1990;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);41;Es-Souni&-Cu/CMn-1990;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);42;Es-Souni&-Cu/CMn-1990;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);43;Es-Souni&-Cu/CMn-1990;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);44;Es-Souni&-Cu/CMn-1990;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);45;Es-Souni&-Cu/CMn-1990;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);46;Es-Souni&-Cu/CMn-1990;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);47;Es-Souni&-Cu/CMn-1990;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);48;Es-Souni&-Cu/CMn-1990;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);49;Es-Souni&-Cu/CMn-1990;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);50;Es-Souni&-Cu/CMn-1990;1;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);51;Es-Souni&-Cu/CMn-1990;1;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);239;Evans-StressRelief-1991;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);240;Evans-StressRelief-1991;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);241;Evans-StressRelief-1991;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);242;Evans-StressRelief-1991;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);243;Evans-StressRelief-1991;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);244;Evans-StressRelief-1991;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);245;Evans-StressRelief-1991;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);246;Evans-StressRelief-1991;0;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);247;Evans-StressRelief-1991;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);248;Evans-StressRelief-1991;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);249;Evans-StressRelief-1991;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);250;Evans-StressRelief-1991;0;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);251;Evans-StressRelief-1991;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);252;Evans-StressRelief-1991;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);253;Evans-StressRelief-1991;0;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);254;Evans-StressRelief-1991;1;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);265;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);266;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);267;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);268;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);269;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);270;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);271;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);272;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);273;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);274;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);275;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);276;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);277;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);278;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);279;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);280;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);281;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);282;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);283;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);284;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);285;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);286;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);287;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);288;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);289;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);290;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);291;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);292;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);293;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);294;Evans-Ti/Mn-1992;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);295;Evans-Ti/Mn-1992;0;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);296;Evans-Ti/Mn-1992;0;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);297;Evans-Ti/Mn-1992;0;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);298;Evans-Ti/Mn-1992;0;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);299;Evans-Ti/Mn-1992;0;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);300;Evans-Ti/Mn-1992;0;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);301;Evans-Ti/Mn-1992;0;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);302;Evans-Ti/Mn-1992;0;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);303;Evans-Ti/Mn-1992;0;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);304;Evans-Ti/Mn-1992;0;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);341;Evans-AlEl9Cr1Mo-1994;1;1;0.9732729662625972
+Arbre (supervisé, retenu par l'équipe);342;Evans-AlEl9Cr1Mo-1994;1;1;0.9732729662625972
+Arbre (supervisé, retenu par l'équipe);343;Evans-AlEl9Cr1Mo-1994;1;1;0.9732729662625972
+Arbre (supervisé, retenu par l'équipe);344;Evans-AlEl9Cr1Mo-1994;1;1;0.9732729662625972
+Arbre (supervisé, retenu par l'équipe);345;Evans-AlEl9Cr1Mo-1994;1;1;0.9732729662625972
+Arbre (supervisé, retenu par l'équipe);346;Evans-AlEl9Cr1Mo-1994;1;1;0.9732729662625972
+Arbre (supervisé, retenu par l'équipe);347;Evans-AlEl9Cr1Mo-1994;1;1;0.9732729662625972
+Arbre (supervisé, retenu par l'équipe);348;Evans-AlEl9Cr1Mo-1994;1;1;0.9732729662625972
+Arbre (supervisé, retenu par l'équipe);349;Evans-AlEl9Cr1Mo-1994;1;1;0.9732729662625972
+Arbre (supervisé, retenu par l'équipe);350;Evans-AlEl9Cr1Mo-1994;1;1;0.9732729662625972
+Arbre (supervisé, retenu par l'équipe);351;Evans-AlEl9Cr1Mo-1994;1;1;0.9732729662625972
+Arbre (supervisé, retenu par l'équipe);352;Evans-AlEl9Cr1Mo-1994;1;1;0.9732729662625972
+Arbre (supervisé, retenu par l'équipe);353;Evans-AlEl9Cr1Mo-1994;1;1;0.9732729662625972
+Arbre (supervisé, retenu par l'équipe);354;Kluket-CuMnB-1994;0;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);355;Kluket-CuMnB-1994;1;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);356;Kluket-CuMnB-1994;1;1;0.9732729662625972
+Arbre (supervisé, retenu par l'équipe);357;Kluket-CuMnB-1994;1;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);358;Kluket-CuMnB-1994;1;1;0.9732729662625972
+Arbre (supervisé, retenu par l'équipe);359;Kluket-CuMnB-1994;1;1;0.9732729662625972
+Arbre (supervisé, retenu par l'équipe);360;Kluket-CuMnB-1994;1;1;0.9732729662625972
+Arbre (supervisé, retenu par l'équipe);361;Kluket-CuMnB-1994;1;1;0.9732729662625972
+Arbre (supervisé, retenu par l'équipe);362;Kluket-CuMnB-1994;1;1;0.9732729662625972
+Arbre (supervisé, retenu par l'équipe);363;Kluket-CuMnB-1994;1;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);364;Kluket-CuMnB-1994;1;1;0.9732729662625972
+Arbre (supervisé, retenu par l'équipe);365;Kluket-CuMnB-1994;1;1;0.9732729662625972
+Arbre (supervisé, retenu par l'équipe);482;Ga&K-1975;1;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);483;Ga&K-1975;1;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);484;Ga&K-1975;1;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);485;Ga&K-1975;1;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);486;Ga&K-1975;0;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);487;Ga&K-1975;1;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);488;Ga&K-1975;1;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);489;Ga&K-1975;1;1;0.9732729662625972
+Arbre (supervisé, retenu par l'équipe);490;Ga&K-1975;1;1;0.9732729662625972
+Arbre (supervisé, retenu par l'équipe);567;p22-RR8201;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);568;p22-RR8201;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);569;p23-RR8201;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);570;p23-RR8201;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);571;p24-RR8201;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);572;p24-RR8201;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);573;p25-RR8201;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);574;p25-RR8201;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);583;p29-RR8201;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);584;p29-RR8201;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);587;p31-RR8201;1;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);588;p31-RR8201;1;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);591;p33-RR8201;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);592;p33-RR8201;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);593;p34-RR8201;1;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);594;p34-RR8201;1;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);627;EvansLetterCo+3Ni;1;1;0.9732729662625972
+Arbre (supervisé, retenu par l'équipe);628;EvansLetterCo+.25Mo;0;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);630;EvansLetterCo+1Mo;1;1;0.9732729662625972
+Arbre (supervisé, retenu par l'équipe);633;EvansLetterCo+2Cr;1;1;0.9732729662625972
+Arbre (supervisé, retenu par l'équipe);637;EvansLetterC+;0;0;0.11751345479681961
+Arbre (supervisé, retenu par l'équipe);638;EvansLetterC+1Ni;0;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);639;EvansLetterC+2Ni;0;1;0.9732729662625972
+Arbre (supervisé, retenu par l'équipe);642;EvansLetterC+.5Mo;1;1;0.7546122901928151
+Arbre (supervisé, retenu par l'équipe);646;EvansLetterC+2Cr;1;1;0.9732729662625972
+Self-training équilibré;40;Es-Souni&-Cu/CMn-1990;0;0;0.06387707342919842
+Self-training équilibré;41;Es-Souni&-Cu/CMn-1990;0;0;0.06387707342919842
+Self-training équilibré;42;Es-Souni&-Cu/CMn-1990;0;0;0.06387707342919842
+Self-training équilibré;43;Es-Souni&-Cu/CMn-1990;0;0;0.06387707342919842
+Self-training équilibré;44;Es-Souni&-Cu/CMn-1990;0;0;0.06387707342919842
+Self-training équilibré;45;Es-Souni&-Cu/CMn-1990;0;0;0.06387707342919842
+Self-training équilibré;46;Es-Souni&-Cu/CMn-1990;0;0;0.06387707342919842
+Self-training équilibré;47;Es-Souni&-Cu/CMn-1990;0;0;0.06387707342919842
+Self-training équilibré;48;Es-Souni&-Cu/CMn-1990;0;0;0.06387707342919842
+Self-training équilibré;49;Es-Souni&-Cu/CMn-1990;0;0;0.06387707342919842
+Self-training équilibré;50;Es-Souni&-Cu/CMn-1990;1;1;0.7550041860111131
+Self-training équilibré;51;Es-Souni&-Cu/CMn-1990;1;1;0.7550041860111131
+Self-training équilibré;239;Evans-StressRelief-1991;0;0;0.06387707342919842
+Self-training équilibré;240;Evans-StressRelief-1991;0;0;0.06387707342919842
+Self-training équilibré;241;Evans-StressRelief-1991;0;0;0.06387707342919842
+Self-training équilibré;242;Evans-StressRelief-1991;0;0;0.06387707342919842
+Self-training équilibré;243;Evans-StressRelief-1991;0;0;0.06387707342919842
+Self-training équilibré;244;Evans-StressRelief-1991;0;0;0.06387707342919842
+Self-training équilibré;245;Evans-StressRelief-1991;0;0;0.06387707342919842
+Self-training équilibré;246;Evans-StressRelief-1991;0;1;0.7550041860111131
+Self-training équilibré;247;Evans-StressRelief-1991;0;0;0.06387707342919842
+Self-training équilibré;248;Evans-StressRelief-1991;0;0;0.06387707342919842
+Self-training équilibré;249;Evans-StressRelief-1991;0;0;0.06387707342919842
+Self-training équilibré;250;Evans-StressRelief-1991;0;1;0.7550041860111131
+Self-training équilibré;251;Evans-StressRelief-1991;0;0;0.06387707342919842
+Self-training équilibré;252;Evans-StressRelief-1991;0;0;0.06387707342919842
+Self-training équilibré;253;Evans-StressRelief-1991;0;1;0.7550041860111131
+Self-training équilibré;254;Evans-StressRelief-1991;1;1;0.7550041860111131
+Self-training équilibré;265;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;266;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;267;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;268;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;269;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;270;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;271;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;272;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;273;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;274;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;275;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;276;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;277;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;278;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;279;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;280;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;281;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;282;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;283;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;284;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;285;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;286;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;287;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;288;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;289;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;290;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;291;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;292;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;293;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;294;Evans-Ti/Mn-1992;0;0;0.06387707342919842
+Self-training équilibré;295;Evans-Ti/Mn-1992;0;1;0.7550041860111131
+Self-training équilibré;296;Evans-Ti/Mn-1992;0;1;0.7550041860111131
+Self-training équilibré;297;Evans-Ti/Mn-1992;0;1;0.7550041860111131
+Self-training équilibré;298;Evans-Ti/Mn-1992;0;1;0.7550041860111131
+Self-training équilibré;299;Evans-Ti/Mn-1992;0;1;0.7550041860111131
+Self-training équilibré;300;Evans-Ti/Mn-1992;0;1;0.7550041860111131
+Self-training équilibré;301;Evans-Ti/Mn-1992;0;1;0.7550041860111131
+Self-training équilibré;302;Evans-Ti/Mn-1992;0;1;0.7550041860111131
+Self-training équilibré;303;Evans-Ti/Mn-1992;0;1;0.7550041860111131
+Self-training équilibré;304;Evans-Ti/Mn-1992;0;1;0.7550041860111131
+Self-training équilibré;341;Evans-AlEl9Cr1Mo-1994;1;1;0.9892874376709024
+Self-training équilibré;342;Evans-AlEl9Cr1Mo-1994;1;1;0.9892874376709024
+Self-training équilibré;343;Evans-AlEl9Cr1Mo-1994;1;1;0.9892874376709024
+Self-training équilibré;344;Evans-AlEl9Cr1Mo-1994;1;1;0.9892874376709024
+Self-training équilibré;345;Evans-AlEl9Cr1Mo-1994;1;1;0.9892874376709024
+Self-training équilibré;346;Evans-AlEl9Cr1Mo-1994;1;1;0.9892874376709024
+Self-training équilibré;347;Evans-AlEl9Cr1Mo-1994;1;1;0.9892874376709024
+Self-training équilibré;348;Evans-AlEl9Cr1Mo-1994;1;1;0.9892874376709024
+Self-training équilibré;349;Evans-AlEl9Cr1Mo-1994;1;1;0.9892874376709024
+Self-training équilibré;350;Evans-AlEl9Cr1Mo-1994;1;1;0.9892874376709024
+Self-training équilibré;351;Evans-AlEl9Cr1Mo-1994;1;1;0.9892874376709024
+Self-training équilibré;352;Evans-AlEl9Cr1Mo-1994;1;1;0.9892874376709024
+Self-training équilibré;353;Evans-AlEl9Cr1Mo-1994;1;1;0.9892874376709024
+Self-training équilibré;354;Kluket-CuMnB-1994;0;1;0.7550041860111131
+Self-training équilibré;355;Kluket-CuMnB-1994;1;1;0.7550041860111131
+Self-training équilibré;356;Kluket-CuMnB-1994;1;1;0.9892874376709024
+Self-training équilibré;357;Kluket-CuMnB-1994;1;1;0.7550041860111131
+Self-training équilibré;358;Kluket-CuMnB-1994;1;1;0.9892874376709024
+Self-training équilibré;359;Kluket-CuMnB-1994;1;1;0.9892874376709024
+Self-training équilibré;360;Kluket-CuMnB-1994;1;1;0.9892874376709024
+Self-training équilibré;361;Kluket-CuMnB-1994;1;1;0.9892874376709024
+Self-training équilibré;362;Kluket-CuMnB-1994;1;1;0.9892874376709024
+Self-training équilibré;363;Kluket-CuMnB-1994;1;1;0.7550041860111131
+Self-training équilibré;364;Kluket-CuMnB-1994;1;1;0.9892874376709024
+Self-training équilibré;365;Kluket-CuMnB-1994;1;1;0.9892874376709024
+Self-training équilibré;482;Ga&K-1975;1;1;0.7550041860111131
+Self-training équilibré;483;Ga&K-1975;1;1;0.7550041860111131
+Self-training équilibré;484;Ga&K-1975;1;1;0.7550041860111131
+Self-training équilibré;485;Ga&K-1975;1;1;0.7550041860111131
+Self-training équilibré;486;Ga&K-1975;0;1;0.7550041860111131
+Self-training équilibré;487;Ga&K-1975;1;1;0.7550041860111131
+Self-training équilibré;488;Ga&K-1975;1;1;0.7550041860111131
+Self-training équilibré;489;Ga&K-1975;1;1;0.9892874376709024
+Self-training équilibré;490;Ga&K-1975;1;1;0.9892874376709024
+Self-training équilibré;567;p22-RR8201;0;0;0.06387707342919842
+Self-training équilibré;568;p22-RR8201;0;0;0.06387707342919842
+Self-training équilibré;569;p23-RR8201;0;0;0.06387707342919842
+Self-training équilibré;570;p23-RR8201;0;0;0.06387707342919842
+Self-training équilibré;571;p24-RR8201;0;0;0.06387707342919842
+Self-training équilibré;572;p24-RR8201;0;0;0.06387707342919842
+Self-training équilibré;573;p25-RR8201;0;0;0.06387707342919842
+Self-training équilibré;574;p25-RR8201;0;0;0.06387707342919842
+Self-training équilibré;583;p29-RR8201;0;0;0.06387707342919842
+Self-training équilibré;584;p29-RR8201;0;0;0.06387707342919842
+Self-training équilibré;587;p31-RR8201;1;0;0.06387707342919842
+Self-training équilibré;588;p31-RR8201;1;0;0.06387707342919842
+Self-training équilibré;591;p33-RR8201;0;0;0.06387707342919842
+Self-training équilibré;592;p33-RR8201;0;0;0.06387707342919842
+Self-training équilibré;593;p34-RR8201;1;0;0.06387707342919842
+Self-training équilibré;594;p34-RR8201;1;0;0.06387707342919842
+Self-training équilibré;627;EvansLetterCo+3Ni;1;1;0.9892874376709024
+Self-training équilibré;628;EvansLetterCo+.25Mo;0;1;0.7550041860111131
+Self-training équilibré;630;EvansLetterCo+1Mo;1;1;0.9892874376709024
+Self-training équilibré;633;EvansLetterCo+2Cr;1;1;0.9892874376709024
+Self-training équilibré;637;EvansLetterC+;0;0;0.06387707342919842
+Self-training équilibré;638;EvansLetterC+1Ni;0;1;0.7550041860111131
+Self-training équilibré;639;EvansLetterC+2Ni;0;1;0.9892874376709024
+Self-training équilibré;642;EvansLetterC+.5Mo;1;1;0.7550041860111131
+Self-training équilibré;646;EvansLetterC+2Cr;1;1;0.9892874376709024
+Label spreading;40;Es-Souni&-Cu/CMn-1990;0;0;7.74537559903609e-06
+Label spreading;41;Es-Souni&-Cu/CMn-1990;0;0;0.0062672977844115425
+Label spreading;42;Es-Souni&-Cu/CMn-1990;0;0;3.96563907513487e-07
+Label spreading;43;Es-Souni&-Cu/CMn-1990;0;0;0.006321269441093399
+Label spreading;44;Es-Souni&-Cu/CMn-1990;0;0;4.451650975508176e-07
+Label spreading;45;Es-Souni&-Cu/CMn-1990;0;0;0.006870265643964143
+Label spreading;46;Es-Souni&-Cu/CMn-1990;0;0;3.9702826829562744e-07
+Label spreading;47;Es-Souni&-Cu/CMn-1990;0;0;0.04546905800786258
+Label spreading;48;Es-Souni&-Cu/CMn-1990;0;0;0.008057523470727383
+Label spreading;49;Es-Souni&-Cu/CMn-1990;0;0;0.051578264646344275
+Label spreading;50;Es-Souni&-Cu/CMn-1990;1;0;0.21007737839242444
+Label spreading;51;Es-Souni&-Cu/CMn-1990;1;0;0.21007737839242444
+Label spreading;239;Evans-StressRelief-1991;0;0;0.08197597118156578
+Label spreading;240;Evans-StressRelief-1991;0;0;0.12377328421491762
+Label spreading;241;Evans-StressRelief-1991;0;0;0.161353605507051
+Label spreading;242;Evans-StressRelief-1991;0;0;0.2002637504564702
+Label spreading;243;Evans-StressRelief-1991;0;0;0.0068940014761776315
+Label spreading;244;Evans-StressRelief-1991;0;0;0.013319851237048177
+Label spreading;245;Evans-StressRelief-1991;0;0;0.04375072539007998
+Label spreading;246;Evans-StressRelief-1991;0;0;0.12163447249813922
+Label spreading;247;Evans-StressRelief-1991;0;0;0.026819047575107936
+Label spreading;248;Evans-StressRelief-1991;0;0;0.026722363390540602
+Label spreading;249;Evans-StressRelief-1991;0;0;0.004046151448908695
+Label spreading;250;Evans-StressRelief-1991;0;0;0.08221995805916196
+Label spreading;251;Evans-StressRelief-1991;0;0;0.011279501777705038
+Label spreading;252;Evans-StressRelief-1991;0;0;0.012761318666600265
+Label spreading;253;Evans-StressRelief-1991;0;0;0.002506309034289985
+Label spreading;254;Evans-StressRelief-1991;1;0;0.11645956313169842
+Label spreading;265;Evans-Ti/Mn-1992;0;0;0.05530105303229188
+Label spreading;266;Evans-Ti/Mn-1992;0;0;0.012171147441844346
+Label spreading;267;Evans-Ti/Mn-1992;0;0;0.055288625408034475
+Label spreading;268;Evans-Ti/Mn-1992;0;0;0.01955127728175257
+Label spreading;269;Evans-Ti/Mn-1992;0;0;0.035941078991882536
+Label spreading;270;Evans-Ti/Mn-1992;0;0;0.02681904757510793
+Label spreading;271;Evans-Ti/Mn-1992;0;0;0.04169599836043218
+Label spreading;272;Evans-Ti/Mn-1992;0;0;0.030248862682075668
+Label spreading;273;Evans-Ti/Mn-1992;0;0;0.015219649560159249
+Label spreading;274;Evans-Ti/Mn-1992;0;0;0.026043577021767524
+Label spreading;275;Evans-Ti/Mn-1992;0;0;0.03007294193592739
+Label spreading;276;Evans-Ti/Mn-1992;0;0;0.011360322496859178
+Label spreading;277;Evans-Ti/Mn-1992;0;0;0.0023057737686064035
+Label spreading;278;Evans-Ti/Mn-1992;0;0;0.010699396921597912
+Label spreading;279;Evans-Ti/Mn-1992;0;0;0.0020630875238006447
+Label spreading;280;Evans-Ti/Mn-1992;0;0;0.010699831606221417
+Label spreading;281;Evans-Ti/Mn-1992;0;0;0.00249281106917791
+Label spreading;282;Evans-Ti/Mn-1992;0;0;0.010699831606221417
+Label spreading;283;Evans-Ti/Mn-1992;0;0;0.036924961655033325
+Label spreading;284;Evans-Ti/Mn-1992;0;0;0.0090901899858973
+Label spreading;285;Evans-Ti/Mn-1992;0;0;0.16619413539773414
+Label spreading;286;Evans-Ti/Mn-1992;0;0;0.0039048108098887844
+Label spreading;287;Evans-Ti/Mn-1992;0;0;0.03265307842172508
+Label spreading;288;Evans-Ti/Mn-1992;0;0;0.0040461514489086945
+Label spreading;289;Evans-Ti/Mn-1992;0;0;0.039361497303209515
+Label spreading;290;Evans-Ti/Mn-1992;0;0;0.0040461514489086945
+Label spreading;291;Evans-Ti/Mn-1992;0;0;0.017227988427902154
+Label spreading;292;Evans-Ti/Mn-1992;0;0;0.00404433748306976
+Label spreading;293;Evans-Ti/Mn-1992;0;0;0.03660346087333847
+Label spreading;294;Evans-Ti/Mn-1992;0;0;0.002699708215121013
+Label spreading;295;Evans-Ti/Mn-1992;0;0;0.4966556737950074
+Label spreading;296;Evans-Ti/Mn-1992;0;0;0.19339534332618663
+Label spreading;297;Evans-Ti/Mn-1992;0;0;0.44186205230665565
+Label spreading;298;Evans-Ti/Mn-1992;0;0;0.1569233605605794
+Label spreading;299;Evans-Ti/Mn-1992;0;0;0.287987316591382
+Label spreading;300;Evans-Ti/Mn-1992;0;0;0.11958647099029042
+Label spreading;301;Evans-Ti/Mn-1992;0;0;0.27375186615142716
+Label spreading;302;Evans-Ti/Mn-1992;0;0;0.11830797338345045
+Label spreading;303;Evans-Ti/Mn-1992;0;0;0.04023301012886406
+Label spreading;304;Evans-Ti/Mn-1992;0;0;0.03947553499895047
+Label spreading;341;Evans-AlEl9Cr1Mo-1994;1;1;0.999999972320459
+Label spreading;342;Evans-AlEl9Cr1Mo-1994;1;1;0.9999999088648696
+Label spreading;343;Evans-AlEl9Cr1Mo-1994;1;1;0.9999973787542977
+Label spreading;344;Evans-AlEl9Cr1Mo-1994;1;1;0.9999973785540124
+Label spreading;345;Evans-AlEl9Cr1Mo-1994;1;1;0.999999972308592
+Label spreading;346;Evans-AlEl9Cr1Mo-1994;1;1;0.9999999506497815
+Label spreading;347;Evans-AlEl9Cr1Mo-1994;1;1;0.9999999506497815
+Label spreading;348;Evans-AlEl9Cr1Mo-1994;1;1;0.999999973879408
+Label spreading;349;Evans-AlEl9Cr1Mo-1994;1;1;0.999999973879408
+Label spreading;350;Evans-AlEl9Cr1Mo-1994;1;1;0.999999973879408
+Label spreading;351;Evans-AlEl9Cr1Mo-1994;1;1;0.999999940201836
+Label spreading;352;Evans-AlEl9Cr1Mo-1994;1;1;0.9999999506497815
+Label spreading;353;Evans-AlEl9Cr1Mo-1994;1;1;0.9999999506497815
+Label spreading;354;Kluket-CuMnB-1994;0;0;0.36836830599571846
+Label spreading;355;Kluket-CuMnB-1994;1;0;0.41377638020716134
+Label spreading;356;Kluket-CuMnB-1994;1;1;0.6303888500266973
+Label spreading;357;Kluket-CuMnB-1994;1;0;0.3650666000664268
+Label spreading;358;Kluket-CuMnB-1994;1;0;0.43482837557437704
+Label spreading;359;Kluket-CuMnB-1994;1;1;0.6143876955604997
+Label spreading;360;Kluket-CuMnB-1994;1;0;0.3507271744386298
+Label spreading;361;Kluket-CuMnB-1994;1;1;0.5387134472413693
+Label spreading;362;Kluket-CuMnB-1994;1;1;0.6863858700934721
+Label spreading;363;Kluket-CuMnB-1994;1;1;0.6688701854704342
+Label spreading;364;Kluket-CuMnB-1994;1;1;0.7729556050325594
+Label spreading;365;Kluket-CuMnB-1994;1;1;0.7403404286087603
+Label spreading;482;Ga&K-1975;1;1;0.5618908825605388
+Label spreading;483;Ga&K-1975;1;1;0.5771468839474391
+Label spreading;484;Ga&K-1975;1;1;0.6161667571437668
+Label spreading;485;Ga&K-1975;1;1;0.9072182462150771
+Label spreading;486;Ga&K-1975;0;0;0.42454398267937515
+Label spreading;487;Ga&K-1975;1;1;0.581975781730821
+Label spreading;488;Ga&K-1975;1;1;0.9313971327252496
+Label spreading;489;Ga&K-1975;1;1;0.7688622161573874
+Label spreading;490;Ga&K-1975;1;1;0.5432277156748967
+Label spreading;567;p22-RR8201;0;0;0.3017877639582908
+Label spreading;568;p22-RR8201;0;0;0.3017877639582908
+Label spreading;569;p23-RR8201;0;0;0.29519884442734434
+Label spreading;570;p23-RR8201;0;0;0.29519884442734434
+Label spreading;571;p24-RR8201;0;0;0.17164211949141242
+Label spreading;572;p24-RR8201;0;0;0.17164211949141242
+Label spreading;573;p25-RR8201;0;0;0.2520111460044598
+Label spreading;574;p25-RR8201;0;0;0.2520111460044598
+Label spreading;583;p29-RR8201;0;0;0.2619748965977363
+Label spreading;584;p29-RR8201;0;0;0.2619748965977363
+Label spreading;587;p31-RR8201;1;0;0.3230006713129693
+Label spreading;588;p31-RR8201;1;0;0.3230006713129693
+Label spreading;591;p33-RR8201;0;0;0.2619748965977363
+Label spreading;592;p33-RR8201;0;0;0.2619748965977363
+Label spreading;593;p34-RR8201;1;0;0.25497114129453285
+Label spreading;594;p34-RR8201;1;0;0.25497114129453285
+Label spreading;627;EvansLetterCo+3Ni;1;0;0.4862258479585557
+Label spreading;628;EvansLetterCo+.25Mo;0;0;0.43577202705710394
+Label spreading;630;EvansLetterCo+1Mo;1;1;0.5096533059124938
+Label spreading;633;EvansLetterCo+2Cr;1;1;0.5347346472640204
+Label spreading;637;EvansLetterC+;0;0;0.2815993873361418
+Label spreading;638;EvansLetterC+1Ni;0;0;0.28563380795242815
+Label spreading;639;EvansLetterC+2Ni;0;0;0.3813156727747151
+Label spreading;642;EvansLetterC+.5Mo;1;0;0.4012818331459508
+Label spreading;646;EvansLetterC+2Cr;1;1;0.5345740721976563
+CEM semi-supervisé;40;Es-Souni&-Cu/CMn-1990;0;0;0.013001015092957842
+CEM semi-supervisé;41;Es-Souni&-Cu/CMn-1990;0;0;0.010156931103380994
+CEM semi-supervisé;42;Es-Souni&-Cu/CMn-1990;0;0;0.012193816953383408
+CEM semi-supervisé;43;Es-Souni&-Cu/CMn-1990;0;0;0.008881395877700976
+CEM semi-supervisé;44;Es-Souni&-Cu/CMn-1990;0;0;0.013414287768126296
+CEM semi-supervisé;45;Es-Souni&-Cu/CMn-1990;0;0;0.009910505646262356
+CEM semi-supervisé;46;Es-Souni&-Cu/CMn-1990;0;0;0.016642803091809658
+CEM semi-supervisé;47;Es-Souni&-Cu/CMn-1990;0;0;0.010692346405249355
+CEM semi-supervisé;48;Es-Souni&-Cu/CMn-1990;0;0;0.04501016039895885
+CEM semi-supervisé;49;Es-Souni&-Cu/CMn-1990;0;0;0.019963796380884132
+CEM semi-supervisé;50;Es-Souni&-Cu/CMn-1990;1;0;0.46269673105621606
+CEM semi-supervisé;51;Es-Souni&-Cu/CMn-1990;1;0;0.16827889642572863
+CEM semi-supervisé;239;Evans-StressRelief-1991;0;0;0.02171231505666587
+CEM semi-supervisé;240;Evans-StressRelief-1991;0;0;0.01434008431699359
+CEM semi-supervisé;241;Evans-StressRelief-1991;0;0;0.009917716737721115
+CEM semi-supervisé;242;Evans-StressRelief-1991;0;0;0.008447251525347657
+CEM semi-supervisé;243;Evans-StressRelief-1991;0;0;0.022709002261337496
+CEM semi-supervisé;244;Evans-StressRelief-1991;0;0;0.014736015122338662
+CEM semi-supervisé;245;Evans-StressRelief-1991;0;0;0.010573862209154903
+CEM semi-supervisé;246;Evans-StressRelief-1991;0;0;0.009847915035528074
+CEM semi-supervisé;247;Evans-StressRelief-1991;0;0;0.026094146581994253
+CEM semi-supervisé;248;Evans-StressRelief-1991;0;0;0.017723484122130817
+CEM semi-supervisé;249;Evans-StressRelief-1991;0;0;0.01278701378789899
+CEM semi-supervisé;250;Evans-StressRelief-1991;0;0;0.010600842848541932
+CEM semi-supervisé;251;Evans-StressRelief-1991;0;0;0.09043497270261605
+CEM semi-supervisé;252;Evans-StressRelief-1991;0;0;0.04908594525657825
+CEM semi-supervisé;253;Evans-StressRelief-1991;0;0;0.033381680809801084
+CEM semi-supervisé;254;Evans-StressRelief-1991;1;0;0.025214428278384913
+CEM semi-supervisé;265;Evans-Ti/Mn-1992;0;0;0.03154715049291892
+CEM semi-supervisé;266;Evans-Ti/Mn-1992;0;0;0.02634725363067845
+CEM semi-supervisé;267;Evans-Ti/Mn-1992;0;0;0.026176310147967986
+CEM semi-supervisé;268;Evans-Ti/Mn-1992;0;0;0.02109273900775981
+CEM semi-supervisé;269;Evans-Ti/Mn-1992;0;0;0.014403961367215718
+CEM semi-supervisé;270;Evans-Ti/Mn-1992;0;0;0.014010264550858449
+CEM semi-supervisé;271;Evans-Ti/Mn-1992;0;0;0.010829668447921683
+CEM semi-supervisé;272;Evans-Ti/Mn-1992;0;0;0.012197864410179877
+CEM semi-supervisé;273;Evans-Ti/Mn-1992;0;0;0.010734358882556333
+CEM semi-supervisé;274;Evans-Ti/Mn-1992;0;0;0.014558016023567792
+CEM semi-supervisé;275;Evans-Ti/Mn-1992;0;0;0.020493561746751602
+CEM semi-supervisé;276;Evans-Ti/Mn-1992;0;0;0.01819637391730327
+CEM semi-supervisé;277;Evans-Ti/Mn-1992;0;0;0.012705557933559099
+CEM semi-supervisé;278;Evans-Ti/Mn-1992;0;0;0.012192618286014647
+CEM semi-supervisé;279;Evans-Ti/Mn-1992;0;0;0.010687904659802473
+CEM semi-supervisé;280;Evans-Ti/Mn-1992;0;0;0.010778635052334978
+CEM semi-supervisé;281;Evans-Ti/Mn-1992;0;0;0.008634475264750783
+CEM semi-supervisé;282;Evans-Ti/Mn-1992;0;0;0.01008654452537014
+CEM semi-supervisé;283;Evans-Ti/Mn-1992;0;0;0.009888765195360746
+CEM semi-supervisé;284;Evans-Ti/Mn-1992;0;0;0.013615354564954486
+CEM semi-supervisé;285;Evans-Ti/Mn-1992;0;0;0.013084718193752707
+CEM semi-supervisé;286;Evans-Ti/Mn-1992;0;0;0.012251308896403126
+CEM semi-supervisé;287;Evans-Ti/Mn-1992;0;0;0.010719907732390238
+CEM semi-supervisé;288;Evans-Ti/Mn-1992;0;0;0.010765241269134036
+CEM semi-supervisé;289;Evans-Ti/Mn-1992;0;0;0.009215468569866223
+CEM semi-supervisé;290;Evans-Ti/Mn-1992;0;0;0.00950585267178686
+CEM semi-supervisé;291;Evans-Ti/Mn-1992;0;0;0.008061503175165952
+CEM semi-supervisé;292;Evans-Ti/Mn-1992;0;0;0.009999215799680645
+CEM semi-supervisé;293;Evans-Ti/Mn-1992;0;0;0.009774455902059583
+CEM semi-supervisé;294;Evans-Ti/Mn-1992;0;0;0.015076864599802363
+CEM semi-supervisé;295;Evans-Ti/Mn-1992;0;0;0.00935965953310805
+CEM semi-supervisé;296;Evans-Ti/Mn-1992;0;0;0.009660651520929235
+CEM semi-supervisé;297;Evans-Ti/Mn-1992;0;0;0.008371509467815489
+CEM semi-supervisé;298;Evans-Ti/Mn-1992;0;0;0.009701207945902726
+CEM semi-supervisé;299;Evans-Ti/Mn-1992;0;0;0.0077581801596920885
+CEM semi-supervisé;300;Evans-Ti/Mn-1992;0;0;0.009416408864588426
+CEM semi-supervisé;301;Evans-Ti/Mn-1992;0;0;0.008755512472565806
+CEM semi-supervisé;302;Evans-Ti/Mn-1992;0;0;0.012191930600375912
+CEM semi-supervisé;303;Evans-Ti/Mn-1992;0;0;0.014706690196287522
+CEM semi-supervisé;304;Evans-Ti/Mn-1992;0;0;0.025383010401558263
+CEM semi-supervisé;341;Evans-AlEl9Cr1Mo-1994;1;1;1.0
+CEM semi-supervisé;342;Evans-AlEl9Cr1Mo-1994;1;1;1.0
+CEM semi-supervisé;343;Evans-AlEl9Cr1Mo-1994;1;1;1.0
+CEM semi-supervisé;344;Evans-AlEl9Cr1Mo-1994;1;1;1.0
+CEM semi-supervisé;345;Evans-AlEl9Cr1Mo-1994;1;1;1.0
+CEM semi-supervisé;346;Evans-AlEl9Cr1Mo-1994;1;1;1.0
+CEM semi-supervisé;347;Evans-AlEl9Cr1Mo-1994;1;1;1.0
+CEM semi-supervisé;348;Evans-AlEl9Cr1Mo-1994;1;1;1.0
+CEM semi-supervisé;349;Evans-AlEl9Cr1Mo-1994;1;1;1.0
+CEM semi-supervisé;350;Evans-AlEl9Cr1Mo-1994;1;1;1.0
+CEM semi-supervisé;351;Evans-AlEl9Cr1Mo-1994;1;1;1.0
+CEM semi-supervisé;352;Evans-AlEl9Cr1Mo-1994;1;1;1.0
+CEM semi-supervisé;353;Evans-AlEl9Cr1Mo-1994;1;1;1.0
+CEM semi-supervisé;354;Kluket-CuMnB-1994;0;0;0.43508738967834903
+CEM semi-supervisé;355;Kluket-CuMnB-1994;1;1;0.5903012713751773
+CEM semi-supervisé;356;Kluket-CuMnB-1994;1;1;0.5042254386422695
+CEM semi-supervisé;357;Kluket-CuMnB-1994;1;1;0.6315697047625941
+CEM semi-supervisé;358;Kluket-CuMnB-1994;1;1;0.5587290827015507
+CEM semi-supervisé;359;Kluket-CuMnB-1994;1;1;0.5133822867281999
+CEM semi-supervisé;360;Kluket-CuMnB-1994;1;0;0.4393702325913714
+CEM semi-supervisé;361;Kluket-CuMnB-1994;1;0;0.4545710543591248
+CEM semi-supervisé;362;Kluket-CuMnB-1994;1;1;0.8214526179904794
+CEM semi-supervisé;363;Kluket-CuMnB-1994;1;1;0.9141754776070105
+CEM semi-supervisé;364;Kluket-CuMnB-1994;1;1;0.9815735032034295
+CEM semi-supervisé;365;Kluket-CuMnB-1994;1;1;0.9987683519539908
+CEM semi-supervisé;482;Ga&K-1975;1;0;0.012960979948447282
+CEM semi-supervisé;483;Ga&K-1975;1;0;0.03593350023289465
+CEM semi-supervisé;484;Ga&K-1975;1;0;0.024990155429450423
+CEM semi-supervisé;485;Ga&K-1975;1;0;0.0703418992208488
+CEM semi-supervisé;486;Ga&K-1975;0;0;0.06117654773208801
+CEM semi-supervisé;487;Ga&K-1975;1;0;0.07167919565288916
+CEM semi-supervisé;488;Ga&K-1975;1;0;0.03221082224499199
+CEM semi-supervisé;489;Ga&K-1975;1;0;0.03823000854382382
+CEM semi-supervisé;490;Ga&K-1975;1;0;0.10646990054785005
+CEM semi-supervisé;567;p22-RR8201;0;0;0.08094628610334052
+CEM semi-supervisé;568;p22-RR8201;0;0;0.08094628610334052
+CEM semi-supervisé;569;p23-RR8201;0;0;0.0689271042243154
+CEM semi-supervisé;570;p23-RR8201;0;0;0.0689271042243154
+CEM semi-supervisé;571;p24-RR8201;0;0;0.05315562700000477
+CEM semi-supervisé;572;p24-RR8201;0;0;0.05315562700000477
+CEM semi-supervisé;573;p25-RR8201;0;0;0.03648739094058648
+CEM semi-supervisé;574;p25-RR8201;0;0;0.03648739094058648
+CEM semi-supervisé;583;p29-RR8201;0;1;0.9990528146470213
+CEM semi-supervisé;584;p29-RR8201;0;1;0.9990528146470213
+CEM semi-supervisé;587;p31-RR8201;1;1;0.9999983738784217
+CEM semi-supervisé;588;p31-RR8201;1;1;0.9999983738784217
+CEM semi-supervisé;591;p33-RR8201;0;1;0.9964146482296493
+CEM semi-supervisé;592;p33-RR8201;0;1;0.9964146482296493
+CEM semi-supervisé;593;p34-RR8201;1;1;0.9999988645368204
+CEM semi-supervisé;594;p34-RR8201;1;1;0.9999988645368204
+CEM semi-supervisé;627;EvansLetterCo+3Ni;1;0;0.1435014241784462
+CEM semi-supervisé;628;EvansLetterCo+.25Mo;0;0;0.01555590334815056
+CEM semi-supervisé;630;EvansLetterCo+1Mo;1;0;0.21642946721848233
+CEM semi-supervisé;633;EvansLetterCo+2Cr;1;0;0.029522289057175247
+CEM semi-supervisé;637;EvansLetterC+;0;0;0.010459897117513049
+CEM semi-supervisé;638;EvansLetterC+1Ni;0;0;0.015228742389794889
+CEM semi-supervisé;639;EvansLetterC+2Ni;0;0;0.03450828638176274
+CEM semi-supervisé;642;EvansLetterC+.5Mo;1;0;0.02411949139304743
+CEM semi-supervisé;646;EvansLetterC+2Cr;1;0;0.021602767499528237

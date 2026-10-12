@@ -1,0 +1,13 @@
+﻿cible;modèle;Accuracy pondérée (CV);F1 (CV);gain apparié vs équipe;IC95 du gain
+Charpy conforme;Supervisé A (toutes les variables) : XGBoost (défaut);0.7703680502233986;0.9366664879216312;;
+Charpy conforme;Supervisé B (sélection forward) : XGBoost;0.873648769034211;0.95950100089512;;
+Charpy conforme;Semi-supervisé : Self-training classique;0.829164635632464;0.9473684210526315;0.10195283938581523;"[-0.056 ; +0.223]"
+Charpy conforme;Semi-supervisé : Self-training équilibré;0.8227821106507434;0.936;0.09557031440409458;"[-0.113 ; +0.227]"
+Charpy conforme;Semi-supervisé : Label spreading;0.7469382159395563;0.927461139896373;0.01972641969290756;"[-0.222 ; +0.212]"
+Charpy conforme;Semi-supervisé : CEM semi-supervisé;0.8497288569339507;0.9002849002849003;0.12251706068730195;"[-0.133 ; +0.297]"
+Profil de résistance;Supervisé A (toutes les variables) : Arbre;0.8480666815035293;0.7969532852224509;;
+Profil de résistance;Supervisé B (sélection forward) : Arbre;0.8473502093066471;0.7970868960396086;;
+Profil de résistance;Semi-supervisé : Self-training classique;0.847018643522983;0.8;0.0;"[+0.000 ; +0.000]"
+Profil de résistance;Semi-supervisé : Self-training équilibré;0.847018643522983;0.8;0.0;"[+0.000 ; +0.000]"
+Profil de résistance;Semi-supervisé : Label spreading;0.5733686917389906;0.3359375;-0.2736499517839923;"[-0.346 ; -0.191]"
+Profil de résistance;Semi-supervisé : CEM semi-supervisé;0.7354387656702025;0.6579634464751958;-0.11157987785278045;"[-0.212 ; -0.030]"

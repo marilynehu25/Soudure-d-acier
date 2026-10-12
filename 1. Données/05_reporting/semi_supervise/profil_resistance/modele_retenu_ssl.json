@@ -1,0 +1,487 @@
+{
+  "cible": "Profil de résistance",
+  "definition_cible": "profil de résistance : ACP (2 composantes) + K-means (2 groupes) sur les 4 propriétés de traction standardisées, appris sur le train — notebooks 4 et 5 ; 0 = modérée, 1 = élevée",
+  "type": "classification semi-supervisée",
+  "score_de_selection": "Accuracy_ponderee",
+  "regle_de_choix": "meilleure accuracy pondérée en CV imbriquée (hyperparamètres réglés) à 100 % des étiquettes ; utile si la borne basse de l'IC95 du gain apparié > 0",
+  "modele_retenu": "Self-training classique",
+  "famille": "Discriminante (self-training)",
+  "hyperparametres_retenu": {
+    "base_estimator": "deprecated",
+    "criterion": "threshold",
+    "k_best": 10,
+    "max_iter": 10,
+    "threshold": 0.7,
+    "verbose": false,
+    "modele_de_base": "Arbre"
+  },
+  "hyperparametres_regles_retenu": {
+    "threshold": 0.7
+  },
+  "reglage": "validation croisée imbriquée : 5 plis externes (évaluation) x 3 plis internes (réglage), groupés par publication",
+  "grilles": {
+    "Self-training classique": [
+      {
+        "threshold": 0.7
+      },
+      {
+        "threshold": 0.8
+      },
+      {
+        "threshold": 0.9
+      },
+      {
+        "threshold": 0.95
+      }
+    ],
+    "Self-training équilibré": [
+      {
+        "seuil": 0.6,
+        "part_par_iter": 0.05
+      },
+      {
+        "seuil": 0.6,
+        "part_par_iter": 0.1
+      },
+      {
+        "seuil": 0.7,
+        "part_par_iter": 0.05
+      },
+      {
+        "seuil": 0.7,
+        "part_par_iter": 0.1
+      },
+      {
+        "seuil": 0.8,
+        "part_par_iter": 0.05
+      },
+      {
+        "seuil": 0.8,
+        "part_par_iter": 0.1
+      },
+      {
+        "seuil": 0.9,
+        "part_par_iter": 0.05
+      },
+      {
+        "seuil": 0.9,
+        "part_par_iter": 0.1
+      }
+    ],
+    "Label spreading": [
+      {
+        "n_neighbors": 5,
+        "alpha": 0.1
+      },
+      {
+        "n_neighbors": 5,
+        "alpha": 0.2
+      },
+      {
+        "n_neighbors": 5,
+        "alpha": 0.5
+      },
+      {
+        "n_neighbors": 5,
+        "alpha": 0.8
+      },
+      {
+        "n_neighbors": 10,
+        "alpha": 0.1
+      },
+      {
+        "n_neighbors": 10,
+        "alpha": 0.2
+      },
+      {
+        "n_neighbors": 10,
+        "alpha": 0.5
+      },
+      {
+        "n_neighbors": 10,
+        "alpha": 0.8
+      },
+      {
+        "n_neighbors": 15,
+        "alpha": 0.1
+      },
+      {
+        "n_neighbors": 15,
+        "alpha": 0.2
+      },
+      {
+        "n_neighbors": 15,
+        "alpha": 0.5
+      },
+      {
+        "n_neighbors": 15,
+        "alpha": 0.8
+      },
+      {
+        "n_neighbors": 25,
+        "alpha": 0.1
+      },
+      {
+        "n_neighbors": 25,
+        "alpha": 0.2
+      },
+      {
+        "n_neighbors": 25,
+        "alpha": 0.5
+      },
+      {
+        "n_neighbors": 25,
+        "alpha": 0.8
+      }
+    ],
+    "CEM semi-supervisé": [
+      {
+        "pca__n_components": 5
+      },
+      {
+        "pca__n_components": 10
+      },
+      {
+        "pca__n_components": 15
+      }
+    ]
+  },
+  "modele_equipe": {
+    "nom": "Arbre",
+    "hyperparametres": {
+      "max_depth": 2,
+      "min_samples_leaf": 20
+    },
+    "source": "../1. Données/05_reporting/profil_resistance/A_sans_selection/modele_retenu.json"
+  },
+  "gain_cv_vs_modele_equipe": {
+    "gain": 0.0,
+    "IC95_bas": 0.0,
+    "IC95_haut": 0.0,
+    "P(gain > 0)": 0.0
+  },
+  "gain_significatif": false,
+  "score_cv_imbriquee": {
+    "Arbre (supervisé, retenu par l'équipe)": {
+      "Accuracy": 0.858508604206501,
+      "Accuracy_ponderee": 0.847018643522983,
+      "F1": 0.8,
+      "Precision": 0.7914438502673797,
+      "Recall": 0.8087431693989071,
+      "ROC_AUC": 0.8479427836708453,
+      "LogLoss": 0.3954865731034514,
+      "F1_classe_0": 0.8905325443786982,
+      "F1_macro": 0.8452662721893491
+    },
+    "Self-training classique": {
+      "Accuracy": 0.858508604206501,
+      "Accuracy_ponderee": 0.847018643522983,
+      "F1": 0.8,
+      "Precision": 0.7914438502673797,
+      "Recall": 0.8087431693989071,
+      "ROC_AUC": 0.8510768241722919,
+      "LogLoss": 0.464378414338713,
+      "F1_classe_0": 0.8905325443786982,
+      "F1_macro": 0.8452662721893491
+    },
+    "Self-training équilibré": {
+      "Accuracy": 0.858508604206501,
+      "Accuracy_ponderee": 0.847018643522983,
+      "F1": 0.8,
+      "Precision": 0.7914438502673797,
+      "Recall": 0.8087431693989071,
+      "ROC_AUC": 0.8482642237222757,
+      "LogLoss": 0.4138372336752685,
+      "F1_classe_0": 0.8905325443786982,
+      "F1_macro": 0.8452662721893491
+    },
+    "Label spreading": {
+      "Accuracy": 0.6749521988527725,
+      "Accuracy_ponderee": 0.5733686917389906,
+      "F1": 0.3359375,
+      "Precision": 0.589041095890411,
+      "Recall": 0.23497267759562843,
+      "ROC_AUC": 0.6338717454194793,
+      "LogLoss": 2.5373066430797935,
+      "F1_classe_0": 0.7848101265822784,
+      "F1_macro": 0.5603738132911392
+    },
+    "CEM semi-supervisé": {
+      "Accuracy": 0.7495219885277247,
+      "Accuracy_ponderee": 0.7354387656702025,
+      "F1": 0.6579634464751958,
+      "Precision": 0.63,
+      "Recall": 0.6885245901639344,
+      "ROC_AUC": 0.7715204114432659,
+      "LogLoss": 2.353871344238019,
+      "F1_classe_0": 0.8024132730015083,
+      "F1_macro": 0.730188359738352
+    }
+  },
+  "ic95_cv_imbriquee": {
+    "Arbre (supervisé, retenu par l'équipe)": [
+      0.7875573207673293,
+      0.8909823882318704
+    ],
+    "Self-training classique": [
+      0.7875573207673293,
+      0.8909823882318704
+    ],
+    "Self-training équilibré": [
+      0.7875573207673293,
+      0.8909823882318704
+    ],
+    "Label spreading": [
+      0.5091968984897098,
+      0.650005690336546
+    ],
+    "CEM semi-supervisé": [
+      0.6382091097308489,
+      0.8016863549671938
+    ]
+  },
+  "gains_cv_imbriquee": {
+    "Self-training classique": {
+      "gain": 0.0,
+      "IC95_bas": 0.0,
+      "IC95_haut": 0.0,
+      "P(gain > 0)": 0.0
+    },
+    "Self-training équilibré": {
+      "gain": 0.0,
+      "IC95_bas": 0.0,
+      "IC95_haut": 0.0,
+      "P(gain > 0)": 0.0
+    },
+    "Label spreading": {
+      "gain": -0.2736499517839923,
+      "IC95_bas": -0.34607129100376244,
+      "IC95_haut": -0.19108391911427736,
+      "P(gain > 0)": 0.0
+    },
+    "CEM semi-supervisé": {
+      "gain": -0.11157987785278045,
+      "IC95_bas": -0.211667169732287,
+      "IC95_haut": -0.02968628622941842,
+      "P(gain > 0)": 0.002
+    }
+  },
+  "score_cv_sans_reglage": {
+    "Arbre (supervisé, retenu par l'équipe)": {
+      "Accuracy_ponderee": 0.847018643522983,
+      "F1": 0.8,
+      "F1_classe_0": 0.8905325443786982,
+      "F1_macro": 0.8452662721893491,
+      "Recall": 0.8087431693989071,
+      "ROC_AUC": 0.8479427836708453
+    },
+    "Self-training classique": {
+      "Accuracy_ponderee": 0.7984570877531341,
+      "F1": 0.7430340557275542,
+      "F1_classe_0": 0.8852005532503457,
+      "F1_macro": 0.81411730448895,
+      "Recall": 0.6557377049180327,
+      "ROC_AUC": 0.8332288653166184
+    },
+    "Self-training équilibré": {
+      "Accuracy_ponderee": 0.847018643522983,
+      "F1": 0.8,
+      "F1_classe_0": 0.8905325443786982,
+      "F1_macro": 0.8452662721893491,
+      "Recall": 0.8087431693989071,
+      "ROC_AUC": 0.8532947605271617
+    },
+    "Label spreading": {
+      "Accuracy_ponderee": 0.5918756027000964,
+      "F1": 0.410958904109589,
+      "F1_classe_0": 0.7718832891246684,
+      "F1_macro": 0.5914210966171287,
+      "Recall": 0.32786885245901637,
+      "ROC_AUC": 0.7218820315011251
+    },
+    "CEM semi-supervisé": {
+      "Accuracy_ponderee": 0.7154773384763742,
+      "F1": 0.634020618556701,
+      "F1_classe_0": 0.78419452887538,
+      "F1_macro": 0.7091075737160405,
+      "Recall": 0.6721311475409836,
+      "ROC_AUC": 0.7455962712954032
+    }
+  },
+  "hyperparametres_toutes_methodes": {
+    "Arbre (supervisé, retenu par l'équipe)": {
+      "ccp_alpha": 0.0,
+      "class_weight": "balanced",
+      "criterion": "gini",
+      "max_depth": 2,
+      "max_features": null,
+      "max_leaf_nodes": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 20,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "random_state": 42,
+      "splitter": "best"
+    },
+    "Self-training classique": {
+      "base_estimator": "deprecated",
+      "criterion": "threshold",
+      "k_best": 10,
+      "max_iter": 10,
+      "threshold": 0.7,
+      "verbose": false,
+      "modele_de_base": "Arbre"
+    },
+    "Self-training équilibré": {
+      "max_iter": 10,
+      "part_par_iter": 0.05,
+      "seuil": 0.6,
+      "modele_de_base": "Arbre"
+    },
+    "Label spreading": {
+      "alpha": 0.1,
+      "gamma": 20,
+      "kernel": "knn",
+      "max_iter": 200,
+      "n_jobs": null,
+      "n_neighbors": 25,
+      "tol": 0.001
+    },
+    "CEM semi-supervisé": {
+      "pca__copy": true,
+      "pca__iterated_power": "auto",
+      "pca__n_components": 5,
+      "pca__n_oversamples": 10,
+      "pca__power_iteration_normalizer": "auto",
+      "pca__random_state": 42,
+      "pca__svd_solver": "auto",
+      "pca__tol": 0.0,
+      "pca__whiten": false,
+      "semisupervisedcem__covariance_type": "diag",
+      "semisupervisedcem__max_iter": 50,
+      "semisupervisedcem__reg": 0.001
+    }
+  },
+  "score_test": {
+    "Self-training classique": {
+      "Accuracy": 0.8267716535433071,
+      "Accuracy_ponderee": 0.8461117196056955,
+      "F1": 0.7843137254901961,
+      "Precision": 0.6896551724137931,
+      "Recall": 0.9090909090909091,
+      "ROC_AUC": 0.9071741511500547,
+      "LogLoss": 0.44597640463585203,
+      "F1_classe_0": 0.8552631578947368,
+      "F1_macro": 0.8197884416924665,
+      "Accuracy_ponderee IC95 bas": 0.7176519948406765,
+      "Accuracy_ponderee IC95 haut": 0.9200889502355086
+    },
+    "Arbre (supervisé, retenu par l'équipe)": {
+      "Accuracy": 0.8267716535433071,
+      "Accuracy_ponderee": 0.8461117196056955,
+      "F1": 0.7843137254901961,
+      "Precision": 0.6896551724137931,
+      "Recall": 0.9090909090909091,
+      "ROC_AUC": 0.9071741511500547,
+      "LogLoss": 0.38258138313394585,
+      "F1_classe_0": 0.8552631578947368,
+      "F1_macro": 0.8197884416924665,
+      "Accuracy_ponderee IC95 bas": 0.7176519948406765,
+      "Accuracy_ponderee IC95 haut": 0.9200889502355086
+    },
+    "Self-training équilibré": {
+      "Accuracy": 0.8267716535433071,
+      "Accuracy_ponderee": 0.8461117196056955,
+      "F1": 0.7843137254901961,
+      "Precision": 0.6896551724137931,
+      "Recall": 0.9090909090909091,
+      "ROC_AUC": 0.9071741511500547,
+      "LogLoss": 0.3754726333100898,
+      "F1_classe_0": 0.8552631578947368,
+      "F1_macro": 0.8197884416924665,
+      "Accuracy_ponderee IC95 bas": 0.7176519948406765,
+      "Accuracy_ponderee IC95 haut": 0.9200889502355086
+    },
+    "Label spreading": {
+      "Accuracy": 0.8976377952755905,
+      "Accuracy_ponderee": 0.8522727272727273,
+      "F1": 0.8266666666666667,
+      "Precision": 1.0,
+      "Recall": 0.7045454545454546,
+      "ROC_AUC": 0.9608433734939759,
+      "LogLoss": 0.2720837032812312,
+      "F1_classe_0": 0.9273743016759777,
+      "F1_macro": 0.8770204841713222,
+      "Accuracy_ponderee IC95 bas": 0.6303977272727272,
+      "Accuracy_ponderee IC95 haut": 0.9510096153846153
+    },
+    "CEM semi-supervisé": {
+      "Accuracy": 0.8267716535433071,
+      "Accuracy_ponderee": 0.7713581599123768,
+      "F1": 0.7027027027027027,
+      "Precision": 0.8666666666666667,
+      "Recall": 0.5909090909090909,
+      "ROC_AUC": 0.9189485213581599,
+      "LogLoss": 0.6194184099611394,
+      "F1_classe_0": 0.8777777777777778,
+      "F1_macro": 0.7902402402402402,
+      "Accuracy_ponderee IC95 bas": 0.5148579545454546,
+      "Accuracy_ponderee IC95 haut": 0.8903920914122063
+    }
+  },
+  "recommandation": "Arbre supervisé (notebook 5) : aucun gain semi-supervisé significatif en CV",
+  "n_etiquetees_train": 523,
+  "n_etiquetees_test": 127,
+  "n_non_etiquetees": 873,
+  "n_non_etiquetees_exclues_test": 115,
+  "variables_utilisees": [
+    "Carbon concentration",
+    "Silicon concentration",
+    "Manganese concentration",
+    "Sulphur concentration",
+    "Phosphorus concentration",
+    "Nickel concentration",
+    "Chromium concentration",
+    "Molybdenum concentration",
+    "Vanadium concentration",
+    "Copper concentration",
+    "Oxygen concentration",
+    "Titanium concentration",
+    "Nitrogen concentration",
+    "Aluminium concentration",
+    "Boron concentration",
+    "Niobium concentration",
+    "Current",
+    "Voltage",
+    "AC or DC",
+    "Electrode positive or negative",
+    "Heat input",
+    "Interpass temperature",
+    "Type of weld",
+    "Post weld heat treatment temperature",
+    "Post weld heat treatment time",
+    "CE_IIW",
+    "courant"
+  ],
+  "verification_hypotheses": {
+    "part de U issue de publications étiquetées": 0.5670103092783505,
+    "accord attendu par hasard": 0.5450573796562704,
+    "accord avec les 5 plus proches voisins": 0.8198852772466539,
+    "accord avec les 5 plus proches voisins d'AUTRES publications": 0.7177820267686424,
+    "distance médiane test -> étiquetée la plus proche": 1.275224715604149,
+    "distance médiane test -> soudure la plus proche (étiquetée ou non)": 1.2255929382418589,
+    "part du test dont la plus proche voisine est NON étiquetée": 0.28346456692913385
+  },
+  "RANDOM_STATE": 42,
+  "N_FOLDS": 5,
+  "FRACTIONS": [
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "N_TIRAGES": 3,
+  "N_BOOT": 500,
+  "split": "../1. Données/05_reporting/profil_resistance/split_train_test.csv"
+}

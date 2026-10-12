@@ -7,3 +7,5 @@ seaborn
 plotly
 chart-studio
 nbformat
+xgboost
+lightgbm

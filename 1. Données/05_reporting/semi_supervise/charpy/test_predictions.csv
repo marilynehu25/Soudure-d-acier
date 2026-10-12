@@ -1,0 +1,541 @@
+﻿methode;position_dans_d;groupe;y;y_pred;proba
+CEM semi-supervisé;15;Evans-AlTi-1994;0;1;0.998214260104392
+CEM semi-supervisé;16;Evans-AlTi-1994;0;1;0.998214260104392
+CEM semi-supervisé;17;Evans-AlTi-1994;0;1;0.998214260104392
+CEM semi-supervisé;18;Evans-AlTi-1994;0;1;0.9977686001068006
+CEM semi-supervisé;19;Evans-AlTi-1994;0;1;0.9977686001068006
+CEM semi-supervisé;20;Evans-AlTi-1994;0;1;0.9977686001068006
+CEM semi-supervisé;21;Evans-AlTi-1994;1;1;0.9967135194694943
+CEM semi-supervisé;22;Evans-AlTi-1994;1;1;0.9967135194694943
+CEM semi-supervisé;23;Evans-AlTi-1994;1;1;0.9967135194694943
+CEM semi-supervisé;24;Evans-AlTi-1994;1;1;0.9877160677041766
+CEM semi-supervisé;25;Evans-AlTi-1994;1;1;0.9877160677041766
+CEM semi-supervisé;26;Evans-AlTi-1994;1;1;0.9877160677041766
+CEM semi-supervisé;27;Evans-AlTi-1994;1;1;0.8106431918158287
+CEM semi-supervisé;28;Evans-AlTi-1994;1;1;0.8106431918158287
+CEM semi-supervisé;29;Evans-AlTi-1994;1;1;0.8106431918158287
+CEM semi-supervisé;30;Evans-AlTi-1994;1;0;0.012888313744049107
+CEM semi-supervisé;31;Evans-AlTi-1994;1;0;0.012888313744049107
+CEM semi-supervisé;32;Evans-AlTi-1994;1;0;0.012888313744049107
+CEM semi-supervisé;33;Evans-AlTi-1994;1;1;0.9981891194764584
+CEM semi-supervisé;34;Evans-AlTi-1994;1;1;0.9981891194764584
+CEM semi-supervisé;35;Evans-AlTi-1994;1;1;0.9981891194764584
+CEM semi-supervisé;36;Evans-AlTi-1994;1;1;0.996709702175119
+CEM semi-supervisé;37;Evans-AlTi-1994;1;1;0.996709702175119
+CEM semi-supervisé;38;Evans-AlTi-1994;1;1;0.996709702175119
+CEM semi-supervisé;39;Evans-AlTi-1994;1;1;0.9914077496969567
+CEM semi-supervisé;40;Evans-AlTi-1994;1;1;0.9914077496969567
+CEM semi-supervisé;41;Evans-AlTi-1994;1;1;0.9914077496969567
+CEM semi-supervisé;42;Evans-AlTi-1994;1;1;0.9090962683364827
+CEM semi-supervisé;43;Evans-AlTi-1994;1;1;0.9090962683364827
+CEM semi-supervisé;44;Evans-AlTi-1994;1;1;0.9090962683364827
+CEM semi-supervisé;45;Evans-AlTi-1994;1;0;0.17457339898503524
+CEM semi-supervisé;46;Evans-AlTi-1994;1;0;0.17457339898503524
+CEM semi-supervisé;47;Evans-AlTi-1994;1;0;0.17457339898503524
+CEM semi-supervisé;48;Evans-AlTi-1994;1;0;0.003819697682696781
+CEM semi-supervisé;49;Evans-AlTi-1994;1;0;0.003819697682696781
+CEM semi-supervisé;50;Evans-AlTi-1994;1;0;0.003819697682696781
+CEM semi-supervisé;51;Evans-AlTi-1994;1;1;0.9966346901403653
+CEM semi-supervisé;52;Evans-AlTi-1994;1;1;0.9966346901403653
+CEM semi-supervisé;53;Evans-AlTi-1994;1;1;0.9971815820869994
+CEM semi-supervisé;54;Evans-AlTi-1994;1;1;0.9971815820869994
+CEM semi-supervisé;55;Evans-AlTi-1994;1;1;0.9833740676560996
+CEM semi-supervisé;56;Evans-AlTi-1994;1;1;0.9833740676560996
+CEM semi-supervisé;57;Evans-AlTi-1994;1;1;0.9112336305187223
+CEM semi-supervisé;58;Evans-AlTi-1994;1;1;0.9112336305187223
+CEM semi-supervisé;59;Evans-AlTi-1994;1;0;0.07259238155950813
+CEM semi-supervisé;60;Evans-AlTi-1994;1;0;0.07259238155950813
+CEM semi-supervisé;61;Evans-AlTi-1994;1;0;0.00017815735764623063
+CEM semi-supervisé;62;Evans-AlTi-1994;1;0;0.00017815735764623063
+CEM semi-supervisé;63;Evans-AlTi-1994;1;1;0.9868645750121979
+CEM semi-supervisé;64;Evans-AlTi-1994;1;1;0.9868645750121979
+CEM semi-supervisé;65;Evans-AlTi-1994;1;1;0.9868645750121979
+CEM semi-supervisé;66;Evans-AlTi-1994;1;1;0.9948859750120457
+CEM semi-supervisé;67;Evans-AlTi-1994;1;1;0.9948859750120457
+CEM semi-supervisé;68;Evans-AlTi-1994;1;1;0.9948859750120457
+CEM semi-supervisé;69;Evans-AlTi-1994;1;1;0.9665021811171806
+CEM semi-supervisé;70;Evans-AlTi-1994;1;1;0.9665021811171806
+CEM semi-supervisé;71;Evans-AlTi-1994;1;1;0.9665021811171806
+CEM semi-supervisé;72;Evans-AlTi-1994;1;0;0.06023953943435846
+CEM semi-supervisé;73;Evans-AlTi-1994;1;0;0.06023953943435846
+CEM semi-supervisé;74;Evans-AlTi-1994;1;0;0.06023953943435846
+CEM semi-supervisé;75;Evans-AlTi-1994;1;0;0.0026758245085321515
+CEM semi-supervisé;76;Evans-AlTi-1994;1;0;0.0026758245085321515
+CEM semi-supervisé;77;Evans-AlTi-1994;1;0;0.0026758245085321515
+CEM semi-supervisé;78;Evans-AlTi-1994;1;0;8.001029739452068e-06
+CEM semi-supervisé;79;Evans-AlTi-1994;1;0;8.001029739452068e-06
+CEM semi-supervisé;80;Evans-AlTi-1994;1;0;8.001029739452068e-06
+CEM semi-supervisé;81;Evans-AlTi-1994;1;0;0.01910875609381507
+CEM semi-supervisé;82;Evans-AlTi-1994;1;0;0.01910875609381507
+CEM semi-supervisé;83;Evans-AlTi-1994;1;0;0.01910875609381507
+CEM semi-supervisé;84;Evans-AlTi-1994;1;0;0.046228753098449024
+CEM semi-supervisé;85;Evans-AlTi-1994;1;0;0.046228753098449024
+CEM semi-supervisé;86;Evans-AlTi-1994;1;0;0.046228753098449024
+CEM semi-supervisé;87;Evans-AlTi-1994;1;0;0.020160655415385472
+CEM semi-supervisé;88;Evans-AlTi-1994;1;0;0.020160655415385472
+CEM semi-supervisé;89;Evans-AlTi-1994;1;0;0.020160655415385472
+CEM semi-supervisé;90;Evans-AlTi-1994;1;0;6.236047972546158e-06
+CEM semi-supervisé;91;Evans-AlTi-1994;1;0;6.236047972546158e-06
+CEM semi-supervisé;92;Evans-AlTi-1994;1;0;6.236047972546158e-06
+CEM semi-supervisé;93;Evans-AlTi-1994;1;0;5.3102323490363846e-08
+CEM semi-supervisé;94;Evans-AlTi-1994;1;0;5.3102323490363846e-08
+CEM semi-supervisé;95;Evans-AlTi-1994;1;0;5.3102323490363846e-08
+CEM semi-supervisé;96;Evans-AlTi-1994;1;0;2.6334245590455525e-09
+CEM semi-supervisé;97;Evans-AlTi-1994;1;0;2.6334245590455525e-09
+CEM semi-supervisé;98;Evans-AlTi-1994;1;0;2.6334245590455525e-09
+CEM semi-supervisé;422;EvHtIp1979;1;1;0.998160514940351
+CEM semi-supervisé;423;EvHtIp1979;1;1;0.998229203744979
+CEM semi-supervisé;424;EvHtIp1979;1;1;0.9979514187216773
+CEM semi-supervisé;425;EvHtIp1979;1;1;0.998203765115933
+CEM semi-supervisé;426;EvHtIp1979;1;1;0.9981204129847471
+CEM semi-supervisé;427;EvHtIp1979;1;1;0.9966995020313923
+CEM semi-supervisé;428;EvHtIp1979;1;1;0.9974179306875761
+CEM semi-supervisé;436;PantK-1990;0;0;2.1083782990637562e-22
+CEM semi-supervisé;437;PantK-1990;0;0;2.1083782990637562e-22
+CEM semi-supervisé;438;PantK-1990;0;0;2.1083782990637562e-22
+CEM semi-supervisé;439;PantK-1990;0;0;4.914999870893839e-24
+CEM semi-supervisé;440;PantK-1990;0;0;4.914999870893839e-24
+CEM semi-supervisé;441;PantK-1990;0;0;3.109990926169295e-34
+CEM semi-supervisé;442;PantK-1990;0;0;3.109990926169295e-34
+CEM semi-supervisé;443;PantK-1990;0;0;1.4792180508548775e-33
+CEM semi-supervisé;444;PantK-1990;0;0;1.4792180508548775e-33
+CEM semi-supervisé;445;Chandel&-1985;1;0;0.0058078190781456485
+CEM semi-supervisé;446;Chandel&-1985;0;0;0.07271801645300285
+CEM semi-supervisé;447;Chandel&-1985;0;0;0.07271801645300285
+CEM semi-supervisé;448;Chandel&-1985;1;0;0.004445024131847215
+CEM semi-supervisé;449;Chandel&-1985;1;0;0.004445024131847215
+CEM semi-supervisé;450;Chandel&-1985;1;0;0.0020902688497100486
+CEM semi-supervisé;463;Blond&-1984;1;1;0.7267377439356351
+CEM semi-supervisé;565;EvansLetterC+.5Moch1;1;1;0.9965813021499784
+XGBoost (défaut) (supervisé, retenu par l'équipe);15;Evans-AlTi-1994;0;1;0.9997221827507019
+XGBoost (défaut) (supervisé, retenu par l'équipe);16;Evans-AlTi-1994;0;1;0.9997221827507019
+XGBoost (défaut) (supervisé, retenu par l'équipe);17;Evans-AlTi-1994;0;1;0.9997221827507019
+XGBoost (défaut) (supervisé, retenu par l'équipe);18;Evans-AlTi-1994;0;1;0.9996052384376526
+XGBoost (défaut) (supervisé, retenu par l'équipe);19;Evans-AlTi-1994;0;1;0.9996052384376526
+XGBoost (défaut) (supervisé, retenu par l'équipe);20;Evans-AlTi-1994;0;1;0.9996052384376526
+XGBoost (défaut) (supervisé, retenu par l'équipe);21;Evans-AlTi-1994;1;1;0.9995972514152527
+XGBoost (défaut) (supervisé, retenu par l'équipe);22;Evans-AlTi-1994;1;1;0.9995972514152527
+XGBoost (défaut) (supervisé, retenu par l'équipe);23;Evans-AlTi-1994;1;1;0.9995972514152527
+XGBoost (défaut) (supervisé, retenu par l'équipe);24;Evans-AlTi-1994;1;1;0.9998573064804077
+XGBoost (défaut) (supervisé, retenu par l'équipe);25;Evans-AlTi-1994;1;1;0.9998573064804077
+XGBoost (défaut) (supervisé, retenu par l'équipe);26;Evans-AlTi-1994;1;1;0.9998573064804077
+XGBoost (défaut) (supervisé, retenu par l'équipe);27;Evans-AlTi-1994;1;1;0.9996620416641235
+XGBoost (défaut) (supervisé, retenu par l'équipe);28;Evans-AlTi-1994;1;1;0.9996620416641235
+XGBoost (défaut) (supervisé, retenu par l'équipe);29;Evans-AlTi-1994;1;1;0.9996620416641235
+XGBoost (défaut) (supervisé, retenu par l'équipe);30;Evans-AlTi-1994;1;1;0.9998462200164795
+XGBoost (défaut) (supervisé, retenu par l'équipe);31;Evans-AlTi-1994;1;1;0.9998462200164795
+XGBoost (défaut) (supervisé, retenu par l'équipe);32;Evans-AlTi-1994;1;1;0.9998462200164795
+XGBoost (défaut) (supervisé, retenu par l'équipe);33;Evans-AlTi-1994;1;1;0.9998713731765747
+XGBoost (défaut) (supervisé, retenu par l'équipe);34;Evans-AlTi-1994;1;1;0.9998713731765747
+XGBoost (défaut) (supervisé, retenu par l'équipe);35;Evans-AlTi-1994;1;1;0.9998713731765747
+XGBoost (défaut) (supervisé, retenu par l'équipe);36;Evans-AlTi-1994;1;1;0.9999086856842041
+XGBoost (défaut) (supervisé, retenu par l'équipe);37;Evans-AlTi-1994;1;1;0.9999086856842041
+XGBoost (défaut) (supervisé, retenu par l'équipe);38;Evans-AlTi-1994;1;1;0.9999086856842041
+XGBoost (défaut) (supervisé, retenu par l'équipe);39;Evans-AlTi-1994;1;1;0.9998931884765625
+XGBoost (défaut) (supervisé, retenu par l'équipe);40;Evans-AlTi-1994;1;1;0.9998931884765625
+XGBoost (défaut) (supervisé, retenu par l'équipe);41;Evans-AlTi-1994;1;1;0.9998931884765625
+XGBoost (défaut) (supervisé, retenu par l'équipe);42;Evans-AlTi-1994;1;1;0.9996046423912048
+XGBoost (défaut) (supervisé, retenu par l'équipe);43;Evans-AlTi-1994;1;1;0.9996046423912048
+XGBoost (défaut) (supervisé, retenu par l'équipe);44;Evans-AlTi-1994;1;1;0.9996046423912048
+XGBoost (défaut) (supervisé, retenu par l'équipe);45;Evans-AlTi-1994;1;1;0.9995576739311218
+XGBoost (défaut) (supervisé, retenu par l'équipe);46;Evans-AlTi-1994;1;1;0.9995576739311218
+XGBoost (défaut) (supervisé, retenu par l'équipe);47;Evans-AlTi-1994;1;1;0.9995576739311218
+XGBoost (défaut) (supervisé, retenu par l'équipe);48;Evans-AlTi-1994;1;1;0.9995576739311218
+XGBoost (défaut) (supervisé, retenu par l'équipe);49;Evans-AlTi-1994;1;1;0.9995576739311218
+XGBoost (défaut) (supervisé, retenu par l'équipe);50;Evans-AlTi-1994;1;1;0.9995576739311218
+XGBoost (défaut) (supervisé, retenu par l'équipe);51;Evans-AlTi-1994;1;1;0.9998923540115356
+XGBoost (défaut) (supervisé, retenu par l'équipe);52;Evans-AlTi-1994;1;1;0.9998923540115356
+XGBoost (défaut) (supervisé, retenu par l'équipe);53;Evans-AlTi-1994;1;1;0.9997618794441223
+XGBoost (défaut) (supervisé, retenu par l'équipe);54;Evans-AlTi-1994;1;1;0.9997618794441223
+XGBoost (défaut) (supervisé, retenu par l'équipe);55;Evans-AlTi-1994;1;1;0.9998694658279419
+XGBoost (défaut) (supervisé, retenu par l'équipe);56;Evans-AlTi-1994;1;1;0.9998694658279419
+XGBoost (défaut) (supervisé, retenu par l'équipe);57;Evans-AlTi-1994;1;1;0.9995576739311218
+XGBoost (défaut) (supervisé, retenu par l'équipe);58;Evans-AlTi-1994;1;1;0.9995576739311218
+XGBoost (défaut) (supervisé, retenu par l'équipe);59;Evans-AlTi-1994;1;1;0.9995576739311218
+XGBoost (défaut) (supervisé, retenu par l'équipe);60;Evans-AlTi-1994;1;1;0.9995576739311218
+XGBoost (défaut) (supervisé, retenu par l'équipe);61;Evans-AlTi-1994;1;1;0.9996218681335449
+XGBoost (défaut) (supervisé, retenu par l'équipe);62;Evans-AlTi-1994;1;1;0.9996218681335449
+XGBoost (défaut) (supervisé, retenu par l'équipe);63;Evans-AlTi-1994;1;1;0.9998458623886108
+XGBoost (défaut) (supervisé, retenu par l'équipe);64;Evans-AlTi-1994;1;1;0.9998458623886108
+XGBoost (défaut) (supervisé, retenu par l'équipe);65;Evans-AlTi-1994;1;1;0.9998458623886108
+XGBoost (défaut) (supervisé, retenu par l'équipe);66;Evans-AlTi-1994;1;1;0.9997383952140808
+XGBoost (défaut) (supervisé, retenu par l'équipe);67;Evans-AlTi-1994;1;1;0.9997383952140808
+XGBoost (défaut) (supervisé, retenu par l'équipe);68;Evans-AlTi-1994;1;1;0.9997383952140808
+XGBoost (défaut) (supervisé, retenu par l'équipe);69;Evans-AlTi-1994;1;1;0.9998502731323242
+XGBoost (défaut) (supervisé, retenu par l'équipe);70;Evans-AlTi-1994;1;1;0.9998502731323242
+XGBoost (défaut) (supervisé, retenu par l'équipe);71;Evans-AlTi-1994;1;1;0.9998502731323242
+XGBoost (défaut) (supervisé, retenu par l'équipe);72;Evans-AlTi-1994;1;1;0.999704897403717
+XGBoost (défaut) (supervisé, retenu par l'équipe);73;Evans-AlTi-1994;1;1;0.999704897403717
+XGBoost (défaut) (supervisé, retenu par l'équipe);74;Evans-AlTi-1994;1;1;0.999704897403717
+XGBoost (défaut) (supervisé, retenu par l'équipe);75;Evans-AlTi-1994;1;1;0.9989385008811951
+XGBoost (défaut) (supervisé, retenu par l'équipe);76;Evans-AlTi-1994;1;1;0.9989385008811951
+XGBoost (défaut) (supervisé, retenu par l'équipe);77;Evans-AlTi-1994;1;1;0.9989385008811951
+XGBoost (défaut) (supervisé, retenu par l'équipe);78;Evans-AlTi-1994;1;1;0.9994457364082336
+XGBoost (défaut) (supervisé, retenu par l'équipe);79;Evans-AlTi-1994;1;1;0.9994457364082336
+XGBoost (défaut) (supervisé, retenu par l'équipe);80;Evans-AlTi-1994;1;1;0.9994457364082336
+XGBoost (défaut) (supervisé, retenu par l'équipe);81;Evans-AlTi-1994;1;1;0.9997010827064514
+XGBoost (défaut) (supervisé, retenu par l'équipe);82;Evans-AlTi-1994;1;1;0.9997010827064514
+XGBoost (défaut) (supervisé, retenu par l'équipe);83;Evans-AlTi-1994;1;1;0.9997010827064514
+XGBoost (défaut) (supervisé, retenu par l'équipe);84;Evans-AlTi-1994;1;1;0.9889233708381653
+XGBoost (défaut) (supervisé, retenu par l'équipe);85;Evans-AlTi-1994;1;1;0.9889233708381653
+XGBoost (défaut) (supervisé, retenu par l'équipe);86;Evans-AlTi-1994;1;1;0.9889233708381653
+XGBoost (défaut) (supervisé, retenu par l'équipe);87;Evans-AlTi-1994;1;1;0.9993532299995422
+XGBoost (défaut) (supervisé, retenu par l'équipe);88;Evans-AlTi-1994;1;1;0.9993532299995422
+XGBoost (défaut) (supervisé, retenu par l'équipe);89;Evans-AlTi-1994;1;1;0.9993532299995422
+XGBoost (défaut) (supervisé, retenu par l'équipe);90;Evans-AlTi-1994;1;1;0.9965848922729492
+XGBoost (défaut) (supervisé, retenu par l'équipe);91;Evans-AlTi-1994;1;1;0.9965848922729492
+XGBoost (défaut) (supervisé, retenu par l'équipe);92;Evans-AlTi-1994;1;1;0.9965848922729492
+XGBoost (défaut) (supervisé, retenu par l'équipe);93;Evans-AlTi-1994;1;1;0.9989385008811951
+XGBoost (défaut) (supervisé, retenu par l'équipe);94;Evans-AlTi-1994;1;1;0.9989385008811951
+XGBoost (défaut) (supervisé, retenu par l'équipe);95;Evans-AlTi-1994;1;1;0.9989385008811951
+XGBoost (défaut) (supervisé, retenu par l'équipe);96;Evans-AlTi-1994;1;1;0.9989385008811951
+XGBoost (défaut) (supervisé, retenu par l'équipe);97;Evans-AlTi-1994;1;1;0.9989385008811951
+XGBoost (défaut) (supervisé, retenu par l'équipe);98;Evans-AlTi-1994;1;1;0.9989385008811951
+XGBoost (défaut) (supervisé, retenu par l'équipe);422;EvHtIp1979;1;1;0.9998258948326111
+XGBoost (défaut) (supervisé, retenu par l'équipe);423;EvHtIp1979;1;1;0.9999382495880127
+XGBoost (défaut) (supervisé, retenu par l'équipe);424;EvHtIp1979;1;1;0.999936580657959
+XGBoost (défaut) (supervisé, retenu par l'équipe);425;EvHtIp1979;1;1;0.9999488592147827
+XGBoost (défaut) (supervisé, retenu par l'équipe);426;EvHtIp1979;1;1;0.9999562501907349
+XGBoost (défaut) (supervisé, retenu par l'équipe);427;EvHtIp1979;1;1;0.9993113279342651
+XGBoost (défaut) (supervisé, retenu par l'équipe);428;EvHtIp1979;1;1;0.9999116659164429
+XGBoost (défaut) (supervisé, retenu par l'équipe);436;PantK-1990;0;0;0.30240142345428467
+XGBoost (défaut) (supervisé, retenu par l'équipe);437;PantK-1990;0;0;0.30240142345428467
+XGBoost (défaut) (supervisé, retenu par l'équipe);438;PantK-1990;0;0;0.30240142345428467
+XGBoost (défaut) (supervisé, retenu par l'équipe);439;PantK-1990;0;0;0.3661930561065674
+XGBoost (défaut) (supervisé, retenu par l'équipe);440;PantK-1990;0;0;0.3661930561065674
+XGBoost (défaut) (supervisé, retenu par l'équipe);441;PantK-1990;0;0;0.2717839777469635
+XGBoost (défaut) (supervisé, retenu par l'équipe);442;PantK-1990;0;0;0.2717839777469635
+XGBoost (défaut) (supervisé, retenu par l'équipe);443;PantK-1990;0;0;0.272122859954834
+XGBoost (défaut) (supervisé, retenu par l'équipe);444;PantK-1990;0;0;0.272122859954834
+XGBoost (défaut) (supervisé, retenu par l'équipe);445;Chandel&-1985;1;1;0.5122837424278259
+XGBoost (défaut) (supervisé, retenu par l'équipe);446;Chandel&-1985;0;0;0.2203737497329712
+XGBoost (défaut) (supervisé, retenu par l'équipe);447;Chandel&-1985;0;0;0.2203737497329712
+XGBoost (défaut) (supervisé, retenu par l'équipe);448;Chandel&-1985;1;1;0.5540561079978943
+XGBoost (défaut) (supervisé, retenu par l'équipe);449;Chandel&-1985;1;1;0.5540561079978943
+XGBoost (défaut) (supervisé, retenu par l'équipe);450;Chandel&-1985;1;0;0.32886260747909546
+XGBoost (défaut) (supervisé, retenu par l'équipe);463;Blond&-1984;1;1;0.979714572429657
+XGBoost (défaut) (supervisé, retenu par l'équipe);565;EvansLetterC+.5Moch1;1;1;0.9855905771255493
+Self-training classique;15;Evans-AlTi-1994;0;1;0.9999760389328003
+Self-training classique;16;Evans-AlTi-1994;0;1;0.9999760389328003
+Self-training classique;17;Evans-AlTi-1994;0;1;0.9999760389328003
+Self-training classique;18;Evans-AlTi-1994;0;1;0.9999563694000244
+Self-training classique;19;Evans-AlTi-1994;0;1;0.9999563694000244
+Self-training classique;20;Evans-AlTi-1994;0;1;0.9999563694000244
+Self-training classique;21;Evans-AlTi-1994;1;1;0.9999145269393921
+Self-training classique;22;Evans-AlTi-1994;1;1;0.9999145269393921
+Self-training classique;23;Evans-AlTi-1994;1;1;0.9999145269393921
+Self-training classique;24;Evans-AlTi-1994;1;1;0.9999723434448242
+Self-training classique;25;Evans-AlTi-1994;1;1;0.9999723434448242
+Self-training classique;26;Evans-AlTi-1994;1;1;0.9999723434448242
+Self-training classique;27;Evans-AlTi-1994;1;1;0.9999572038650513
+Self-training classique;28;Evans-AlTi-1994;1;1;0.9999572038650513
+Self-training classique;29;Evans-AlTi-1994;1;1;0.9999572038650513
+Self-training classique;30;Evans-AlTi-1994;1;1;0.999969482421875
+Self-training classique;31;Evans-AlTi-1994;1;1;0.999969482421875
+Self-training classique;32;Evans-AlTi-1994;1;1;0.999969482421875
+Self-training classique;33;Evans-AlTi-1994;1;1;0.9999798536300659
+Self-training classique;34;Evans-AlTi-1994;1;1;0.9999798536300659
+Self-training classique;35;Evans-AlTi-1994;1;1;0.9999798536300659
+Self-training classique;36;Evans-AlTi-1994;1;1;0.9999793767929077
+Self-training classique;37;Evans-AlTi-1994;1;1;0.9999793767929077
+Self-training classique;38;Evans-AlTi-1994;1;1;0.9999793767929077
+Self-training classique;39;Evans-AlTi-1994;1;1;0.9999681711196899
+Self-training classique;40;Evans-AlTi-1994;1;1;0.9999681711196899
+Self-training classique;41;Evans-AlTi-1994;1;1;0.9999681711196899
+Self-training classique;42;Evans-AlTi-1994;1;1;0.9999508857727051
+Self-training classique;43;Evans-AlTi-1994;1;1;0.9999508857727051
+Self-training classique;44;Evans-AlTi-1994;1;1;0.9999508857727051
+Self-training classique;45;Evans-AlTi-1994;1;1;0.9999508857727051
+Self-training classique;46;Evans-AlTi-1994;1;1;0.9999508857727051
+Self-training classique;47;Evans-AlTi-1994;1;1;0.9999508857727051
+Self-training classique;48;Evans-AlTi-1994;1;1;0.9999508857727051
+Self-training classique;49;Evans-AlTi-1994;1;1;0.9999508857727051
+Self-training classique;50;Evans-AlTi-1994;1;1;0.9999508857727051
+Self-training classique;51;Evans-AlTi-1994;1;1;0.9999662637710571
+Self-training classique;52;Evans-AlTi-1994;1;1;0.9999662637710571
+Self-training classique;53;Evans-AlTi-1994;1;1;0.999977707862854
+Self-training classique;54;Evans-AlTi-1994;1;1;0.999977707862854
+Self-training classique;55;Evans-AlTi-1994;1;1;0.9999681711196899
+Self-training classique;56;Evans-AlTi-1994;1;1;0.9999681711196899
+Self-training classique;57;Evans-AlTi-1994;1;1;0.9999508857727051
+Self-training classique;58;Evans-AlTi-1994;1;1;0.9999508857727051
+Self-training classique;59;Evans-AlTi-1994;1;1;0.9999508857727051
+Self-training classique;60;Evans-AlTi-1994;1;1;0.9999508857727051
+Self-training classique;61;Evans-AlTi-1994;1;1;0.9999508857727051
+Self-training classique;62;Evans-AlTi-1994;1;1;0.9999508857727051
+Self-training classique;63;Evans-AlTi-1994;1;1;0.9999327659606934
+Self-training classique;64;Evans-AlTi-1994;1;1;0.9999327659606934
+Self-training classique;65;Evans-AlTi-1994;1;1;0.9999327659606934
+Self-training classique;66;Evans-AlTi-1994;1;1;0.9999321699142456
+Self-training classique;67;Evans-AlTi-1994;1;1;0.9999321699142456
+Self-training classique;68;Evans-AlTi-1994;1;1;0.9999321699142456
+Self-training classique;69;Evans-AlTi-1994;1;1;0.9999312162399292
+Self-training classique;70;Evans-AlTi-1994;1;1;0.9999312162399292
+Self-training classique;71;Evans-AlTi-1994;1;1;0.9999312162399292
+Self-training classique;72;Evans-AlTi-1994;1;1;0.9999215602874756
+Self-training classique;73;Evans-AlTi-1994;1;1;0.9999215602874756
+Self-training classique;74;Evans-AlTi-1994;1;1;0.9999215602874756
+Self-training classique;75;Evans-AlTi-1994;1;1;0.9998935461044312
+Self-training classique;76;Evans-AlTi-1994;1;1;0.9998935461044312
+Self-training classique;77;Evans-AlTi-1994;1;1;0.9998935461044312
+Self-training classique;78;Evans-AlTi-1994;1;1;0.9998935461044312
+Self-training classique;79;Evans-AlTi-1994;1;1;0.9998935461044312
+Self-training classique;80;Evans-AlTi-1994;1;1;0.9998935461044312
+Self-training classique;81;Evans-AlTi-1994;1;1;0.9999288320541382
+Self-training classique;82;Evans-AlTi-1994;1;1;0.9999288320541382
+Self-training classique;83;Evans-AlTi-1994;1;1;0.9999288320541382
+Self-training classique;84;Evans-AlTi-1994;1;1;0.996455729007721
+Self-training classique;85;Evans-AlTi-1994;1;1;0.996455729007721
+Self-training classique;86;Evans-AlTi-1994;1;1;0.996455729007721
+Self-training classique;87;Evans-AlTi-1994;1;1;0.9999176263809204
+Self-training classique;88;Evans-AlTi-1994;1;1;0.9999176263809204
+Self-training classique;89;Evans-AlTi-1994;1;1;0.9999176263809204
+Self-training classique;90;Evans-AlTi-1994;1;1;0.9998379945755005
+Self-training classique;91;Evans-AlTi-1994;1;1;0.9998379945755005
+Self-training classique;92;Evans-AlTi-1994;1;1;0.9998379945755005
+Self-training classique;93;Evans-AlTi-1994;1;1;0.9998995065689087
+Self-training classique;94;Evans-AlTi-1994;1;1;0.9998995065689087
+Self-training classique;95;Evans-AlTi-1994;1;1;0.9998995065689087
+Self-training classique;96;Evans-AlTi-1994;1;1;0.9999078512191772
+Self-training classique;97;Evans-AlTi-1994;1;1;0.9999078512191772
+Self-training classique;98;Evans-AlTi-1994;1;1;0.9999078512191772
+Self-training classique;422;EvHtIp1979;1;1;0.999940037727356
+Self-training classique;423;EvHtIp1979;1;1;0.999977707862854
+Self-training classique;424;EvHtIp1979;1;1;0.9999405145645142
+Self-training classique;425;EvHtIp1979;1;1;0.9999829530715942
+Self-training classique;426;EvHtIp1979;1;1;0.9999819993972778
+Self-training classique;427;EvHtIp1979;1;1;0.9998544454574585
+Self-training classique;428;EvHtIp1979;1;1;0.9999737739562988
+Self-training classique;436;PantK-1990;0;0;0.006009964272379875
+Self-training classique;437;PantK-1990;0;0;0.006009964272379875
+Self-training classique;438;PantK-1990;0;0;0.006009964272379875
+Self-training classique;439;PantK-1990;0;0;0.00704294303432107
+Self-training classique;440;PantK-1990;0;0;0.00704294303432107
+Self-training classique;441;PantK-1990;0;0;0.005784191191196442
+Self-training classique;442;PantK-1990;0;0;0.005784191191196442
+Self-training classique;443;PantK-1990;0;0;0.005711734294891357
+Self-training classique;444;PantK-1990;0;0;0.005711734294891357
+Self-training classique;445;Chandel&-1985;1;1;0.981060266494751
+Self-training classique;446;Chandel&-1985;0;1;0.98516845703125
+Self-training classique;447;Chandel&-1985;0;1;0.98516845703125
+Self-training classique;448;Chandel&-1985;1;1;0.9762344360351562
+Self-training classique;449;Chandel&-1985;1;1;0.9762344360351562
+Self-training classique;450;Chandel&-1985;1;1;0.9486951231956482
+Self-training classique;463;Blond&-1984;1;1;0.9997335076332092
+Self-training classique;565;EvansLetterC+.5Moch1;1;1;0.9994350075721741
+Self-training équilibré;15;Evans-AlTi-1994;0;1;0.9998051524162292
+Self-training équilibré;16;Evans-AlTi-1994;0;1;0.9998051524162292
+Self-training équilibré;17;Evans-AlTi-1994;0;1;0.9998051524162292
+Self-training équilibré;18;Evans-AlTi-1994;0;1;0.9997678399085999
+Self-training équilibré;19;Evans-AlTi-1994;0;1;0.9997678399085999
+Self-training équilibré;20;Evans-AlTi-1994;0;1;0.9997678399085999
+Self-training équilibré;21;Evans-AlTi-1994;1;1;0.9995593428611755
+Self-training équilibré;22;Evans-AlTi-1994;1;1;0.9995593428611755
+Self-training équilibré;23;Evans-AlTi-1994;1;1;0.9995593428611755
+Self-training équilibré;24;Evans-AlTi-1994;1;1;0.9998230338096619
+Self-training équilibré;25;Evans-AlTi-1994;1;1;0.9998230338096619
+Self-training équilibré;26;Evans-AlTi-1994;1;1;0.9998230338096619
+Self-training équilibré;27;Evans-AlTi-1994;1;1;0.9997711777687073
+Self-training équilibré;28;Evans-AlTi-1994;1;1;0.9997711777687073
+Self-training équilibré;29;Evans-AlTi-1994;1;1;0.9997711777687073
+Self-training équilibré;30;Evans-AlTi-1994;1;1;0.9999276399612427
+Self-training équilibré;31;Evans-AlTi-1994;1;1;0.9999276399612427
+Self-training équilibré;32;Evans-AlTi-1994;1;1;0.9999276399612427
+Self-training équilibré;33;Evans-AlTi-1994;1;1;0.9999285936355591
+Self-training équilibré;34;Evans-AlTi-1994;1;1;0.9999285936355591
+Self-training équilibré;35;Evans-AlTi-1994;1;1;0.9999285936355591
+Self-training équilibré;36;Evans-AlTi-1994;1;1;0.9999271631240845
+Self-training équilibré;37;Evans-AlTi-1994;1;1;0.9999271631240845
+Self-training équilibré;38;Evans-AlTi-1994;1;1;0.9999271631240845
+Self-training équilibré;39;Evans-AlTi-1994;1;1;0.9998617172241211
+Self-training équilibré;40;Evans-AlTi-1994;1;1;0.9998617172241211
+Self-training équilibré;41;Evans-AlTi-1994;1;1;0.9998617172241211
+Self-training équilibré;42;Evans-AlTi-1994;1;1;0.9997711777687073
+Self-training équilibré;43;Evans-AlTi-1994;1;1;0.9997711777687073
+Self-training équilibré;44;Evans-AlTi-1994;1;1;0.9997711777687073
+Self-training équilibré;45;Evans-AlTi-1994;1;1;0.9997032284736633
+Self-training équilibré;46;Evans-AlTi-1994;1;1;0.9997032284736633
+Self-training équilibré;47;Evans-AlTi-1994;1;1;0.9997032284736633
+Self-training équilibré;48;Evans-AlTi-1994;1;1;0.9997032284736633
+Self-training équilibré;49;Evans-AlTi-1994;1;1;0.9997032284736633
+Self-training équilibré;50;Evans-AlTi-1994;1;1;0.9997032284736633
+Self-training équilibré;51;Evans-AlTi-1994;1;1;0.9999054670333862
+Self-training équilibré;52;Evans-AlTi-1994;1;1;0.9999054670333862
+Self-training équilibré;53;Evans-AlTi-1994;1;1;0.9999150037765503
+Self-training équilibré;54;Evans-AlTi-1994;1;1;0.9999150037765503
+Self-training équilibré;55;Evans-AlTi-1994;1;1;0.9998514652252197
+Self-training équilibré;56;Evans-AlTi-1994;1;1;0.9998514652252197
+Self-training équilibré;57;Evans-AlTi-1994;1;1;0.999768078327179
+Self-training équilibré;58;Evans-AlTi-1994;1;1;0.999768078327179
+Self-training équilibré;59;Evans-AlTi-1994;1;1;0.9997510313987732
+Self-training équilibré;60;Evans-AlTi-1994;1;1;0.9997510313987732
+Self-training équilibré;61;Evans-AlTi-1994;1;1;0.9996993541717529
+Self-training équilibré;62;Evans-AlTi-1994;1;1;0.9996993541717529
+Self-training équilibré;63;Evans-AlTi-1994;1;1;0.9998108744621277
+Self-training équilibré;64;Evans-AlTi-1994;1;1;0.9998108744621277
+Self-training équilibré;65;Evans-AlTi-1994;1;1;0.9998108744621277
+Self-training équilibré;66;Evans-AlTi-1994;1;1;0.9998619556427002
+Self-training équilibré;67;Evans-AlTi-1994;1;1;0.9998619556427002
+Self-training équilibré;68;Evans-AlTi-1994;1;1;0.9998619556427002
+Self-training équilibré;69;Evans-AlTi-1994;1;1;0.999854564666748
+Self-training équilibré;70;Evans-AlTi-1994;1;1;0.999854564666748
+Self-training équilibré;71;Evans-AlTi-1994;1;1;0.999854564666748
+Self-training équilibré;72;Evans-AlTi-1994;1;1;0.999830961227417
+Self-training équilibré;73;Evans-AlTi-1994;1;1;0.999830961227417
+Self-training équilibré;74;Evans-AlTi-1994;1;1;0.999830961227417
+Self-training équilibré;75;Evans-AlTi-1994;1;1;0.999687910079956
+Self-training équilibré;76;Evans-AlTi-1994;1;1;0.999687910079956
+Self-training équilibré;77;Evans-AlTi-1994;1;1;0.999687910079956
+Self-training équilibré;78;Evans-AlTi-1994;1;1;0.9997592568397522
+Self-training équilibré;79;Evans-AlTi-1994;1;1;0.9997592568397522
+Self-training équilibré;80;Evans-AlTi-1994;1;1;0.9997592568397522
+Self-training équilibré;81;Evans-AlTi-1994;1;1;0.9998217225074768
+Self-training équilibré;82;Evans-AlTi-1994;1;1;0.9998217225074768
+Self-training équilibré;83;Evans-AlTi-1994;1;1;0.9998217225074768
+Self-training équilibré;84;Evans-AlTi-1994;1;1;0.9934945702552795
+Self-training équilibré;85;Evans-AlTi-1994;1;1;0.9934945702552795
+Self-training équilibré;86;Evans-AlTi-1994;1;1;0.9934945702552795
+Self-training équilibré;87;Evans-AlTi-1994;1;1;0.9997448325157166
+Self-training équilibré;88;Evans-AlTi-1994;1;1;0.9997448325157166
+Self-training équilibré;89;Evans-AlTi-1994;1;1;0.9997448325157166
+Self-training équilibré;90;Evans-AlTi-1994;1;1;0.9989596605300903
+Self-training équilibré;91;Evans-AlTi-1994;1;1;0.9989596605300903
+Self-training équilibré;92;Evans-AlTi-1994;1;1;0.9989596605300903
+Self-training équilibré;93;Evans-AlTi-1994;1;1;0.9997168183326721
+Self-training équilibré;94;Evans-AlTi-1994;1;1;0.9997168183326721
+Self-training équilibré;95;Evans-AlTi-1994;1;1;0.9997168183326721
+Self-training équilibré;96;Evans-AlTi-1994;1;1;0.9997168183326721
+Self-training équilibré;97;Evans-AlTi-1994;1;1;0.9997168183326721
+Self-training équilibré;98;Evans-AlTi-1994;1;1;0.9997168183326721
+Self-training équilibré;422;EvHtIp1979;1;1;0.9999186992645264
+Self-training équilibré;423;EvHtIp1979;1;1;0.9999711513519287
+Self-training équilibré;424;EvHtIp1979;1;1;0.9999569654464722
+Self-training équilibré;425;EvHtIp1979;1;1;0.9999734163284302
+Self-training équilibré;426;EvHtIp1979;1;1;0.9999734163284302
+Self-training équilibré;427;EvHtIp1979;1;1;0.9998137354850769
+Self-training équilibré;428;EvHtIp1979;1;1;0.999944806098938
+Self-training équilibré;436;PantK-1990;0;0;0.07092227041721344
+Self-training équilibré;437;PantK-1990;0;0;0.07092227041721344
+Self-training équilibré;438;PantK-1990;0;0;0.07092227041721344
+Self-training équilibré;439;PantK-1990;0;0;0.07026970386505127
+Self-training équilibré;440;PantK-1990;0;0;0.07026970386505127
+Self-training équilibré;441;PantK-1990;0;0;0.07092227041721344
+Self-training équilibré;442;PantK-1990;0;0;0.07092227041721344
+Self-training équilibré;443;PantK-1990;0;0;0.07026970386505127
+Self-training équilibré;444;PantK-1990;0;0;0.07026970386505127
+Self-training équilibré;445;Chandel&-1985;1;1;0.512031078338623
+Self-training équilibré;446;Chandel&-1985;0;0;0.39828845858573914
+Self-training équilibré;447;Chandel&-1985;0;0;0.39828845858573914
+Self-training équilibré;448;Chandel&-1985;1;1;0.5709865093231201
+Self-training équilibré;449;Chandel&-1985;1;1;0.5709865093231201
+Self-training équilibré;450;Chandel&-1985;1;0;0.3723175525665283
+Self-training équilibré;463;Blond&-1984;1;1;0.7504454255104065
+Self-training équilibré;565;EvansLetterC+.5Moch1;1;1;0.9863373637199402
+Label spreading;15;Evans-AlTi-1994;0;1;0.9999999999988272
+Label spreading;16;Evans-AlTi-1994;0;1;0.9999999999988272
+Label spreading;17;Evans-AlTi-1994;0;1;0.9999999999988272
+Label spreading;18;Evans-AlTi-1994;0;1;1.0
+Label spreading;19;Evans-AlTi-1994;0;1;1.0
+Label spreading;20;Evans-AlTi-1994;0;1;1.0
+Label spreading;21;Evans-AlTi-1994;1;1;1.0
+Label spreading;22;Evans-AlTi-1994;1;1;1.0
+Label spreading;23;Evans-AlTi-1994;1;1;1.0
+Label spreading;24;Evans-AlTi-1994;1;1;0.9999999146789409
+Label spreading;25;Evans-AlTi-1994;1;1;0.9999999146789409
+Label spreading;26;Evans-AlTi-1994;1;1;0.9999999146789409
+Label spreading;27;Evans-AlTi-1994;1;1;0.9999999994078869
+Label spreading;28;Evans-AlTi-1994;1;1;0.9999999994078869
+Label spreading;29;Evans-AlTi-1994;1;1;0.9999999994078869
+Label spreading;30;Evans-AlTi-1994;1;1;0.9978026197555949
+Label spreading;31;Evans-AlTi-1994;1;1;0.9978026197555949
+Label spreading;32;Evans-AlTi-1994;1;1;0.9978026197555949
+Label spreading;33;Evans-AlTi-1994;1;1;0.9999999999988272
+Label spreading;34;Evans-AlTi-1994;1;1;0.9999999999988272
+Label spreading;35;Evans-AlTi-1994;1;1;0.9999999999988272
+Label spreading;36;Evans-AlTi-1994;1;1;1.0
+Label spreading;37;Evans-AlTi-1994;1;1;1.0
+Label spreading;38;Evans-AlTi-1994;1;1;1.0
+Label spreading;39;Evans-AlTi-1994;1;1;0.9999999999753334
+Label spreading;40;Evans-AlTi-1994;1;1;0.9999999999753334
+Label spreading;41;Evans-AlTi-1994;1;1;0.9999999999753334
+Label spreading;42;Evans-AlTi-1994;1;1;0.9999999145975711
+Label spreading;43;Evans-AlTi-1994;1;1;0.9999999145975711
+Label spreading;44;Evans-AlTi-1994;1;1;0.9999999145975711
+Label spreading;45;Evans-AlTi-1994;1;1;0.9999999993263791
+Label spreading;46;Evans-AlTi-1994;1;1;0.9999999993263791
+Label spreading;47;Evans-AlTi-1994;1;1;0.9999999993263791
+Label spreading;48;Evans-AlTi-1994;1;1;0.9978026293056491
+Label spreading;49;Evans-AlTi-1994;1;1;0.9978026293056491
+Label spreading;50;Evans-AlTi-1994;1;1;0.9978026293056491
+Label spreading;51;Evans-AlTi-1994;1;1;0.999999996116507
+Label spreading;52;Evans-AlTi-1994;1;1;0.999999996116507
+Label spreading;53;Evans-AlTi-1994;1;1;0.9999999988959138
+Label spreading;54;Evans-AlTi-1994;1;1;0.9999999988959138
+Label spreading;55;Evans-AlTi-1994;1;1;0.9994243932743985
+Label spreading;56;Evans-AlTi-1994;1;1;0.9994243932743985
+Label spreading;57;Evans-AlTi-1994;1;1;0.9999999146789409
+Label spreading;58;Evans-AlTi-1994;1;1;0.9999999146789409
+Label spreading;59;Evans-AlTi-1994;1;1;0.9999999993263791
+Label spreading;60;Evans-AlTi-1994;1;1;0.9999999993263791
+Label spreading;61;Evans-AlTi-1994;1;1;0.9978026293056491
+Label spreading;62;Evans-AlTi-1994;1;1;0.9978026293056491
+Label spreading;63;Evans-AlTi-1994;1;1;0.9999998513168196
+Label spreading;64;Evans-AlTi-1994;1;1;0.9999998513168196
+Label spreading;65;Evans-AlTi-1994;1;1;0.9999998513168196
+Label spreading;66;Evans-AlTi-1994;1;1;0.9999980733081574
+Label spreading;67;Evans-AlTi-1994;1;1;0.9999980733081574
+Label spreading;68;Evans-AlTi-1994;1;1;0.9999980733081574
+Label spreading;69;Evans-AlTi-1994;1;1;0.9795780209534429
+Label spreading;70;Evans-AlTi-1994;1;1;0.9795780209534429
+Label spreading;71;Evans-AlTi-1994;1;1;0.9795780209534429
+Label spreading;72;Evans-AlTi-1994;1;1;0.9996202010535588
+Label spreading;73;Evans-AlTi-1994;1;1;0.9996202010535588
+Label spreading;74;Evans-AlTi-1994;1;1;0.9996202010535588
+Label spreading;75;Evans-AlTi-1994;1;1;0.9999975021593533
+Label spreading;76;Evans-AlTi-1994;1;1;0.9999975021593533
+Label spreading;77;Evans-AlTi-1994;1;1;0.9999975021593533
+Label spreading;78;Evans-AlTi-1994;1;1;0.9931538756628236
+Label spreading;79;Evans-AlTi-1994;1;1;0.9931538756628236
+Label spreading;80;Evans-AlTi-1994;1;1;0.9931538756628236
+Label spreading;81;Evans-AlTi-1994;1;1;0.9999950229732945
+Label spreading;82;Evans-AlTi-1994;1;1;0.9999950229732945
+Label spreading;83;Evans-AlTi-1994;1;1;0.9999950229732945
+Label spreading;84;Evans-AlTi-1994;1;1;0.9999950956288379
+Label spreading;85;Evans-AlTi-1994;1;1;0.9999950956288379
+Label spreading;86;Evans-AlTi-1994;1;1;0.9999950956288379
+Label spreading;87;Evans-AlTi-1994;1;1;0.9999922690213743
+Label spreading;88;Evans-AlTi-1994;1;1;0.9999922690213743
+Label spreading;89;Evans-AlTi-1994;1;1;0.9999922690213743
+Label spreading;90;Evans-AlTi-1994;1;1;0.9730711262307606
+Label spreading;91;Evans-AlTi-1994;1;1;0.9730711262307606
+Label spreading;92;Evans-AlTi-1994;1;1;0.9730711262307606
+Label spreading;93;Evans-AlTi-1994;1;1;0.9411413961983062
+Label spreading;94;Evans-AlTi-1994;1;1;0.9411413961983062
+Label spreading;95;Evans-AlTi-1994;1;1;0.9411413961983062
+Label spreading;96;Evans-AlTi-1994;1;1;0.9401713582511729
+Label spreading;97;Evans-AlTi-1994;1;1;0.9401713582511729
+Label spreading;98;Evans-AlTi-1994;1;1;0.9401713582511729
+Label spreading;422;EvHtIp1979;1;1;0.9999959371919737
+Label spreading;423;EvHtIp1979;1;1;0.9999999216799891
+Label spreading;424;EvHtIp1979;1;1;0.9999958542298972
+Label spreading;425;EvHtIp1979;1;1;0.999999917349537
+Label spreading;426;EvHtIp1979;1;1;0.9999999645714759
+Label spreading;427;EvHtIp1979;1;1;0.9999957908423406
+Label spreading;428;EvHtIp1979;1;1;0.9999997380586187
+Label spreading;436;PantK-1990;0;0;0.0005120080993558091
+Label spreading;437;PantK-1990;0;0;0.0005120080993558091
+Label spreading;438;PantK-1990;0;0;0.0005120080993558091
+Label spreading;439;PantK-1990;0;0;0.00011914341744742992
+Label spreading;440;PantK-1990;0;0;0.00011914341744742992
+Label spreading;441;PantK-1990;0;0;2.5309215942051957e-05
+Label spreading;442;PantK-1990;0;0;2.5309215942051957e-05
+Label spreading;443;PantK-1990;0;0;2.5273918173416695e-05
+Label spreading;444;PantK-1990;0;0;2.5273918173416695e-05
+Label spreading;445;Chandel&-1985;1;0;0.16298157560245383
+Label spreading;446;Chandel&-1985;0;1;0.5041870957400271
+Label spreading;447;Chandel&-1985;0;1;0.5041870957400271
+Label spreading;448;Chandel&-1985;1;0;0.16177809961384307
+Label spreading;449;Chandel&-1985;1;0;0.16177809961384307
+Label spreading;450;Chandel&-1985;1;0;0.0418398613853453
+Label spreading;463;Blond&-1984;1;1;0.99988230829691
+Label spreading;565;EvansLetterC+.5Moch1;1;1;0.999966720623021
