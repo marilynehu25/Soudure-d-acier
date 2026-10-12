@@ -1,0 +1,376 @@
+{
+  "cible": "Charpy conforme",
+  "definition_cible": "47 J à -40 °C (EN ISO 2560-A) ; interpolation de T(47 J) entre T(28 J) et T(100 J) — notebook 2, section 3.1",
+  "type": "classification semi-supervisée",
+  "score_de_selection": "Accuracy_ponderee",
+  "regle_de_choix": "meilleure accuracy pondérée en CV à 100 % des étiquettes ; utile si la borne basse de l'IC95 du gain apparié > 0",
+  "modele_retenu": "CEM semi-supervisé",
+  "famille": "Générative",
+  "hyperparametres_retenu": {
+    "pca__copy": true,
+    "pca__iterated_power": "auto",
+    "pca__n_components": 10,
+    "pca__n_oversamples": 10,
+    "pca__power_iteration_normalizer": "auto",
+    "pca__random_state": 42,
+    "pca__svd_solver": "auto",
+    "pca__tol": 0.0,
+    "pca__whiten": false,
+    "semisupervisedcem__covariance_type": "diag",
+    "semisupervisedcem__max_iter": 50,
+    "semisupervisedcem__reg": 0.001
+  },
+  "reference_supervisee": "Gaussiennes (supervisé)",
+  "modele_equipe": {
+    "nom": "XGBoost (défaut)",
+    "hyperparametres": {},
+    "source": "..\\1. Données\\05_reporting\\prediction_Charpy conforme\\Charpy_conforme\\A_sans_selection\\modele_retenu.json"
+  },
+  "gain_cv_vs_reference": {
+    "gain": 0.01736534243236665,
+    "IC95_bas": -0.05004780172938738,
+    "IC95_haut": 0.09481857509521437,
+    "P(gain > 0)": 0.698
+  },
+  "gain_significatif": false,
+  "score_cv_100pct": {
+    "XGBoost (défaut) (supervisé, retenu par l'équipe)": {
+      "Accuracy_ponderee": 0.8097581038264684,
+      "F1_classe_0": 0.7108433734939759,
+      "F1": 0.9365079365079365,
+      "F1_macro": 0.8236756550009562,
+      "Recall": 0.9490616621983914,
+      "ROC_AUC": 0.9097611503777723
+    },
+    "Self-training classique": {
+      "Accuracy_ponderee": 0.763663782598099,
+      "F1_classe_0": 0.6621621621621622,
+      "F1": 0.9354005167958657,
+      "F1_macro": 0.798781339479014,
+      "Recall": 0.9705093833780161,
+      "ROC_AUC": 0.9160827443334145
+    },
+    "Self-training équilibré": {
+      "Accuracy_ponderee": 0.8227821106507434,
+      "F1_classe_0": 0.7209302325581395,
+      "F1": 0.936,
+      "F1_macro": 0.8284651162790697,
+      "Recall": 0.9410187667560321,
+      "ROC_AUC": 0.8972093590056057
+    },
+    "kNN (supervisé)": {
+      "Accuracy_ponderee": 0.7502589568608335,
+      "F1_classe_0": 0.620253164556962,
+      "F1": 0.9214659685863874,
+      "F1_macro": 0.7708595665716746,
+      "Recall": 0.9436997319034852,
+      "ROC_AUC": 0.802644406531806
+    },
+    "Label spreading": {
+      "Accuracy_ponderee": 0.6266603704606386,
+      "F1_classe_0": 0.40350877192982454,
+      "F1": 0.9158415841584159,
+      "F1_macro": 0.6596751780441202,
+      "Recall": 0.9919571045576407,
+      "ROC_AUC": 0.7767030221788935
+    },
+    "Gaussiennes (supervisé)": {
+      "Accuracy_ponderee": 0.8521508652205703,
+      "F1_classe_0": 0.7291666666666666,
+      "F1": 0.9287671232876712,
+      "F1_macro": 0.8289668949771689,
+      "Recall": 0.9088471849865952,
+      "ROC_AUC": 0.9063642456738972
+    },
+    "CEM semi-supervisé": {
+      "Accuracy_ponderee": 0.8695162076529369,
+      "F1_classe_0": 0.74,
+      "F1": 0.9279778393351801,
+      "F1_macro": 0.83398891966759,
+      "Recall": 0.8981233243967829,
+      "ROC_AUC": 0.9155038995856691
+    }
+  },
+  "ic95_cv_100pct": {
+    "XGBoost (défaut) (supervisé, retenu par l'équipe)": [
+      0.5876349058694135,
+      0.940237539670146
+    ],
+    "Self-training classique": [
+      0.5055758291304112,
+      0.92540769415996
+    ],
+    "Self-training équilibré": [
+      0.588013014273233,
+      0.9584321317184298
+    ],
+    "kNN (supervisé)": [
+      0.5235998699233994,
+      0.9269638060502623
+    ],
+    "Label spreading": [
+      0.5,
+      0.7476292055176248
+    ],
+    "Gaussiennes (supervisé)": [
+      0.6549780296013682,
+      0.9636093513899215
+    ],
+    "CEM semi-supervisé": [
+      0.6915812273782996,
+      0.9585817140014732
+    ]
+  },
+  "hyperparametres_toutes_methodes": {
+    "XGBoost (défaut) (supervisé, retenu par l'équipe)": {
+      "objective": "binary:logistic",
+      "base_score": null,
+      "booster": null,
+      "callbacks": null,
+      "colsample_bylevel": null,
+      "colsample_bynode": null,
+      "colsample_bytree": null,
+      "device": null,
+      "early_stopping_rounds": null,
+      "enable_categorical": false,
+      "eval_metric": "logloss",
+      "feature_types": null,
+      "feature_weights": null,
+      "gamma": null,
+      "grow_policy": null,
+      "importance_type": null,
+      "interaction_constraints": null,
+      "learning_rate": null,
+      "max_bin": null,
+      "max_cat_threshold": null,
+      "max_cat_to_onehot": null,
+      "max_delta_step": null,
+      "max_depth": null,
+      "max_leaves": null,
+      "min_child_weight": null,
+      "missing": null,
+      "monotone_constraints": null,
+      "multi_strategy": null,
+      "n_estimators": null,
+      "n_jobs": -1,
+      "num_parallel_tree": null,
+      "random_state": 42,
+      "reg_alpha": null,
+      "reg_lambda": null,
+      "sampling_method": null,
+      "scale_pos_weight": null,
+      "subsample": null,
+      "tree_method": null,
+      "validate_parameters": null,
+      "verbosity": null
+    },
+    "Self-training classique": {
+      "criterion": "threshold",
+      "k_best": 10,
+      "max_iter": 10,
+      "threshold": 0.9,
+      "verbose": false,
+      "modele_de_base": "XGBoost (défaut)"
+    },
+    "Self-training équilibré": {
+      "max_iter": 10,
+      "part_par_iter": 0.1,
+      "seuil": 0.7,
+      "modele_de_base": "XGBoost (défaut)"
+    },
+    "kNN (supervisé)": {
+      "algorithm": "auto",
+      "leaf_size": 30,
+      "metric": "minkowski",
+      "metric_params": null,
+      "n_jobs": null,
+      "n_neighbors": 10,
+      "p": 2,
+      "weights": "distance"
+    },
+    "Label spreading": {
+      "alpha": 0.2,
+      "gamma": 20,
+      "kernel": "knn",
+      "max_iter": 200,
+      "n_jobs": null,
+      "n_neighbors": 10,
+      "tol": 0.001
+    },
+    "Gaussiennes (supervisé)": {
+      "pca__copy": true,
+      "pca__iterated_power": "auto",
+      "pca__n_components": 10,
+      "pca__n_oversamples": 10,
+      "pca__power_iteration_normalizer": "auto",
+      "pca__random_state": 42,
+      "pca__svd_solver": "auto",
+      "pca__tol": 0.0,
+      "pca__whiten": false,
+      "semisupervisedcem__covariance_type": "diag",
+      "semisupervisedcem__max_iter": 0,
+      "semisupervisedcem__reg": 0.001
+    },
+    "CEM semi-supervisé": {
+      "pca__copy": true,
+      "pca__iterated_power": "auto",
+      "pca__n_components": 10,
+      "pca__n_oversamples": 10,
+      "pca__power_iteration_normalizer": "auto",
+      "pca__random_state": 42,
+      "pca__svd_solver": "auto",
+      "pca__tol": 0.0,
+      "pca__whiten": false,
+      "semisupervisedcem__covariance_type": "diag",
+      "semisupervisedcem__max_iter": 50,
+      "semisupervisedcem__reg": 0.001
+    }
+  },
+  "score_test": {
+    "CEM semi-supervisé": {
+      "Accuracy": 0.5092592592592593,
+      "Accuracy_ponderee": 0.5652876535229476,
+      "F1": 0.624113475177305,
+      "Precision": 0.88,
+      "Recall": 0.4835164835164835,
+      "ROC_AUC": 0.6548157724628313,
+      "LogLoss": 6.6450153957360705,
+      "F1_classe_0": 0.29333333333333333,
+      "F1_macro": 0.45872340425531916,
+      "Accuracy_ponderee IC95 bas": 0.24096385542168675,
+      "Accuracy_ponderee IC95 haut": 1.0
+    },
+    "Gaussiennes (supervisé)": {
+      "Accuracy": 0.5555555555555556,
+      "Accuracy_ponderee": 0.5927601809954751,
+      "F1": 0.6712328767123288,
+      "Precision": 0.8909090909090909,
+      "Recall": 0.5384615384615384,
+      "ROC_AUC": 0.6186166774402069,
+      "LogLoss": 3.1540312303284543,
+      "F1_classe_0": 0.3142857142857143,
+      "F1_macro": 0.49275929549902153,
+      "Accuracy_ponderee IC95 bas": 0.25903614457831325,
+      "Accuracy_ponderee IC95 haut": 1.0
+    },
+    "XGBoost (défaut) (supervisé, retenu par l'équipe)": {
+      "Accuracy": 0.9351851851851852,
+      "Accuracy_ponderee": 0.8180349062702004,
+      "F1": 0.9625668449197861,
+      "Precision": 0.9375,
+      "Recall": 0.989010989010989,
+      "ROC_AUC": 0.8067226890756303,
+      "LogLoss": 0.508398175239563,
+      "F1_classe_0": 0.7586206896551724,
+      "F1_macro": 0.8605937672874793,
+      "Accuracy_ponderee IC95 bas": 0.5,
+      "Accuracy_ponderee IC95 haut": 1.0
+    },
+    "Self-training classique": {
+      "Accuracy": 0.9259259259259259,
+      "Accuracy_ponderee": 0.7647058823529411,
+      "F1": 0.9578947368421052,
+      "Precision": 0.9191919191919192,
+      "Recall": 1.0,
+      "ROC_AUC": 0.7175177763413058,
+      "LogLoss": 0.6541686058044434,
+      "F1_classe_0": 0.6923076923076923,
+      "F1_macro": 0.8251012145748988,
+      "Accuracy_ponderee IC95 bas": 0.5,
+      "Accuracy_ponderee IC95 haut": 1.0
+    },
+    "Self-training équilibré": {
+      "Accuracy": 0.9259259259259259,
+      "Accuracy_ponderee": 0.7647058823529411,
+      "F1": 0.9578947368421052,
+      "Precision": 0.9191919191919192,
+      "Recall": 1.0,
+      "ROC_AUC": 0.7213962508080155,
+      "LogLoss": 0.6269270777702332,
+      "F1_classe_0": 0.6923076923076923,
+      "F1_macro": 0.8251012145748988,
+      "Accuracy_ponderee IC95 bas": 0.5,
+      "Accuracy_ponderee IC95 haut": 1.0
+    },
+    "kNN (supervisé)": {
+      "Accuracy": 0.9351851851851852,
+      "Accuracy_ponderee": 0.8180349062702004,
+      "F1": 0.9625668449197861,
+      "Precision": 0.9375,
+      "Recall": 0.989010989010989,
+      "ROC_AUC": 0.8138332255979315,
+      "LogLoss": 2.0275823721444928,
+      "F1_classe_0": 0.7586206896551724,
+      "F1_macro": 0.8605937672874793,
+      "Accuracy_ponderee IC95 bas": 0.5,
+      "Accuracy_ponderee IC95 haut": 1.0
+    },
+    "Label spreading": {
+      "Accuracy": 0.9351851851851852,
+      "Accuracy_ponderee": 0.8180349062702004,
+      "F1": 0.9625668449197861,
+      "Precision": 0.9375,
+      "Recall": 0.989010989010989,
+      "ROC_AUC": 0.7870071105365223,
+      "LogLoss": 2.342046624436666,
+      "F1_classe_0": 0.7586206896551724,
+      "F1_macro": 0.8605937672874793,
+      "Accuracy_ponderee IC95 bas": 0.5,
+      "Accuracy_ponderee IC95 haut": 1.0
+    }
+  },
+  "recommandation": "XGBoost (défaut) supervisé (notebook 3) : aucun gain semi-supervisé significatif en CV, et le semi-supervisé retenu est moins bon sur le test",
+  "n_etiquetees_train": 461,
+  "n_etiquetees_test": 108,
+  "n_non_etiquetees": 935,
+  "n_non_etiquetees_exclues_test": 134,
+  "variables_utilisees": [
+    "Carbon concentration",
+    "Silicon concentration",
+    "Manganese concentration",
+    "Sulphur concentration",
+    "Phosphorus concentration",
+    "Nickel concentration",
+    "Chromium concentration",
+    "Molybdenum concentration",
+    "Vanadium concentration",
+    "Copper concentration",
+    "Oxygen concentration",
+    "Titanium concentration",
+    "Nitrogen concentration",
+    "Aluminium concentration",
+    "Boron concentration",
+    "Niobium concentration",
+    "Current",
+    "Voltage",
+    "AC or DC",
+    "Electrode positive or negative",
+    "Heat input",
+    "Interpass temperature",
+    "Type of weld",
+    "Post weld heat treatment temperature",
+    "Post weld heat treatment time",
+    "CE_IIW",
+    "courant"
+  ],
+  "verification_hypotheses": {
+    "part de U issue de publications étiquetées": 0.5336898395721925,
+    "accord attendu par hasard": 0.691098762004696,
+    "accord avec les 5 plus proches voisins": 0.9631236442516269,
+    "accord avec les 5 plus proches voisins d'AUTRES publications": 0.8477223427331887,
+    "distance médiane test -> étiquetée la plus proche": 1.126528783151426,
+    "distance médiane test -> soudure la plus proche (étiquetée ou non)": 1.0842194447133902,
+    "part du test dont la plus proche voisine est NON étiquetée": 0.3888888888888889
+  },
+  "RANDOM_STATE": 42,
+  "N_FOLDS": 5,
+  "FRACTIONS": [
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "N_TIRAGES": 3,
+  "N_BOOT": 500,
+  "split": "..\\1. Données\\05_reporting\\prediction_Charpy conforme\\Charpy_conforme\\split_train_test.csv"
+}

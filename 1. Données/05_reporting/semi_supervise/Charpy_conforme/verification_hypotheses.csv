@@ -1,0 +1,8 @@
+﻿;valeur
+part de U issue de publications étiquetées;0.5336898395721925
+accord attendu par hasard;0.691098762004696
+accord avec les 5 plus proches voisins;0.9631236442516269
+accord avec les 5 plus proches voisins d'AUTRES publications;0.8477223427331887
+distance médiane test -> étiquetée la plus proche;1.126528783151426
+distance médiane test -> soudure la plus proche (étiquetée ou non);1.0842194447133902
+part du test dont la plus proche voisine est NON étiquetée;0.3888888888888889
