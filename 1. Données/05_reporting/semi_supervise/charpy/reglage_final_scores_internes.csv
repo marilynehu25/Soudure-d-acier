@@ -1,32 +1,32 @@
 ﻿methode;config;Accuracy_ponderee;parametres
-CEM semi-supervisé;0;0.8735376553741165;{'pca__n_components': 5}
-CEM semi-supervisé;1;0.8446868145259566;{'pca__n_components': 10}
-CEM semi-supervisé;2;0.8466670728735072;{'pca__n_components': 15}
+CEM semi-supervisé;0;0.8681757250792104;{'pca__n_components': 5}
+CEM semi-supervisé;1;0.8239398001462345;{'pca__n_components': 10}
+CEM semi-supervisé;2;0.8225993175725079;{'pca__n_components': 15}
 Label spreading;0;0.5410522788203753;{'n_neighbors': 5, 'alpha': 0.1}
 Label spreading;1;0.5410522788203753;{'n_neighbors': 5, 'alpha': 0.2}
 Label spreading;2;0.5410522788203753;{'n_neighbors': 5, 'alpha': 0.5}
 Label spreading;3;0.5410522788203753;{'n_neighbors': 5, 'alpha': 0.8}
-Label spreading;4;0.6466457470143797;{'n_neighbors': 10, 'alpha': 0.1}
-Label spreading;5;0.714827565196198;{'n_neighbors': 10, 'alpha': 0.2}
-Label spreading;6;0.7375548379234707;{'n_neighbors': 10, 'alpha': 0.5}
-Label spreading;7;0.7455977333658299;{'n_neighbors': 10, 'alpha': 0.8}
-Label spreading;8;0.7415762856446502;{'n_neighbors': 15, 'alpha': 0.1}
-Label spreading;9;0.7429167682183768;{'n_neighbors': 15, 'alpha': 0.2}
-Label spreading;10;0.7385754326102851;{'n_neighbors': 15, 'alpha': 0.5}
-Label spreading;11;0.7425968803314648;{'n_neighbors': 15, 'alpha': 0.8}
-Label spreading;12;0.6634322446990008;{'n_neighbors': 25, 'alpha': 0.1}
-Label spreading;13;0.6634322446990008;{'n_neighbors': 25, 'alpha': 0.2}
-Label spreading;14;0.6634322446990008;{'n_neighbors': 25, 'alpha': 0.5}
-Label spreading;15;0.6634322446990008;{'n_neighbors': 25, 'alpha': 0.8}
-Self-training classique;0;0.826163782598099;{'threshold': 0.7}
-Self-training classique;1;0.8234828174506459;{'threshold': 0.8}
-Self-training classique;2;0.8221423348769192;{'threshold': 0.9}
-Self-training classique;3;0.6587100901779186;{'threshold': 0.95}
-Self-training équilibré;0;0.8167804045820131;{'seuil': 0.6, 'part_par_iter': 0.05}
-Self-training équilibré;1;0.6520076773092859;{'seuil': 0.6, 'part_par_iter': 0.1}
-Self-training équilibré;2;0.8167804045820131;{'seuil': 0.7, 'part_par_iter': 0.05}
-Self-training équilibré;3;0.6520076773092859;{'seuil': 0.7, 'part_par_iter': 0.1}
-Self-training équilibré;4;0.8167804045820131;{'seuil': 0.8, 'part_par_iter': 0.05}
-Self-training équilibré;5;0.6493267121618328;{'seuil': 0.8, 'part_par_iter': 0.1}
-Self-training équilibré;6;0.8167804045820131;{'seuil': 0.9, 'part_par_iter': 0.05}
-Self-training équilibré;7;0.8154399220082866;{'seuil': 0.9, 'part_par_iter': 0.1}
+Label spreading;4;0.5614794053131855;{'n_neighbors': 10, 'alpha': 0.1}
+Label spreading;5;0.5614794053131855;{'n_neighbors': 10, 'alpha': 0.2}
+Label spreading;6;0.5557975871313673;{'n_neighbors': 10, 'alpha': 0.5}
+Label spreading;7;0.5584785522788204;{'n_neighbors': 10, 'alpha': 0.8}
+Label spreading;8;0.5731629295637338;{'n_neighbors': 15, 'alpha': 0.1}
+Label spreading;9;0.5731629295637338;{'n_neighbors': 15, 'alpha': 0.2}
+Label spreading;10;0.5771843772849135;{'n_neighbors': 15, 'alpha': 0.5}
+Label spreading;11;0.5812058250060931;{'n_neighbors': 15, 'alpha': 0.8}
+Label spreading;12;0.7175694613697294;{'n_neighbors': 25, 'alpha': 0.1}
+Label spreading;13;0.7175694613697294;{'n_neighbors': 25, 'alpha': 0.2}
+Label spreading;14;0.7175694613697294;{'n_neighbors': 25, 'alpha': 0.5}
+Label spreading;15;0.7175694613697294;{'n_neighbors': 25, 'alpha': 0.8}
+Self-training classique;0;0.7118267121618328;{'threshold': 0.7}
+Self-training classique;1;0.7716457470143797;{'threshold': 0.8}
+Self-training classique;2;0.8037563977577382;{'threshold': 0.9}
+Self-training classique;3;0.6961217401901048;{'threshold': 0.95}
+Self-training équilibré;0;0.7552400682427491;{'seuil': 0.6, 'part_par_iter': 0.05}
+Self-training équilibré;1;0.546033390202291;{'seuil': 0.6, 'part_par_iter': 0.1}
+Self-training équilibré;2;0.7609218864245674;{'seuil': 0.7, 'part_par_iter': 0.05}
+Self-training équilibré;3;0.7639227394589325;{'seuil': 0.7, 'part_par_iter': 0.1}
+Self-training équilibré;4;0.7462375091396538;{'seuil': 0.8, 'part_par_iter': 0.05}
+Self-training équilibré;5;0.7254904947599317;{'seuil': 0.8, 'part_par_iter': 0.1}
+Self-training équilibré;6;0.7686448939800146;{'seuil': 0.9, 'part_par_iter': 0.05}
+Self-training équilibré;7;0.6961217401901048;{'seuil': 0.9, 'part_par_iter': 0.1}

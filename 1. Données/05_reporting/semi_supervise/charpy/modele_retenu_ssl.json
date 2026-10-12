@@ -157,56 +157,56 @@
     "source": "..\\1. Données\\05_reporting\\prediction_Charpy conforme\\Charpy_conforme\\A_sans_selection\\modele_retenu.json"
   },
   "gain_cv_vs_modele_equipe": {
-    "gain": 0.039970753107482326,
-    "IC95_bas": -0.10326259373445373,
-    "IC95_haut": 0.27680642991551335,
-    "P(gain > 0)": 0.73
+    "gain": 0.12251706068730195,
+    "IC95_bas": -0.13316456843235402,
+    "IC95_haut": 0.29739661750615937,
+    "P(gain > 0)": 0.87
   },
   "gain_significatif": false,
   "score_cv_imbriquee": {
     "XGBoost (défaut) (supervisé, retenu par l'équipe)": {
-      "Accuracy": 0.89587852494577,
-      "Accuracy_ponderee": 0.8097581038264684,
-      "F1": 0.9365079365079365,
-      "Precision": 0.9242819843342036,
-      "Recall": 0.9490616621983914,
-      "ROC_AUC": 0.9097611503777723,
-      "LogLoss": 0.3762336284676478,
-      "F1_classe_0": 0.7108433734939759,
-      "F1_macro": 0.8236756550009562
+      "Accuracy": 0.8676789587852495,
+      "Accuracy_ponderee": 0.7272117962466488,
+      "F1": 0.9210866752910737,
+      "Precision": 0.89,
+      "Recall": 0.9544235924932976,
+      "ROC_AUC": 0.9338746039483306,
+      "LogLoss": 0.29655058896618225,
+      "F1_classe_0": 0.5906040268456376,
+      "F1_macro": 0.7558453510683556
     },
     "Self-training classique": {
-      "Accuracy": 0.8893709327548807,
-      "Accuracy_ponderee": 0.7927126492810139,
-      "F1": 0.932806324110672,
-      "Precision": 0.917098445595855,
-      "Recall": 0.9490616621983914,
-      "ROC_AUC": 0.9140415549597855,
-      "LogLoss": 0.6214007253748308,
-      "F1_classe_0": 0.6871165644171779,
-      "F1_macro": 0.8099614442639249
+      "Accuracy": 0.913232104121475,
+      "Accuracy_ponderee": 0.829164635632464,
+      "F1": 0.9473684210526315,
+      "Precision": 0.9302325581395349,
+      "Recall": 0.9651474530831099,
+      "ROC_AUC": 0.923272605410675,
+      "LogLoss": 0.484015331529042,
+      "F1_classe_0": 0.7530864197530864,
+      "F1_macro": 0.850227420402859
     },
     "Self-training équilibré": {
-      "Accuracy": 0.8980477223427332,
-      "Accuracy_ponderee": 0.8241225932244699,
-      "F1": 0.9374167776298269,
-      "Precision": 0.9312169312169312,
-      "Recall": 0.9436997319034852,
-      "ROC_AUC": 0.858609553984889,
-      "LogLoss": 0.57213817680608,
-      "F1_classe_0": 0.7251461988304093,
-      "F1_macro": 0.831281488230118
+      "Accuracy": 0.89587852494577,
+      "Accuracy_ponderee": 0.8227821106507434,
+      "F1": 0.936,
+      "Precision": 0.9310344827586207,
+      "Recall": 0.9410187667560321,
+      "ROC_AUC": 0.9036680477699244,
+      "LogLoss": 0.5099636440079839,
+      "F1_classe_0": 0.7209302325581395,
+      "F1_macro": 0.8284651162790697
     },
     "Label spreading": {
-      "Accuracy": 0.8720173535791758,
-      "Accuracy_ponderee": 0.7429167682183768,
-      "F1": 0.9232769830949284,
-      "Precision": 0.8964646464646465,
-      "Recall": 0.9517426273458445,
-      "ROC_AUC": 0.7769772117962467,
-      "LogLoss": 1.922593453324752,
-      "F1_classe_0": 0.6143790849673203,
-      "F1_macro": 0.7688280340311244
+      "Accuracy": 0.8785249457700651,
+      "Accuracy_ponderee": 0.7469382159395563,
+      "F1": 0.927461139896373,
+      "Precision": 0.8972431077694235,
+      "Recall": 0.9597855227882037,
+      "ROC_AUC": 0.8336582988057518,
+      "LogLoss": 1.349747321513359,
+      "F1_classe_0": 0.6266666666666667,
+      "F1_macro": 0.7770639032815199
     },
     "CEM semi-supervisé": {
       "Accuracy": 0.8481561822125814,
@@ -214,24 +214,24 @@
       "F1": 0.9002849002849003,
       "Precision": 0.9604863221884499,
       "Recall": 0.8471849865951743,
-      "ROC_AUC": 0.8552431147940532,
-      "LogLoss": 2.468177335608288,
+      "ROC_AUC": 0.9088319522300756,
+      "LogLoss": 1.972213838526538,
       "F1_classe_0": 0.6818181818181818,
       "F1_macro": 0.7910515410515411
     }
   },
   "ic95_cv_imbriquee": {
     "XGBoost (défaut) (supervisé, retenu par l'équipe)": [
-      0.5876349058694135,
-      0.940237539670146
+      0.6134215905873732,
+      0.8364099414521515
     ],
     "Self-training classique": [
-      0.5823815774143279,
-      0.9352583478413359
+      0.6158559494342292,
+      0.9459809533720258
     ],
     "Self-training équilibré": [
-      0.5874747536415807,
-      0.9578796680136556
+      0.5859075778108279,
+      0.95705741286586
     ],
     "Label spreading": [
       0.5,
@@ -244,70 +244,70 @@
   },
   "gains_cv_imbriquee": {
     "Self-training classique": {
-      "gain": -0.017045454545454475,
-      "IC95_bas": -0.08825984589041101,
-      "IC95_haut": 0.0821037903204473,
-      "P(gain > 0)": 0.34
+      "gain": 0.10195283938581523,
+      "IC95_bas": -0.05563546093859679,
+      "IC95_haut": 0.22329098774862485,
+      "P(gain > 0)": 0.852
     },
     "Self-training équilibré": {
-      "gain": 0.014364489398001501,
-      "IC95_bas": -0.05327205882352944,
-      "IC95_haut": 0.11122884696304193,
-      "P(gain > 0)": 0.692
+      "gain": 0.09557031440409458,
+      "IC95_bas": -0.11305801271359833,
+      "IC95_haut": 0.22663560925780352,
+      "P(gain > 0)": 0.832
     },
     "Label spreading": {
-      "gain": -0.06684133560809158,
-      "IC95_bas": -0.22951530553058566,
-      "IC95_haut": 0.09442578102370064,
-      "P(gain > 0)": 0.256
+      "gain": 0.01972641969290756,
+      "IC95_bas": -0.2215637178954766,
+      "IC95_haut": 0.21230167020148458,
+      "P(gain > 0)": 0.57
     },
     "CEM semi-supervisé": {
-      "gain": 0.039970753107482326,
-      "IC95_bas": -0.10326259373445373,
-      "IC95_haut": 0.27680642991551335,
-      "P(gain > 0)": 0.73
+      "gain": 0.12251706068730195,
+      "IC95_bas": -0.13316456843235402,
+      "IC95_haut": 0.29739661750615937,
+      "P(gain > 0)": 0.87
     }
   },
   "score_cv_sans_reglage": {
     "XGBoost (défaut) (supervisé, retenu par l'équipe)": {
-      "Accuracy_ponderee": 0.8097581038264684,
-      "F1_classe_0": 0.7108433734939759,
-      "F1": 0.9365079365079365,
-      "F1_macro": 0.8236756550009562,
-      "Recall": 0.9490616621983914,
-      "ROC_AUC": 0.9097611503777723
+      "Accuracy_ponderee": 0.7272117962466488,
+      "F1_classe_0": 0.5906040268456376,
+      "F1": 0.9210866752910737,
+      "F1_macro": 0.7558453510683556,
+      "Recall": 0.9544235924932976,
+      "ROC_AUC": 0.9338746039483306
     },
     "Self-training classique": {
-      "Accuracy_ponderee": 0.763663782598099,
-      "F1_classe_0": 0.6621621621621622,
-      "F1": 0.9354005167958657,
-      "F1_macro": 0.798781339479014,
-      "Recall": 0.9705093833780161,
-      "ROC_AUC": 0.9160827443334145
+      "Accuracy_ponderee": 0.81409943943456,
+      "F1_classe_0": 0.7142857142857143,
+      "F1": 0.9363395225464191,
+      "F1_macro": 0.8253126184160666,
+      "Recall": 0.9463806970509383,
+      "ROC_AUC": 0.9026779185961491
     },
     "Self-training équilibré": {
-      "Accuracy_ponderee": 0.8227821106507434,
-      "F1_classe_0": 0.7209302325581395,
-      "F1": 0.936,
-      "F1_macro": 0.8284651162790697,
-      "Recall": 0.9410187667560321,
-      "ROC_AUC": 0.8972093590056057
+      "Accuracy_ponderee": 0.6539879356568364,
+      "F1_classe_0": 0.4520547945205479,
+      "F1": 0.8969072164948454,
+      "F1_macro": 0.6744810055076966,
+      "Recall": 0.9329758713136729,
+      "ROC_AUC": 0.8704606385571533
     },
     "Label spreading": {
-      "Accuracy_ponderee": 0.6266603704606386,
-      "F1_classe_0": 0.40350877192982454,
-      "F1": 0.9158415841584159,
-      "F1_macro": 0.6596751780441202,
+      "Accuracy_ponderee": 0.6493876431879113,
+      "F1_classe_0": 0.4576271186440678,
+      "F1": 0.9203980099502488,
+      "F1_macro": 0.6890125642971583,
       "Recall": 0.9919571045576407,
-      "ROC_AUC": 0.7767030221788935
+      "ROC_AUC": 0.7955611747501827
     },
     "CEM semi-supervisé": {
-      "Accuracy_ponderee": 0.8695162076529369,
-      "F1_classe_0": 0.74,
-      "F1": 0.9279778393351801,
-      "F1_macro": 0.83398891966759,
-      "Recall": 0.8981233243967829,
-      "ROC_AUC": 0.9155038995856691
+      "Accuracy_ponderee": 0.840025591030953,
+      "F1_classe_0": 0.6666666666666666,
+      "F1": 0.8942857142857142,
+      "F1_macro": 0.7804761904761904,
+      "Recall": 0.839142091152815,
+      "ROC_AUC": 0.9042925907872289
     }
   },
   "hyperparametres_toutes_methodes": {
@@ -354,26 +354,27 @@
       "verbosity": null
     },
     "Self-training classique": {
+      "base_estimator": "deprecated",
       "criterion": "threshold",
       "k_best": 10,
       "max_iter": 10,
-      "threshold": 0.7,
+      "threshold": 0.9,
       "verbose": false,
       "modele_de_base": "XGBoost (défaut)"
     },
     "Self-training équilibré": {
       "max_iter": 10,
       "part_par_iter": 0.05,
-      "seuil": 0.6,
+      "seuil": 0.9,
       "modele_de_base": "XGBoost (défaut)"
     },
     "Label spreading": {
-      "alpha": 0.8,
+      "alpha": 0.1,
       "gamma": 20,
       "kernel": "knn",
       "max_iter": 200,
       "n_jobs": null,
-      "n_neighbors": 10,
+      "n_neighbors": 25,
       "tol": 0.001
     },
     "CEM semi-supervisé": {
@@ -399,7 +400,7 @@
       "Precision": 0.8867924528301887,
       "Recall": 0.5164835164835165,
       "ROC_AUC": 0.6115061409179057,
-      "LogLoss": 3.3196683081458156,
+      "LogLoss": 3.319668308145816,
       "F1_classe_0": 0.3055555555555556,
       "F1_macro": 0.4791666666666667,
       "Accuracy_ponderee IC95 bas": 0.25903614457831325,
@@ -412,7 +413,7 @@
       "Precision": 0.9375,
       "Recall": 0.989010989010989,
       "ROC_AUC": 0.8067226890756303,
-      "LogLoss": 0.508398175239563,
+      "LogLoss": 0.5083982157506932,
       "F1_classe_0": 0.7586206896551724,
       "F1_macro": 0.8605937672874793,
       "Accuracy_ponderee IC95 bas": 0.5,
@@ -424,37 +425,37 @@
       "F1": 0.9578947368421052,
       "Precision": 0.9191919191919192,
       "Recall": 1.0,
-      "ROC_AUC": 0.7000646412411118,
-      "LogLoss": 0.6761284470558167,
+      "ROC_AUC": 0.7175177763413058,
+      "LogLoss": 0.6541685056119811,
       "F1_classe_0": 0.6923076923076923,
       "F1_macro": 0.8251012145748988,
       "Accuracy_ponderee IC95 bas": 0.5,
       "Accuracy_ponderee IC95 haut": 1.0
     },
     "Self-training équilibré": {
-      "Accuracy": 0.9074074074074074,
-      "Accuracy_ponderee": 0.8015513897866839,
-      "F1": 0.9456521739130435,
-      "Precision": 0.9354838709677419,
-      "Recall": 0.9560439560439561,
-      "ROC_AUC": 0.7879767291531997,
-      "LogLoss": 0.5330923795700073,
-      "F1_classe_0": 0.6875,
-      "F1_macro": 0.8165760869565217,
-      "Accuracy_ponderee IC95 bas": 0.5,
-      "Accuracy_ponderee IC95 haut": 1.0
-    },
-    "Label spreading": {
       "Accuracy": 0.9351851851851852,
       "Accuracy_ponderee": 0.8180349062702004,
       "F1": 0.9625668449197861,
       "Precision": 0.9375,
       "Recall": 0.989010989010989,
-      "ROC_AUC": 0.7714932126696832,
-      "LogLoss": 2.020254676998307,
+      "ROC_AUC": 0.8280542986425339,
+      "LogLoss": 0.5141330431499207,
       "F1_classe_0": 0.7586206896551724,
       "F1_macro": 0.8605937672874793,
       "Accuracy_ponderee IC95 bas": 0.5,
+      "Accuracy_ponderee IC95 haut": 1.0
+    },
+    "Label spreading": {
+      "Accuracy": 0.8888888888888888,
+      "Accuracy_ponderee": 0.7427278603749192,
+      "F1": 0.9354838709677419,
+      "Precision": 0.9157894736842105,
+      "Recall": 0.9560439560439561,
+      "ROC_AUC": 0.6622495151906916,
+      "LogLoss": 1.8623463100839293,
+      "F1_classe_0": 0.6,
+      "F1_macro": 0.7677419354838709,
+      "Accuracy_ponderee IC95 bas": 0.3333333333333333,
       "Accuracy_ponderee IC95 haut": 1.0
     }
   },
@@ -495,7 +496,7 @@
   "verification_hypotheses": {
     "part de U issue de publications étiquetées": 0.5336898395721925,
     "accord attendu par hasard": 0.691098762004696,
-    "accord avec les 5 plus proches voisins": 0.9631236442516269,
+    "accord avec les 5 plus proches voisins": 0.9639913232104121,
     "accord avec les 5 plus proches voisins d'AUTRES publications": 0.8477223427331887,
     "distance médiane test -> étiquetée la plus proche": 1.126528783151426,
     "distance médiane test -> soudure la plus proche (étiquetée ou non)": 1.0842194447133902,

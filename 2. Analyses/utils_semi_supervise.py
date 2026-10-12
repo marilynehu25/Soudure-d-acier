@@ -5,7 +5,7 @@ Organisation
 ------------
 1. Chargement : reconstruction du split train/test de l'équipe + soudures non étiquetées
 2. Prétraitement commun (imputation métier de l'équipe + CE_IIW + standardisation + one-hot)
-3. Vérification des hypothèses du semi-supervisé (cours CM8)
+3. Vérification des hypothèses du semi-supervisé (vu en cours)
 4. Modèles semi-supervisés et leurs références supervisées
 5. Protocole d'évaluation (validation croisée groupée, courbe d'apprentissage)
 6. Métriques regroupées, intervalles de confiance, comparaisons appariées
@@ -144,7 +144,7 @@ class PretraitementSSL(BaseEstimator, TransformerMixin):
 
 
 # =====================================================================================================
-# 3) Vérification des hypothèses (cours CM8)
+# 3) Vérification des hypothèses (vu en cours)
 # =====================================================================================================
 def part_sources_communes(g_lab, g_unl):
     """Part des non-étiquetées issues d'une publication qui contient aussi des étiquetées."""
@@ -280,7 +280,7 @@ class SelfTrainingEquilibre(BaseEstimator, ClassifierMixin):
 
 
 class SemiSupervisedCEM(BaseEstimator, ClassifierMixin):
-    """CEM semi-supervisé (Celeux & Govaert ; cours CM8) : une gaussienne par classe.
+    """CEM semi-supervisé (Celeux & Govaert ; vu en cours) : une gaussienne par classe.
     E : probabilités a posteriori des non-étiquetées ; C : affectation à la classe la plus probable ;
     M : ré-estimation des proportions, moyennes et covariances sur S ∪ U. y = -1 pour les non-étiquetées."""
 
