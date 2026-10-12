@@ -282,8 +282,7 @@ class SelfTrainingEquilibre(BaseEstimator, ClassifierMixin):
 class SemiSupervisedCEM(BaseEstimator, ClassifierMixin):
     """CEM semi-supervisé (Celeux & Govaert ; cours CM8) : une gaussienne par classe.
     E : probabilités a posteriori des non-étiquetées ; C : affectation à la classe la plus probable ;
-    M : ré-estimation des proportions, moyennes et covariances sur S ∪ U. y = -1 pour les non-étiquetées.
-    max_iter = 0  ->  même modèle appris sur les étiquetées seules (référence supervisée)."""
+    M : ré-estimation des proportions, moyennes et covariances sur S ∪ U. y = -1 pour les non-étiquetées."""
 
     def __init__(self, max_iter=50, covariance_type="diag", reg=1e-3):
         self.max_iter = max_iter
@@ -339,29 +338,27 @@ class SemiSupervisedCEM(BaseEstimator, ClassifierMixin):
 
 
 def methodes_classification(modele_reference, nom_reference, n_voisins=10, n_composantes=10):
-    """Les méthodes comparées, par paires (supervisé de référence -> semi-supervisé de la même famille).
+    """Les méthodes comparées : le modèle supervisé retenu par l'équipe (référence) et une ou deux
+    méthodes semi-supervisées par famille du cours. Chaque méthode semi-supervisée est comparée à la référence.
 
     Renvoie (methodes, paires) :
       methodes = {nom: (estimateur, utilise_les_non_etiquetees)}
-      paires   = [(famille, nom_supervise, nom_semi_supervise)]
+      paires   = [(famille, nom_reference, nom_semi_supervise)]
     """
     ref = f"{nom_reference} (supervisé, retenu par l'équipe)"
     methodes = {
-        ref:                              (clone(modele_reference), False),
-        "Self-training classique":        (SelfTrainingClassifier(clone(modele_reference), threshold=0.9, max_iter=10), True),
-        "Self-training équilibré":        (SelfTrainingEquilibre(clone(modele_reference)), True),
-        "kNN (supervisé)":                (KNeighborsClassifier(n_neighbors=n_voisins, weights="distance"), False),
-        "Label spreading":                (SafeLabelSpreading(kernel="knn", n_neighbors=n_voisins, alpha=0.2, max_iter=200), True),
-        "Gaussiennes (supervisé)":        (make_pipeline(PCA(n_components=n_composantes, random_state=RANDOM_STATE),
-                                                         SemiSupervisedCEM(max_iter=0)), False),
-        "CEM semi-supervisé":             (make_pipeline(PCA(n_components=n_composantes, random_state=RANDOM_STATE),
-                                                         SemiSupervisedCEM(max_iter=50)), True),
+        ref:                       (clone(modele_reference), False),
+        "Self-training classique": (SelfTrainingClassifier(clone(modele_reference), threshold=0.9, max_iter=10), True),
+        "Self-training équilibré": (SelfTrainingEquilibre(clone(modele_reference)), True),
+        "Label spreading":         (SafeLabelSpreading(kernel="knn", n_neighbors=n_voisins, alpha=0.2, max_iter=200), True),
+        "CEM semi-supervisé":      (make_pipeline(PCA(n_components=n_composantes, random_state=RANDOM_STATE),
+                                                  SemiSupervisedCEM(max_iter=50)), True),
     }
     paires = [
         ("Discriminante (self-training)", ref, "Self-training classique"),
         ("Discriminante (self-training)", ref, "Self-training équilibré"),
-        ("Graphe", "kNN (supervisé)", "Label spreading"),
-        ("Générative", "Gaussiennes (supervisé)", "CEM semi-supervisé"),
+        ("Graphe", ref, "Label spreading"),
+        ("Générative", ref, "CEM semi-supervisé"),
     ]
     return methodes, paires
 
@@ -424,6 +421,100 @@ def evaluer_ssl_cv(jeux, methodes, fractions=(0.1, 0.25, 0.5, 1.0), n_tirages=3,
         if verbose:
             print(f"pli {f + 1}/{n_folds} terminé")
     return pd.concat(lignes, ignore_index=True)
+
+
+# -----------------------------------------------------------------------------------------------------
+# 5 bis) Réglage des hyperparamètres par validation croisée IMBRIQUÉE
+# -----------------------------------------------------------------------------------------------------
+# Grilles volontairement petites (≈ 40 configurations) : c'est la taille de la base, pas le temps de
+# calcul, qui limite (un réglage trop fin sur ~400 soudures sur-apprendrait les plis internes).
+GRILLES_CLASSIFICATION = {
+    "Self-training classique": [{"threshold": t} for t in (0.7, 0.8, 0.9, 0.95)],
+    "Self-training équilibré": [{"seuil": t, "part_par_iter": p} for t in (0.6, 0.7, 0.8, 0.9) for p in (0.05, 0.1)],
+    "Label spreading":         [{"n_neighbors": k, "alpha": a} for k in (5, 10, 15, 25) for a in (0.1, 0.2, 0.5, 0.8)],
+    "CEM semi-supervisé":      [{"pca__n_components": n} for n in (5, 10, 15)],
+}
+
+
+def _ajuster(est, semi, Z_S, y_S, Z_U):
+    if semi:
+        return est.fit(np.vstack([Z_S, Z_U]), np.concatenate([y_S, -np.ones(len(Z_U), dtype=int)]))
+    return est.fit(Z_S, y_S)
+
+
+def regler_hyperparametres(X_S, y_S, g_S, X_U, g_U, methodes, grilles=None, n_inner=3,
+                           metrique="Accuracy_ponderee", random_state=RANDOM_STATE):
+    """Choisit, pour chaque méthode, la configuration qui maximise `metrique` en validation croisée
+    INTERNE (groupée par publication) sur les seules données (X_S, y_S) fournies.
+
+    - les non-étiquetées des publications du pli interne de validation sont retirées (même règle qu'à l'extérieur) ;
+    - les méthodes absentes de `grilles` (la référence de l'équipe, déjà réglée dans le notebook 3) gardent
+      leurs hyperparamètres.
+    Renvoie (meilleures configurations {méthode: dict}, tableau de tous les scores internes)."""
+    grilles = GRILLES_CLASSIFICATION if grilles is None else grilles
+    X_S = X_S.reset_index(drop=True)
+    y_S = np.asarray(y_S)
+    g_S = pd.Series(np.asarray(g_S))
+    folds = list(StratifiedGroupKFold(n_splits=n_inner, shuffle=True, random_state=random_state)
+                 .split(X_S, y_S, g_S))
+    lignes = []
+    for i_fit, i_val in folds:
+        U_in = X_U[~pd.Series(np.asarray(g_U)).isin(set(g_S.iloc[i_val])).values]
+        prep = PretraitementSSL().fit(pd.concat([X_S.iloc[i_fit], U_in], ignore_index=True))
+        Z_fit, Z_val, Z_U = prep.transform(X_S.iloc[i_fit]), prep.transform(X_S.iloc[i_val]), prep.transform(U_in)
+        for nom, configs in grilles.items():
+            if nom not in methodes:
+                continue
+            est, semi = methodes[nom]
+            for k, cfg in enumerate(configs):
+                m = _ajuster(clone(est).set_params(**cfg), semi, Z_fit, y_S[i_fit], Z_U)
+                lignes.append(pd.DataFrame({"methode": nom, "config": k, "y": y_S[i_val], "y_pred": m.predict(Z_val)}))
+    preds = pd.concat(lignes, ignore_index=True)
+    tab = (preds.groupby(["methode", "config"])
+                .apply(lambda d: scores_cls(d["y"].to_numpy(), d["y_pred"].to_numpy())[metrique], include_groups=False)
+                .rename(metrique).reset_index())
+    tab["parametres"] = [grilles[m][c] for m, c in zip(tab["methode"], tab["config"])]
+    meilleurs = {m: grilles[m][int(d.loc[d[metrique].idxmax(), "config"])] for m, d in tab.groupby("methode")}
+    return meilleurs, tab
+
+
+def evaluer_ssl_cv_imbrique(jeux, methodes, grilles=None, n_folds=5, n_inner=3,
+                            metrique="Accuracy_ponderee", random_state=RANDOM_STATE, verbose=True):
+    """Validation croisée IMBRIQUÉE, avec 100 % des étiquettes.
+    Boucle externe : mêmes plis que evaluer_ssl_cv (évaluation). Boucle interne : réglage des hyperparamètres
+    sur le seul train du pli externe. Le pli externe de validation ne sert JAMAIS au réglage : le score obtenu
+    est une estimation honnête de la performance d'une méthode « réglée automatiquement ».
+    Renvoie (prédictions hors-pli au même format que evaluer_ssl_cv, configurations choisies par pli)."""
+    X_tr = jeux["X_lab"].iloc[jeux["train_idx"]].reset_index(drop=True)
+    y_tr = jeux["y_lab"].iloc[jeux["train_idx"]].to_numpy()
+    g_tr = jeux["g_lab"].iloc[jeux["train_idx"]].reset_index(drop=True)
+    X_unl, g_unl = jeux["X_unl"], jeux["g_unl"]
+    folds = list(StratifiedGroupKFold(n_splits=n_folds, shuffle=True, random_state=random_state)
+                 .split(X_tr, y_tr, g_tr))
+    lignes, choix = [], []
+    for f, (i_fit, i_val) in enumerate(folds):
+        garde_u = ~g_unl.isin(set(g_tr.iloc[i_val])).values
+        U_pli, gU_pli = X_unl[garde_u].reset_index(drop=True), g_unl[garde_u].reset_index(drop=True)
+        meilleurs, _ = regler_hyperparametres(X_tr.iloc[i_fit], y_tr[i_fit], g_tr.iloc[i_fit], U_pli, gU_pli,
+                                              methodes, grilles, n_inner, metrique, random_state)
+        prep = PretraitementSSL().fit(pd.concat([X_tr.iloc[i_fit], U_pli], ignore_index=True))
+        Z_S, Z_U, Z_val = prep.transform(X_tr.iloc[i_fit]), prep.transform(U_pli), prep.transform(X_tr.iloc[i_val])
+        for nom, (est, semi) in methodes.items():
+            cfg = meilleurs.get(nom, {})
+            m = _ajuster(clone(est).set_params(**cfg), semi, Z_S, y_tr[i_fit], Z_U)
+            lignes.append(pd.DataFrame({
+                "fold": f, "fraction": 1.0, "tirage": 0, "methode": nom, "semi": semi,
+                "groupe": g_tr.iloc[i_val].values, "y": y_tr[i_val], "y_pred": m.predict(Z_val),
+                "proba": m.predict_proba(Z_val)[:, 1], "n_S": len(i_fit), "n_U": len(Z_U)}))
+            choix.append({"fold": f, "methode": nom, "parametres": cfg})
+        if verbose:
+            print(f"pli externe {f + 1}/{n_folds} terminé")
+    return pd.concat(lignes, ignore_index=True), pd.DataFrame(choix)
+
+
+def methodes_reglees(methodes, meilleurs):
+    """Applique les meilleures configurations aux méthodes (les autres gardent leurs hyperparamètres)."""
+    return {nom: (clone(est).set_params(**meilleurs.get(nom, {})), semi) for nom, (est, semi) in methodes.items()}
 
 
 # =====================================================================================================
@@ -515,18 +606,18 @@ COULEURS_FAMILLES = {"Discriminante (self-training)": "C0", "Graphe": "C2", "Gé
 
 
 def courbe_apprentissage(scores, paires, metrique="Accuracy_ponderee", titre="", ax=None):
-    """Score selon la part d'étiquettes : pointillés = supervisé, trait plein = semi-supervisé (même couleur)."""
+    """Score selon la part d'étiquettes : la référence supervisée en noir pointillé, chaque méthode
+    semi-supervisée en couleur (une couleur par famille du cours)."""
     ax = ax or plt.gca()
-    deja = set()
+    ref = paires[0][1]
+    s = scores.xs(ref, level="methode")[metrique]
+    ax.plot(s.index * 100, s.values, ls="--", marker="o", color="black", label=ref)
     styles = ["-", "-."]
-    for i, (famille, sup, semi) in enumerate(paires):
+    for i, (famille, _, semi) in enumerate(paires):
         c = COULEURS_FAMILLES.get(famille, f"C{i}")
-        for nom, ls, mk in ((sup, "--", "o"), (semi, styles[sum(1 for p in paires[:i] if p[0] == famille) % 2], "s")):
-            if nom in deja:
-                continue
-            deja.add(nom)
-            s = scores.xs(nom, level="methode")[metrique]
-            ax.plot(s.index * 100, s.values, ls=ls, marker=mk, color=c, label=nom)
+        ls = styles[sum(1 for p in paires[:i] if p[0] == famille) % 2]
+        s = scores.xs(semi, level="methode")[metrique]
+        ax.plot(s.index * 100, s.values, ls=ls, marker="s", color=c, label=semi)
     ax.set_xscale("log")
     fr = sorted(scores.index.get_level_values("fraction").unique())
     ax.set_xticks([f * 100 for f in fr]); ax.set_xticklabels([f"{int(f * 100)} %" for f in fr])
@@ -538,7 +629,8 @@ def courbe_apprentissage(scores, paires, metrique="Accuracy_ponderee", titre="",
 def matrices_confusion(preds, methodes, noms_classes=("classe 0", "classe 1"), fraction=1.0):
     """Matrices de confusion des prédictions hors-pli regroupées."""
     n = len(methodes)
-    fig, axes = plt.subplots(2, (n + 1) // 2, figsize=(4.2 * ((n + 1) // 2), 7.5))
+    ncol = min(n, 3)
+    fig, axes = plt.subplots((n + ncol - 1) // ncol, ncol, figsize=(4.4 * ncol, 3.8 * ((n + ncol - 1) // ncol)), squeeze=False)
     for ax, nom in zip(axes.ravel(), methodes):
         p = preds[(preds["methode"] == nom) & (preds["fraction"] == fraction)]
         cm = confusion_matrix(p["y"], p["y_pred"], labels=[0, 1])
@@ -595,19 +687,36 @@ def _jsonable(o):
     return o
 
 
-def enregistrer_ssl(dossier, infos, preds_cv, scores, gains, recap_test, preds_test, modele_final, prep, hypotheses):
+def predire_non_etiquetees(df, masque_etiquete, jeux, colonnes_a_retirer, prep, modeles, nom_cible, id_col=ID_COL):
+    """Prédit la cible sur TOUTES les lignes non étiquetées de df (y compris celles des publications du test,
+    écartées de l'apprentissage) avec chacun des `modeles` ({nom: modèle entraîné}).
+    Renvoie les lignes de df (toutes leurs colonnes, ligne_df = index dans welddb_processed_vf.csv), plus :
+    - utilisee_en_apprentissage : la ligne faisait partie de U pendant l'entraînement ;
+    - pour chaque modèle : '<cible> prédit (<nom>)' et 'proba <cible> = 1 (<nom>)'."""
+    unl = df[~masque_etiquete]
+    a_retirer = [c for c in colonnes_a_retirer + [id_col] if c in df.columns]
+    Z = prep.transform(unl.drop(columns=a_retirer).reset_index(drop=True))
+    out = unl.reset_index(names="ligne_df")
+    sources_test = set(jeux["g_lab"].iloc[jeux["test_idx"]])
+    out.insert(1, "utilisee_en_apprentissage", ~out[id_col].isin(sources_test))
+    for nom, m in modeles.items():
+        out[f"{nom_cible} prédit ({nom})"] = m.predict(Z)
+        out[f"proba {nom_cible} = 1 ({nom})"] = m.predict_proba(Z)[:, 1]
+    return out
+
+
+def enregistrer_ssl(dossier, infos, preds_cv, scores, preds_test, modele_final, prep, preds_unl):
     """Sauvegarde dans 05_reporting/semi_supervise/<cible>/ (même logique que les notebooks supervisés) :
-    - modele_retenu_ssl.json : méthode retenue, hyperparamètres, référence supervisée, scores CV et test ;
-    - CSV : prédictions hors-pli, scores par méthode et fraction, gains appariés, test, hypothèses ;
+    - modele_retenu_ssl.json : méthode retenue, hyperparamètres, référence supervisée, gains, hypothèses, scores CV et test ;
+    - CSV : prédictions hors-pli, scores par méthode et fraction, prédictions du test ;
+    - predictions_non_etiquetees.csv : la cible prédite sur les soudures sans étiquette ;
     - modele_final_ssl.joblib : prétraitement + modèle retenu, réutilisables sans réentraîner."""
     dossier = Path(dossier)
     dossier.mkdir(parents=True, exist_ok=True)
     preds_cv.to_csv(dossier / "cv_predictions.csv", index=False, **CSV)
     scores.reset_index().to_csv(dossier / "cv_scores_par_methode_et_fraction.csv", index=False, **CSV)
-    gains.to_csv(dossier / "cv_gains_apparies.csv", index=False, **CSV)
-    recap_test.to_csv(dossier / "test_recap_metriques.csv", **CSV)
     preds_test.to_csv(dossier / "test_predictions.csv", index=False, **CSV)
-    hypotheses.to_csv(dossier / "verification_hypotheses.csv", header=["valeur"], **CSV)
+    preds_unl.to_csv(dossier / "predictions_non_etiquetees.csv", index=False, **CSV)
     joblib.dump({"pretraitement": prep, "modele": modele_final}, dossier / "modele_final_ssl.joblib")
     with open(dossier / "modele_retenu_ssl.json", "w", encoding="utf-8") as f:
         json.dump(_jsonable(infos), f, indent=2, ensure_ascii=False)

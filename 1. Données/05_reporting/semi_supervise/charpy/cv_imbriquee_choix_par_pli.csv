@@ -1,0 +1,26 @@
+﻿fold;methode;parametres
+0;XGBoost (défaut) (supervisé, retenu par l'équipe);{}
+0;Self-training classique;{'threshold': 0.7}
+0;Self-training équilibré;{'seuil': 0.6, 'part_par_iter': 0.05}
+0;Label spreading;{'n_neighbors': 15, 'alpha': 0.1}
+0;CEM semi-supervisé;{'pca__n_components': 15}
+1;XGBoost (défaut) (supervisé, retenu par l'équipe);{}
+1;Self-training classique;{'threshold': 0.9}
+1;Self-training équilibré;{'seuil': 0.7, 'part_par_iter': 0.05}
+1;Label spreading;{'n_neighbors': 25, 'alpha': 0.1}
+1;CEM semi-supervisé;{'pca__n_components': 5}
+2;XGBoost (défaut) (supervisé, retenu par l'équipe);{}
+2;Self-training classique;{'threshold': 0.7}
+2;Self-training équilibré;{'seuil': 0.6, 'part_par_iter': 0.05}
+2;Label spreading;{'n_neighbors': 25, 'alpha': 0.2}
+2;CEM semi-supervisé;{'pca__n_components': 5}
+3;XGBoost (défaut) (supervisé, retenu par l'équipe);{}
+3;Self-training classique;{'threshold': 0.8}
+3;Self-training équilibré;{'seuil': 0.6, 'part_par_iter': 0.05}
+3;Label spreading;{'n_neighbors': 15, 'alpha': 0.1}
+3;CEM semi-supervisé;{'pca__n_components': 5}
+4;XGBoost (défaut) (supervisé, retenu par l'équipe);{}
+4;Self-training classique;{'threshold': 0.9}
+4;Self-training équilibré;{'seuil': 0.7, 'part_par_iter': 0.1}
+4;Label spreading;{'n_neighbors': 15, 'alpha': 0.1}
+4;CEM semi-supervisé;{'pca__n_components': 5}
