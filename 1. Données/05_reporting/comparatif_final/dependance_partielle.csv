@@ -1,0 +1,201 @@
+﻿cible;variable;valeur;proba moyenne prédite
+Charpy conforme;CE_IIW;0.18681133333333333;0.9163686037063599
+Charpy conforme;CE_IIW;0.2739580833333333;0.9167059063911438
+Charpy conforme;CE_IIW;0.3611048333333333;0.9169186949729919
+Charpy conforme;CE_IIW;0.4482515833333333;0.810716986656189
+Charpy conforme;CE_IIW;0.5353983333333333;0.7580922842025757
+Charpy conforme;CE_IIW;0.6225450833333332;0.7580922842025757
+Charpy conforme;CE_IIW;0.7096918333333333;0.7580922842025757
+Charpy conforme;CE_IIW;0.7968385833333332;0.7580922842025757
+Charpy conforme;CE_IIW;0.8839853333333333;0.7580922842025757
+Charpy conforme;CE_IIW;0.9711320833333333;0.7585475444793701
+Charpy conforme;CE_IIW;1.0582788333333333;0.7761087417602539
+Charpy conforme;CE_IIW;1.145425583333333;0.7761087417602539
+Charpy conforme;CE_IIW;1.2325723333333332;0.7761087417602539
+Charpy conforme;CE_IIW;1.3197190833333332;0.7761087417602539
+Charpy conforme;CE_IIW;1.4068658333333333;0.7761087417602539
+Charpy conforme;CE_IIW;1.4940125833333333;0.7761087417602539
+Charpy conforme;CE_IIW;1.5811593333333334;0.7761087417602539
+Charpy conforme;CE_IIW;1.6683060833333334;0.7761087417602539
+Charpy conforme;CE_IIW;1.7554528333333335;0.7761087417602539
+Charpy conforme;CE_IIW;1.842599583333333;0.7761087417602539
+Charpy conforme;CE_IIW;1.9297463333333331;0.7761087417602539
+Charpy conforme;CE_IIW;2.016893083333333;0.7761087417602539
+Charpy conforme;CE_IIW;2.104039833333333;0.7761087417602539
+Charpy conforme;CE_IIW;2.1911865833333333;0.7761087417602539
+Charpy conforme;CE_IIW;2.2783333333333333;0.7761087417602539
+Charpy conforme;Vanadium concentration;0.0;0.8810206055641174
+Charpy conforme;Vanadium concentration;0.009583333333333334;0.8230977654457092
+Charpy conforme;Vanadium concentration;0.01916666666666667;0.8021790385246277
+Charpy conforme;Vanadium concentration;0.028750000000000005;0.8021790385246277
+Charpy conforme;Vanadium concentration;0.03833333333333334;0.8021790385246277
+Charpy conforme;Vanadium concentration;0.04791666666666667;0.8021790385246277
+Charpy conforme;Vanadium concentration;0.05750000000000001;0.8021790385246277
+Charpy conforme;Vanadium concentration;0.06708333333333334;0.8021790385246277
+Charpy conforme;Vanadium concentration;0.07666666666666667;0.8021790385246277
+Charpy conforme;Vanadium concentration;0.08625000000000001;0.8021790385246277
+Charpy conforme;Vanadium concentration;0.09583333333333334;0.8021790385246277
+Charpy conforme;Vanadium concentration;0.10541666666666667;0.8021790385246277
+Charpy conforme;Vanadium concentration;0.11500000000000002;0.8021790385246277
+Charpy conforme;Vanadium concentration;0.12458333333333335;0.8021790385246277
+Charpy conforme;Vanadium concentration;0.13416666666666668;0.8021790385246277
+Charpy conforme;Vanadium concentration;0.14375000000000002;0.8021790385246277
+Charpy conforme;Vanadium concentration;0.15333333333333335;0.8021790385246277
+Charpy conforme;Vanadium concentration;0.16291666666666668;0.8021790385246277
+Charpy conforme;Vanadium concentration;0.17250000000000001;0.8021790385246277
+Charpy conforme;Vanadium concentration;0.18208333333333335;0.8021790385246277
+Charpy conforme;Vanadium concentration;0.19166666666666668;0.8021790385246277
+Charpy conforme;Vanadium concentration;0.20125;0.8021790385246277
+Charpy conforme;Vanadium concentration;0.21083333333333334;0.8021790385246277
+Charpy conforme;Vanadium concentration;0.22041666666666668;0.8021790385246277
+Charpy conforme;Vanadium concentration;0.23;0.8021790385246277
+Charpy conforme;Nitrogen concentration;0.005;0.8250270485877991
+Charpy conforme;Nitrogen concentration;0.005469583333333332;0.8250270485877991
+Charpy conforme;Nitrogen concentration;0.0059391666666666655;0.8250270485877991
+Charpy conforme;Nitrogen concentration;0.006408749999999998;0.8250270485877991
+Charpy conforme;Nitrogen concentration;0.00687833333333333;0.8250270485877991
+Charpy conforme;Nitrogen concentration;0.007347916666666662;0.8250270485877991
+Charpy conforme;Nitrogen concentration;0.007817499999999995;0.8250270485877991
+Charpy conforme;Nitrogen concentration;0.008287083333333327;0.8166605830192566
+Charpy conforme;Nitrogen concentration;0.00875666666666666;0.8166605830192566
+Charpy conforme;Nitrogen concentration;0.009226249999999993;0.815007209777832
+Charpy conforme;Nitrogen concentration;0.009695833333333325;0.7539462447166443
+Charpy conforme;Nitrogen concentration;0.010165416666666658;0.7856846451759338
+Charpy conforme;Nitrogen concentration;0.010634999999999992;0.7872505784034729
+Charpy conforme;Nitrogen concentration;0.011104583333333324;0.7872505784034729
+Charpy conforme;Nitrogen concentration;0.011574166666666656;0.7872505784034729
+Charpy conforme;Nitrogen concentration;0.012043749999999988;0.787874698638916
+Charpy conforme;Nitrogen concentration;0.01251333333333332;0.787874698638916
+Charpy conforme;Nitrogen concentration;0.012982916666666653;0.787874698638916
+Charpy conforme;Nitrogen concentration;0.013452499999999985;0.787874698638916
+Charpy conforme;Nitrogen concentration;0.013922083333333318;0.787874698638916
+Charpy conforme;Nitrogen concentration;0.01439166666666665;0.787874698638916
+Charpy conforme;Nitrogen concentration;0.014861249999999982;0.787874698638916
+Charpy conforme;Nitrogen concentration;0.015330833333333314;0.787874698638916
+Charpy conforme;Nitrogen concentration;0.01580041666666665;0.787874698638916
+Charpy conforme;Nitrogen concentration;0.016269999999999982;0.787874698638916
+Charpy conforme;Chromium concentration;0.0;0.822425901889801
+Charpy conforme;Chromium concentration;0.37083333333333335;0.8170132637023926
+Charpy conforme;Chromium concentration;0.7416666666666667;0.8170132637023926
+Charpy conforme;Chromium concentration;1.1125;0.8170132637023926
+Charpy conforme;Chromium concentration;1.4833333333333334;0.8170132637023926
+Charpy conforme;Chromium concentration;1.8541666666666667;0.8031579256057739
+Charpy conforme;Chromium concentration;2.225;0.8008844256401062
+Charpy conforme;Chromium concentration;2.595833333333333;0.802924394607544
+Charpy conforme;Chromium concentration;2.966666666666667;0.802924394607544
+Charpy conforme;Chromium concentration;3.3375000000000004;0.802924394607544
+Charpy conforme;Chromium concentration;3.7083333333333335;0.802924394607544
+Charpy conforme;Chromium concentration;4.079166666666667;0.802924394607544
+Charpy conforme;Chromium concentration;4.45;0.802924394607544
+Charpy conforme;Chromium concentration;4.820833333333334;0.802924394607544
+Charpy conforme;Chromium concentration;5.191666666666666;0.802924394607544
+Charpy conforme;Chromium concentration;5.5625;0.802924394607544
+Charpy conforme;Chromium concentration;5.933333333333334;0.802924394607544
+Charpy conforme;Chromium concentration;6.304166666666667;0.802924394607544
+Charpy conforme;Chromium concentration;6.675000000000001;0.802924394607544
+Charpy conforme;Chromium concentration;7.045833333333333;0.802924394607544
+Charpy conforme;Chromium concentration;7.416666666666667;0.802924394607544
+Charpy conforme;Chromium concentration;7.7875000000000005;0.802924394607544
+Charpy conforme;Chromium concentration;8.158333333333333;0.802924394607544
+Charpy conforme;Chromium concentration;8.529166666666667;0.802924394607544
+Charpy conforme;Chromium concentration;8.9;0.802924394607544
+Charpy conforme;Manganese concentration;0.6246;0.8038736581802368
+Charpy conforme;Manganese concentration;0.6752416666666667;0.8024502396583557
+Charpy conforme;Manganese concentration;0.7258833333333334;0.8024502396583557
+Charpy conforme;Manganese concentration;0.776525;0.8034006357192993
+Charpy conforme;Manganese concentration;0.8271666666666667;0.8034006357192993
+Charpy conforme;Manganese concentration;0.8778083333333334;0.8034006357192993
+Charpy conforme;Manganese concentration;0.92845;0.8034006357192993
+Charpy conforme;Manganese concentration;0.9790916666666667;0.8034006357192993
+Charpy conforme;Manganese concentration;1.0297333333333334;0.8039594292640686
+Charpy conforme;Manganese concentration;1.080375;0.8190979361534119
+Charpy conforme;Manganese concentration;1.1310166666666668;0.8190979361534119
+Charpy conforme;Manganese concentration;1.1816583333333335;0.8190979361534119
+Charpy conforme;Manganese concentration;1.2323;0.8190979361534119
+Charpy conforme;Manganese concentration;1.2829416666666669;0.8190979361534119
+Charpy conforme;Manganese concentration;1.3335833333333333;0.821969211101532
+Charpy conforme;Manganese concentration;1.384225;0.821969211101532
+Charpy conforme;Manganese concentration;1.4348666666666667;0.821969211101532
+Charpy conforme;Manganese concentration;1.4855083333333334;0.821969211101532
+Charpy conforme;Manganese concentration;1.5361500000000001;0.821969211101532
+Charpy conforme;Manganese concentration;1.5867916666666666;0.821969211101532
+Charpy conforme;Manganese concentration;1.6374333333333335;0.821969211101532
+Charpy conforme;Manganese concentration;1.688075;0.821969211101532
+Charpy conforme;Manganese concentration;1.7387166666666667;0.821969211101532
+Charpy conforme;Manganese concentration;1.7893583333333334;0.821969211101532
+Charpy conforme;Manganese concentration;1.84;0.821969211101532
+Charpy conforme;Titanium concentration;0.0;0.8140437006950378
+Charpy conforme;Titanium concentration;0.000875;0.806219756603241
+Charpy conforme;Titanium concentration;0.00175;0.806219756603241
+Charpy conforme;Titanium concentration;0.002625;0.806219756603241
+Charpy conforme;Titanium concentration;0.0035;0.8063973188400269
+Charpy conforme;Titanium concentration;0.004375;0.8063973188400269
+Charpy conforme;Titanium concentration;0.00525;0.8063973188400269
+Charpy conforme;Titanium concentration;0.006125;0.8063973188400269
+Charpy conforme;Titanium concentration;0.007;0.8063973188400269
+Charpy conforme;Titanium concentration;0.007875;0.8063973188400269
+Charpy conforme;Titanium concentration;0.00875;0.8063973188400269
+Charpy conforme;Titanium concentration;0.009625;0.8063973188400269
+Charpy conforme;Titanium concentration;0.0105;0.8063973188400269
+Charpy conforme;Titanium concentration;0.011375;0.8063973188400269
+Charpy conforme;Titanium concentration;0.01225;0.8063973188400269
+Charpy conforme;Titanium concentration;0.013125;0.8035351634025574
+Charpy conforme;Titanium concentration;0.014;0.8035351634025574
+Charpy conforme;Titanium concentration;0.014875000000000001;0.8035351634025574
+Charpy conforme;Titanium concentration;0.01575;0.8035351634025574
+Charpy conforme;Titanium concentration;0.016625;0.8035351634025574
+Charpy conforme;Titanium concentration;0.0175;0.8035351634025574
+Charpy conforme;Titanium concentration;0.018375;0.8035351634025574
+Charpy conforme;Titanium concentration;0.01925;0.8035351634025574
+Charpy conforme;Titanium concentration;0.020125;0.8035351634025574
+Charpy conforme;Titanium concentration;0.021;0.8035351634025574
+Profil de résistance;CE_IIW;0.17999173333333335;0.17500454429153994
+Profil de résistance;CE_IIW;0.2124070777777778;0.17500454429153994
+Profil de résistance;CE_IIW;0.24482242222222222;0.17500454429153994
+Profil de résistance;CE_IIW;0.27723776666666666;0.17500454429153994
+Profil de résistance;CE_IIW;0.3096531111111111;0.17500454429153994
+Profil de résistance;CE_IIW;0.34206845555555554;0.17500454429153994
+Profil de résistance;CE_IIW;0.3744838;0.7546122901928153
+Profil de résistance;CE_IIW;0.4068991444444444;0.7546122901928153
+Profil de résistance;CE_IIW;0.43931448888888885;0.7546122901928153
+Profil de résistance;CE_IIW;0.4717298333333333;0.973272966262597
+Profil de résistance;CE_IIW;0.5041451777777777;0.973272966262597
+Profil de résistance;CE_IIW;0.5365605222222222;0.973272966262597
+Profil de résistance;CE_IIW;0.5689758666666667;0.973272966262597
+Profil de résistance;CE_IIW;0.601391211111111;0.973272966262597
+Profil de résistance;CE_IIW;0.6338065555555554;0.973272966262597
+Profil de résistance;CE_IIW;0.6662218999999999;0.973272966262597
+Profil de résistance;CE_IIW;0.6986372444444444;0.973272966262597
+Profil de résistance;CE_IIW;0.7310525888888888;0.973272966262597
+Profil de résistance;CE_IIW;0.7634679333333332;0.973272966262597
+Profil de résistance;CE_IIW;0.7958832777777778;0.973272966262597
+Profil de résistance;CE_IIW;0.8282986222222222;0.973272966262597
+Profil de résistance;CE_IIW;0.8607139666666666;0.973272966262597
+Profil de résistance;CE_IIW;0.8931293111111109;0.973272966262597
+Profil de résistance;CE_IIW;0.9255446555555555;0.973272966262597
+Profil de résistance;CE_IIW;0.9579599999999999;0.973272966262597
+Profil de résistance;Niobium concentration;0.0;0.3798458448665457
+Profil de résistance;Niobium concentration;0.00125;0.3798458448665457
+Profil de résistance;Niobium concentration;0.0025;0.3798458448665457
+Profil de résistance;Niobium concentration;0.00375;0.3798458448665457
+Profil de résistance;Niobium concentration;0.005;0.3798458448665457
+Profil de résistance;Niobium concentration;0.00625;0.3798458448665457
+Profil de résistance;Niobium concentration;0.0075;0.3798458448665457
+Profil de résistance;Niobium concentration;0.00875;0.3798458448665457
+Profil de résistance;Niobium concentration;0.01;0.3798458448665457
+Profil de résistance;Niobium concentration;0.01125;0.3798458448665457
+Profil de résistance;Niobium concentration;0.0125;0.3798458448665457
+Profil de résistance;Niobium concentration;0.01375;0.7590659159567195
+Profil de résistance;Niobium concentration;0.015;0.7590659159567195
+Profil de résistance;Niobium concentration;0.01625;0.7590659159567195
+Profil de résistance;Niobium concentration;0.0175;0.7590659159567195
+Profil de résistance;Niobium concentration;0.01875;0.7590659159567195
+Profil de résistance;Niobium concentration;0.02;0.7590659159567195
+Profil de résistance;Niobium concentration;0.02125;0.7590659159567195
+Profil de résistance;Niobium concentration;0.0225;0.7590659159567195
+Profil de résistance;Niobium concentration;0.02375;0.7590659159567195
+Profil de résistance;Niobium concentration;0.025;0.7590659159567195
+Profil de résistance;Niobium concentration;0.02625;0.7590659159567195
+Profil de résistance;Niobium concentration;0.0275;0.7590659159567195
+Profil de résistance;Niobium concentration;0.02875;0.7590659159567195
+Profil de résistance;Niobium concentration;0.03;0.7590659159567195

@@ -1,0 +1,5 @@
+﻿règle;soudures du train;part de résistance élevée
+CE_IIW ≤ 0.3662 et Niobium concentration ≤ 0.0135;314;0.12
+CE_IIW ≤ 0.3662 et Niobium concentration > 0.0135;29;0.7
+CE_IIW > 0.3662 et CE_IIW ≤ 0.4448;77;0.75
+CE_IIW > 0.3662 et CE_IIW > 0.4448;103;0.97
